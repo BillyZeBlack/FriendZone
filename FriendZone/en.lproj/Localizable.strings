@@ -1,0 +1,30 @@
+/* Launch Page */
+"Friendzone" = "Friendzone";
+
+/* Introducing Question View */
+"Faisons connaissance" = "Let's get to know each other";
+"Mon crush est %@" = "My crush is %@";
+"garçon" = "boy";
+"fille" = "girl";
+"J'ai entre " = "I am between ";
+"10 - 13 ans" = "10 - 13 years old";
+"13 - 15 ans" = "13 - 15 years old";
+" Plus de 15 ans" = "Over 15 years old";
+"Valider" = "Validate";
+
+/* Content View */
+"Q %d : %@" = "Q %d: %@";
+"0" = "0";
+"%d%%" = "%d%%";
+
+/* Result View */
+"Tu peux y aller !" = "Go for it!";
+"Dans le doute..." = "In doubt...";
+"Lache l'affaire !" = "Let it go!";
+
+/* Common */
+"Objet collecté" = "Item collected";
+"Objet requis" = "Item required";
+"Solution" = "Solution";
+"Pack Premium" = "Premium Pack";
+"Réinitialiser Premium" = "Reset Premium";

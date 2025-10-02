@@ -10,23 +10,18 @@ import SwiftData
 
 @main
 struct FriendZoneApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+	let formData = FormData()
+	let questionLoader = QuestionLoader()
+	let resultLoader = ResultLoader()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			NavigationView{
+				LaunchPage()
+			}
+			.environmentObject(formData)
+			.environmentObject(questionLoader)
+			.environmentObject(resultLoader)
         }
-        .modelContainer(sharedModelContainer)
     }
 }
