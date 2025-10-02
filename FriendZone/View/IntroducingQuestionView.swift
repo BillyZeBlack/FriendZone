@@ -188,6 +188,7 @@ struct IntroducingQuestionView: View {
 					.padding(.top, 20)
 					
 					Spacer(minLength: 40)
+
 				}
 			}
 			.background(

@@ -31,24 +31,29 @@ class QuestionLoader: ObservableObject {
 			
 			let questionsList = try decoder.decode(QuestionList.self, from: data)
 			questions = questionsList.questions
+			print("✅ \(questions.count) questions chargées avec succès")
 		}
 		catch {
-			print("Erreur lors du chargement du fichier JSON : \(error)")
+			print("❌ Erreur lors du chargement du fichier JSON : \(error)")
 		}
 	}
 	
 	private func selectedTenRandomQuestion(questionsSelected: [Question], ageRange: Int)
 	{
-		self.questionsSelected = questionsSelected
+		let filteredQuestions = questionsSelected
 			.filter { $0.ageRangeQuestion.contains(ageRange) }
+		
+		print("📋 \(filteredQuestions.count) questions disponibles pour l'âge \(ageRange)")
+		
+		self.questionsSelected = Array(filteredQuestions
 			.shuffled()
-			.prefix(10)
-			.map { $0 }
+			.prefix(10))
 	}
 	
 	func loadQuestionsList(ageRange: Int)
 	{
 		questionsSelected = []
 		selectedTenRandomQuestion(questionsSelected: questions, ageRange: ageRange)
+		print("📊 \(questionsSelected.count) questions sélectionnées pour l'âge \(ageRange)")
 	}
 }

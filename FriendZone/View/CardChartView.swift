@@ -114,9 +114,16 @@ struct CardChartView: View {
 								
 								Spacer()
 								
-								Text("\(ds.score) réponses")
-									.font(.caption)
-									.foregroundColor(.secondary)
+                                if(ds.score <= 1){
+                                    Text("\(ds.score) point")
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                } else {
+                                    Text("\(ds.score) points")
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                }
+								
 							}
 						}
 					}

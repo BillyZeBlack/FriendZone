@@ -11,6 +11,8 @@ struct ContentView: View {
 	@EnvironmentObject var formData: FormData
 	@EnvironmentObject var questionLoader: QuestionLoader
 	@EnvironmentObject var resultLoader: ResultLoader
+    
+    @StateObject var vm = ContentViewModel()
 	
 	@State var contentVM = ContentViewModel()
 	//var questions : [Question] = []
@@ -157,6 +159,16 @@ struct ContentView: View {
 					.environmentObject(resultLoader)
 					.toolbarRole(.editor)
 			}
+            
+            // Bannière conditionnelle (uniquement si pas premium)
+            if !vm.hasPremiumPack {
+                VStack {
+                    // TODO: : A remplacer avec le bon ID de banniere : ca-app-pub-8777271534976494/7963981117
+                    AdBannerView(adUnitID: "ca-app-pub-3940256099942544/2934735716")
+                        .frame(height: 50)
+                }
+                .padding()
+            }
 		}
 		.background(Color(.systemGroupedBackground).ignoresSafeArea())
 		.onAppear{

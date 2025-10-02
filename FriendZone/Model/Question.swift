@@ -12,4 +12,13 @@ struct Question: Identifiable, Decodable{
 	var question: String
 	var responses: [Response]
 	var ageRangeQuestion: [Int]
+    var isPremium: Bool
+	
+	enum CodingKeys: String, CodingKey {
+		case id
+		case question
+		case responses
+		case ageRangeQuestion
+		case isPremium
+	}
 }

@@ -9,7 +9,8 @@
 				{ "response": "Elle/Il met une journée à répondre", "score": 2 },
 				{ "response": "Elle/Il ne répond pas ou seulement après plusieurs jours", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium": false
 		},
 		{
 			"id": 2,
@@ -20,7 +21,8 @@
 				{ "response": "Souvent, mais sans trop insister", "score": 2 },
 				{ "response": "Tout le temps, comme si j’étais son/sa confident(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 3,
@@ -31,18 +33,8 @@
 				{ "response": "Rarement, elle/il préfère quand il y a d'autres personnes", "score": 2 },
 				{ "response": "Non, elle/il évite toujours d’être seul(e) avec moi", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
-		},
-		{
-			"id": 4,
-			"question": "Quand tu fais une blague, elle/il :",
-			"responses": [
-				{ "response": "Rit beaucoup et fait des blagues en retour", "score": 0 },
-				{ "response": "Sourit, mais sans plus", "score": 1 },
-				{ "response": "Change rapidement de sujet", "score": 2 },
-				{ "response": "Ne rit pas ou te dit que ce n’est pas drôle", "score": 3 }
-			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 5,
@@ -53,7 +45,8 @@
 				{ "response": "Rarement, seulement quand c’est obligé", "score": 2 },
 				{ "response": "Jamais, elle/il semble même éviter de le faire", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 6,
@@ -64,7 +57,8 @@
 				{ "response": "Hésite ou raconte quelque chose de pas très important", "score": 2 },
 				{ "response": "Évite complètement de te raconter quoi que ce soit", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 7,
@@ -75,7 +69,8 @@
 				{ "response": "Te parle très peu", "score": 2 },
 				{ "response": "T’ignore presque complètement", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 8,
@@ -86,7 +81,8 @@
 				{ "response": "Seulement dans des situations obligatoires", "score": 2 },
 				{ "response": "Non, elle/il évite tout contact physique", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 9,
@@ -97,7 +93,8 @@
 				{ "response": "Change de sujet rapidement", "score": 2 },
 				{ "response": "Semble gêné(e) ou agacé(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 10,
@@ -108,7 +105,8 @@
 				{ "response": "Te donne un conseil rapide, puis passe à autre chose", "score": 2 },
 				{ "response": "Ne semble pas s’en préoccuper du tout", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 11,
@@ -119,7 +117,8 @@
 				{ "response": "Change de sujet rapidement", "score": 2 },
 				{ "response": "Semble s’ennuyer ou ne t’écoute pas", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 12,
@@ -130,7 +129,8 @@
 				{ "response": "Trouve une excuse pour ne pas t’aider", "score": 2 },
 				{ "response": "Évite complètement de s’impliquer", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 13,
@@ -141,7 +141,8 @@
 				{ "response": "Rarement, et c’est souvent en groupe", "score": 2 },
 				{ "response": "Non, jamais", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 14,
@@ -152,7 +153,8 @@
 				{ "response": "Semble s’ennuyer ou fait autre chose", "score": 2 },
 				{ "response": "Préfère ne pas participer avec toi", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 15,
@@ -163,7 +165,8 @@
 				{ "response": "Semble gêné(e) et change de sujet", "score": 2 },
 				{ "response": "L’ignore complètement ou répond par une blague", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 16,
@@ -174,7 +177,8 @@
 				{ "response": "Semble t’ignorer sauf si tu lui parles", "score": 2 },
 				{ "response": "Fait comme si tu n’existais pas", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 17,
@@ -185,7 +189,8 @@
 				{ "response": "Semble peu intéressé(e)", "score": 2 },
 				{ "response": "Change rapidement de sujet ou t’ignore", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 18,
@@ -196,7 +201,8 @@
 				{ "response": "Répond vaguement sans trop s’investir", "score": 2 },
 				{ "response": "Évite de répondre ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 19,
@@ -207,7 +213,8 @@
 				{ "response": "Ne semble pas remarquer ton absence", "score": 2 },
 				{ "response": "Ne te demande jamais comment tu vas", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 20,
@@ -218,7 +225,8 @@
 				{ "response": "Évite de croiser ton regard ou de te parler", "score": 2 },
 				{ "response": "Passe plus de temps avec les autres qu’avec toi", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 21,
@@ -229,7 +237,8 @@
 				{ "response": "Trouve une excuse pour ne pas le faire", "score": 2 },
 				{ "response": "Refuse catégoriquement", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 23,
@@ -240,7 +249,8 @@
 				{ "response": "Change de sujet rapidement", "score": 2 },
 				{ "response": "Semble désintéressé(e) ou ne répond pas", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 24,
@@ -251,7 +261,8 @@
 				{ "response": "Reste silencieux(se) et ne fait rien", "score": 2 },
 				{ "response": "Rit ou ne prend pas ta défense", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 25,
@@ -262,7 +273,8 @@
 				{ "response": "Semble peu intéressé(e) ou distrait(e)", "score": 2 },
 				{ "response": "Ignore ce que tu dis ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 26,
@@ -273,7 +285,8 @@
 				{ "response": "Semble distrait(e) ou peu impliqué(e)", "score": 2 },
 				{ "response": "N’écoute pas ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 27,
@@ -284,7 +297,8 @@
 				{ "response": "Rarement ou seulement si tu insistes", "score": 2 },
 				{ "response": "Jamais, elle/il ne partage rien avec toi", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 28,
@@ -295,7 +309,8 @@
 				{ "response": "Ne semble pas le remarquer", "score": 2 },
 				{ "response": "L’ignore complètement", "score": 3 }
 			],
-			"ageRangeQuestion": [1]
+			"ageRangeQuestion": [1],
+            "isPremium" : false
 		},
 		{
 			"id": 29,
@@ -306,7 +321,8 @@
 				{ "response": "Dit qu’elle/il est occupé(e)", "score": 2 },
 				{ "response": "Refuse directement ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 30,
@@ -317,7 +333,8 @@
 				{ "response": "Répond le lendemain matin", "score": 2 },
 				{ "response": "Ne répond pas du tout", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 31,
@@ -328,7 +345,8 @@
 				{ "response": "Semble mal à l’aise ou change de sujet", "score": 2 },
 				{ "response": "Ignore ou évite complètement le sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 32,
@@ -339,7 +357,8 @@
 				{ "response": "Trouve une excuse pour ne pas venir", "score": 2 },
 				{ "response": "Refuse directement", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 33,
@@ -350,7 +369,8 @@
 				{ "response": "Regarde ailleurs ou semble vouloir écourter la discussion", "score": 2 },
 				{ "response": "Trouve une excuse pour s’éloigner rapidement", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 34,
@@ -361,7 +381,8 @@
 				{ "response": "Change rapidement de sujet", "score": 2 },
 				{ "response": "Ignore complètement ou rit nerveusement", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 35,
@@ -372,7 +393,8 @@
 				{ "response": "Ne semble pas remarquer ton absence", "score": 2 },
 				{ "response": "Ne dit rien, même si tu reviens", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 36,
@@ -383,7 +405,8 @@
 				{ "response": "Semble un peu gêné(e) ou mal à l’aise", "score": 2 },
 				{ "response": "Ignore complètement ou évite le sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 37,
@@ -394,7 +417,8 @@
 				{ "response": "Propose d’inviter d’autres personnes", "score": 2 },
 				{ "response": "Refuse ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 38,
@@ -405,7 +429,8 @@
 				{ "response": "Passe plus de temps avec d’autres qu’avec toi", "score": 2 },
 				{ "response": "T’ignore ou reste loin de toi", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 39,
@@ -416,7 +441,8 @@
 				{ "response": "Ne réagit presque jamais", "score": 2 },
 				{ "response": "Ne réagit jamais à tes publications", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 40,
@@ -427,18 +453,8 @@
 				{ "response": "Dit qu’elle/il préfère étudier seul(e)", "score": 2 },
 				{ "response": "Refuse en trouvant une excuse vague", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
-		},
-		{
-			"id": 41,
-			"question": "Quand tu fais une blague, elle/il :",
-			"responses": [
-				{ "response": "Rit sincèrement et ajoute quelque chose", "score": 0 },
-				{ "response": "Rit poliment, mais sans enthousiasme", "score": 1 },
-				{ "response": "Fait semblant de rire ou reste neutre", "score": 2 },
-				{ "response": "Ne réagit pas ou change de sujet", "score": 3 }
-			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 42,
@@ -449,7 +465,8 @@
 				{ "response": "Réagit très rarement ou avec un message sec", "score": 2 },
 				{ "response": "Ne répond pas du tout", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 43,
@@ -460,7 +477,8 @@
 				{ "response": "Dit qu’elle/il n’aime pas ce genre d’activités", "score": 2 },
 				{ "response": "Refuse directement ou ignore la proposition", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 44,
@@ -471,7 +489,8 @@
 				{ "response": "Répond rarement ou oublie parfois de répondre", "score": 2 },
 				{ "response": "Ne répond que si tu relances plusieurs fois", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 45,
@@ -482,7 +501,8 @@
 				{ "response": "Semble un peu mal à l’aise", "score": 2 },
 				{ "response": "Change de sujet ou ne réagit pas du tout", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 46,
@@ -493,7 +513,8 @@
 				{ "response": "Montre peu d’intérêt ou trouve une excuse", "score": 2 },
 				{ "response": "Ignore complètement ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 47,
@@ -504,7 +525,8 @@
 				{ "response": "Réagit peu et semble indifférent(e)", "score": 2 },
 				{ "response": "Ignore complètement ton message", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 48,
@@ -515,7 +537,8 @@
 				{ "response": "S’adresse rarement à toi", "score": 2 },
 				{ "response": "Évite tout contact ou interaction avec toi", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 49,
@@ -526,7 +549,8 @@
 				{ "response": "Semble peu intéressé(e) ou le remarque à peine", "score": 2 },
 				{ "response": "Ignore ton geste ou le trouve gênant", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 50,
@@ -537,7 +561,8 @@
 				{ "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
 				{ "response": "Change rapidement de sujet ou ne répond pas", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 51,
@@ -548,7 +573,8 @@
 				{ "response": "Semble hésitant(e) ou peu motivé(e)", "score": 2 },
 				{ "response": "Évite ou critique directement ton idée", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 52,
@@ -559,7 +585,8 @@
 				{ "response": "Semble gêné(e) ou mal à l’aise", "score": 2 },
 				{ "response": "Ignore complètement ou minimise ce que tu ressens", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 53,
@@ -570,7 +597,8 @@
 				{ "response": "Trouve une excuse pour ne pas t’aider", "score": 2 },
 				{ "response": "Ignore ta demande ou refuse clairement", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 54,
@@ -581,7 +609,8 @@
 				{ "response": "Donne des réponses courtes et semble distrait(e)", "score": 2 },
 				{ "response": "Change souvent de sujet ou semble pressé(e) d’arrêter", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 55,
@@ -592,7 +621,8 @@
 				{ "response": "Semble mal à l’aise ou évite de réagir", "score": 2 },
 				{ "response": "Change de sujet ou fait une remarque dévalorisante", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 56,
@@ -603,7 +633,8 @@
 				{ "response": "S’éloigne légèrement ou reste silencieux(se)", "score": 2 },
 				{ "response": "Semble vouloir éviter d’être vu(e) avec toi", "score": 3 }
 			],
-			"ageRangeQuestion": [2]
+			"ageRangeQuestion": [2],
+            "isPremium" : false
 		},
 		{
 			"id": 57,
@@ -614,7 +645,8 @@
 				{ "response": "Refuse poliment et trouve une excuse", "score": 2 },
 				{ "response": "Ignore complètement ou refuse directement", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 58,
@@ -625,7 +657,8 @@
 				{ "response": "Semble distrait(e) ou peu concerné(e)", "score": 2 },
 				{ "response": "Change de sujet ou ne réagit pas", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 59,
@@ -636,7 +669,8 @@
 				{ "response": "Réagit vaguement ou change de sujet", "score": 2 },
 				{ "response": "Semble totalement désintéressé(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 60,
@@ -647,7 +681,8 @@
 				{ "response": "Trouve une excuse pour ne pas venir", "score": 2 },
 				{ "response": "Refuse directement ou ignore la proposition", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 61,
@@ -658,7 +693,8 @@
 				{ "response": "Change rapidement de sujet", "score": 2 },
 				{ "response": "Semble mal à l’aise ou évite le sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 62,
@@ -669,7 +705,8 @@
 				{ "response": "Semble peu concerné(e) ou distrait(e)", "score": 2 },
 				{ "response": "Ignore ou minimise tes préoccupations", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 63,
@@ -680,7 +717,8 @@
 				{ "response": "Hésite ou répond vaguement", "score": 2 },
 				{ "response": "Évite de répondre ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 64,
@@ -691,7 +729,8 @@
 				{ "response": "Semble indifférent(e) ou ne réagit pas vraiment", "score": 2 },
 				{ "response": "Ignore complètement la photo", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 65,
@@ -702,7 +741,8 @@
 				{ "response": "Trouve une excuse pour ne pas venir", "score": 2 },
 				{ "response": "Refuse directement ou critique l’idée", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 66,
@@ -713,7 +753,8 @@
 				{ "response": "Semble distrait(e) ou peu intéressé(e)", "score": 2 },
 				{ "response": "Change de sujet ou met fin à la conversation", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 67,
@@ -724,7 +765,8 @@
 				{ "response": "Change de sujet rapidement", "score": 2 },
 				{ "response": "Ignore ou semble totalement désintéressé(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : false
 		},
 		{
 			"id": 68,
@@ -735,7 +777,8 @@
 				{ "response": "Hésite ou trouve une excuse", "score": 2 },
 				{ "response": "Refuse directement sans montrer d’intérêt", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 69,
@@ -746,7 +789,8 @@
 				{ "response": "Réagit brièvement sans émotion", "score": 2 },
 				{ "response": "Change de sujet ou minimise ta réussite", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 70,
@@ -757,7 +801,8 @@
 				{ "response": "Semble un peu distrait(e) ou indifférent(e)", "score": 2 },
 				{ "response": "Ignore complètement ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 71,
@@ -768,7 +813,8 @@
 				{ "response": "Répond vaguement ou semble peu intéressé(e)", "score": 2 },
 				{ "response": "Ignore complètement ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 72,
@@ -779,7 +825,8 @@
 				{ "response": "Écoute distraitement ou reste silencieux(se)", "score": 2 },
 				{ "response": "Ignore complètement ou montre de l’ennui", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 73,
@@ -790,7 +837,8 @@
 				{ "response": "Hésite et finit par décliner", "score": 2 },
 				{ "response": "Refuse directement ou semble agacé(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 74,
@@ -801,7 +849,8 @@
 				{ "response": "Réagit vaguement ou avec indifférence", "score": 2 },
 				{ "response": "Ignore complètement ou minimise tes efforts", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 75,
@@ -812,7 +861,8 @@
 				{ "response": "Dit qu’elle/il est occupé(e)", "score": 2 },
 				{ "response": "Refuse directement ou ignore ta proposition", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 76,
@@ -823,7 +873,8 @@
 				{ "response": "Réagit brièvement ou semble mal à l’aise", "score": 2 },
 				{ "response": "Ignore ou minimise ce que tu dis", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 77,
@@ -834,7 +885,8 @@
 				{ "response": "Semble peu réceptif(ve) ou change de sujet", "score": 2 },
 				{ "response": "Ne réagit pas ou semble ennuyé(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 78,
@@ -845,7 +897,8 @@
 				{ "response": "Semble distrait(e) ou peu concerné(e)", "score": 2 },
 				{ "response": "Ignore ou évite la conversation", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 79,
@@ -856,7 +909,8 @@
 				{ "response": "Semble irrité(e) ou peu à l’aise", "score": 2 },
 				{ "response": "Ignore ou rejette ton point de vue", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 80,
@@ -867,7 +921,8 @@
 				{ "response": "Donne une réponse vague et change de sujet", "score": 2 },
 				{ "response": "Évite de répondre ou semble gêné(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 81,
@@ -878,7 +933,8 @@
 				{ "response": "Se désintéresse et ne fait aucun effort", "score": 2 },
 				{ "response": "Trouve une excuse pour éviter de participer", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 82,
@@ -889,7 +945,8 @@
 				{ "response": "Répond brièvement sans entrer dans les détails", "score": 2 },
 				{ "response": "Réagit vaguement ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 83,
@@ -900,7 +957,8 @@
 				{ "response": "Réagit brièvement ou semble indifférent(e)", "score": 2 },
 				{ "response": "Ignore ou minimise ton geste", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 84,
@@ -911,7 +969,8 @@
 				{ "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
 				{ "response": "Ignore complètement ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 85,
@@ -922,7 +981,8 @@
 				{ "response": "Donne une réponse vague ou peu utile", "score": 2 },
 				{ "response": "Évite de répondre ou semble ennuyé(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 86,
@@ -933,7 +993,8 @@
 				{ "response": "Réagit vaguement ou évite le sujet", "score": 2 },
 				{ "response": "Change de sujet ou évite de t’en parler", "score": 3 }
 			],
-			"ageRangeQuestion": [3]
+			"ageRangeQuestion": [3],
+            "isPremium" : true
 		},
 		{
 			"id": 87,
@@ -944,7 +1005,8 @@
 				{ "response": "Réagit brièvement ou semble distrait(e)", "score": 2 },
 				{ "response": "Ne répond pas ou semble ennuyé(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 88,
@@ -955,7 +1017,8 @@
 				{ "response": "Semble hésitant(e) et finit par décliner", "score": 2 },
 				{ "response": "Refuse directement ou trouve une excuse", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 89,
@@ -966,7 +1029,8 @@
 				{ "response": "Réagit de façon neutre ou semble gêné(e)", "score": 2 },
 				{ "response": "Ignore ou minimise ton geste", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 90,
@@ -977,7 +1041,8 @@
 				{ "response": "Change de sujet rapidement", "score": 2 },
 				{ "response": "Semble distrait(e) ou peu concerné(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 91,
@@ -988,7 +1053,8 @@
 				{ "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
 				{ "response": "Ignore ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 92,
@@ -999,7 +1065,8 @@
 				{ "response": "Semble hésitant(e) ou change de sujet", "score": 2 },
 				{ "response": "Évite complètement de te répondre", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 93,
@@ -1010,7 +1077,8 @@
 				{ "response": "Semble indifférent(e) ou change de sujet", "score": 2 },
 				{ "response": "Ignore complètement ou semble ennuyé(e)", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 94,
@@ -1021,7 +1089,8 @@
 				{ "response": "Trouve une excuse pour ne pas venir", "score": 2 },
 				{ "response": "Refuse directement ou ne répond pas", "score": 3 }
 			],
-			"ageRangeQuestion": [1,2]
+			"ageRangeQuestion": [1,2],
+            "isPremium" : true
 		},
 		{
 			"id": 95,
@@ -1032,7 +1101,8 @@
 				{ "response": "Semble peu intéressé(e) ou distrait(e)", "score": 2 },
 				{ "response": "Ne réagit pas ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 96,
@@ -1043,7 +1113,8 @@
 				{ "response": "Hésite ou trouve une excuse", "score": 2 },
 				{ "response": "Refuse directement ou ignore ta proposition", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 97,
@@ -1054,7 +1125,8 @@
 				{ "response": "Répond brièvement ou semble distrait(e)", "score": 2 },
 				{ "response": "Ignore ou change de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 98,
@@ -1065,7 +1137,8 @@
 				{ "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
 				{ "response": "Change de sujet ou ne répond pas", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 99,
@@ -1076,7 +1149,8 @@
 				{ "response": "Semble distrait(e) ou indifférent(e)", "score": 2 },
 				{ "response": "Ignore ou change rapidement de sujet", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 100,
@@ -1087,7 +1161,8 @@
 				{ "response": "Ne semble pas le remarquer", "score": 2 },
 				{ "response": "Ignore ou minimise ton effort", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 101,
@@ -1098,7 +1173,8 @@
 				{ "response": "Semble indifférent(e)", "score": 2 },
 				{ "response": "N’y fait pas attention", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 102,
@@ -1109,7 +1185,8 @@
 				{ "response": "S’éloigne ou passe plus de temps avec les autres", "score": 2 },
 				{ "response": "Semble t’éviter", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 103,
@@ -1120,7 +1197,8 @@
 				{ "response": "Réagit brièvement ou semble distrait(e)", "score": 2 },
 				{ "response": "Ignore ou minimise ta réussite", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 104,
@@ -1131,7 +1209,8 @@
 				{ "response": "Semble éviter ou trouver des excuses", "score": 2 },
 				{ "response": "Refuse directement ou ignore ta demande", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 			"id": 105,
@@ -1142,7 +1221,8 @@
 				{ "response": "Semble peu intéressé(e) ou distrait(e)", "score": 2 },
 				{ "response": "Évite de répondre ou fait une remarque négative", "score": 3 }
 			],
-			"ageRangeQuestion": [2, 3]
+			"ageRangeQuestion": [2, 3],
+            "isPremium" : true
 		},
 		{
 				"id": 106,
@@ -1153,7 +1233,8 @@
 					{ "response": "Hésite et finit par refuser", "score": 2 },
 					{ "response": "Refuse directement ou ignore ta demande", "score": 3 }
 				],
-				"ageRangeQuestion": [1, 2]
+				"ageRangeQuestion": [1, 2],
+                "isPremium" : true
 			},
 			{
 				"id": 107,
@@ -1164,7 +1245,8 @@
 					{ "response": "Semble peu intéressé(e) ou réagit tardivement", "score": 2 },
 					{ "response": "Ignore complètement ou ne répond pas", "score": 3 }
 				],
-				"ageRangeQuestion": [1, 2]
+				"ageRangeQuestion": [1, 2],
+                "isPremium" : true
 			},
 			{
 				"id": 108,
@@ -1175,7 +1257,8 @@
 					{ "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
 					{ "response": "Change de sujet ou ne répond pas", "score": 3 }
 				],
-				"ageRangeQuestion": [1, 2]
+				"ageRangeQuestion": [1, 2],
+                "isPremium" : true
 			},
 			{
 				"id": 109,
@@ -1186,7 +1269,8 @@
 					{ "response": "Trouve une excuse pour ne pas le faire", "score": 2 },
 					{ "response": "Refuse directement ou ignore ta proposition", "score": 3 }
 				],
-				"ageRangeQuestion": [1, 2]
+				"ageRangeQuestion": [1, 2],
+                "isPremium" : true
 			},
 			{
 				"id": 110,
@@ -1197,7 +1281,8 @@
 					{ "response": "Réagit brièvement ou semble peu intéressé(e)", "score": 2 },
 					{ "response": "Ignore ou répond tardivement sans s’impliquer", "score": 3 }
 				],
-				"ageRangeQuestion": [1, 2]
+				"ageRangeQuestion": [1, 2],
+                "isPremium" : true
 			},
 			{
 				"id": 111,
@@ -1208,7 +1293,8 @@
 					{ "response": "Semble peu concerné(e)", "score": 2 },
 					{ "response": "Ignore ou minimise ta réussite", "score": 3 }
 				],
-				"ageRangeQuestion": [1,2,3]
+				"ageRangeQuestion": [1,2,3],
+                "isPremium" : true
 			},
 			{
 				"id": 112,
@@ -1219,7 +1305,8 @@
 					{ "response": "Refuse poliment", "score": 2 },
 					{ "response": "Refuse ou semble agacé(e)", "score": 3 }
 				],
-				"ageRangeQuestion": [1, 2]
+				"ageRangeQuestion": [1, 2],
+                "isPremium" : true
 			},
 			{
 				"id": 113,
@@ -1230,7 +1317,8 @@
 					{ "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
 					{ "response": "Ignore ou minimise ce que tu ressens", "score": 3 }
 				],
-				"ageRangeQuestion": [1, 2]
+				"ageRangeQuestion": [1, 2],
+                "isPremium" : true
 			},
 			{
 				"id": 114,
@@ -1241,7 +1329,8 @@
 					{ "response": "Semble distant(e) ou concentré(e) sur les autres", "score": 2 },
 					{ "response": "Évite ou ignore ta présence", "score": 3 }
 				],
-				"ageRangeQuestion": [1, 2]
+				"ageRangeQuestion": [1, 2],
+                "isPremium" : true
 			},
 			{
 				"id": 115,
@@ -1252,7 +1341,8 @@
 					{ "response": "Semble gêné(e) ou réagit peu", "score": 2 },
 					{ "response": "Ignore ou minimise ton compliment", "score": 3 }
 				],
-				"ageRangeQuestion": [1, 2]
+				"ageRangeQuestion": [1, 2],
+                "isPremium" : true
 			},
 			{
 				"id": 116,
@@ -1263,7 +1353,248 @@
 					{ "response": "Semble distrait(e) ou change de sujet", "score": 2 },
 					{ "response": "Ignore complètement ce que tu dis", "score": 3 }
 				],
-				"ageRangeQuestion": [1, 2]
-			}
+				"ageRangeQuestion": [1, 2],
+                "isPremium" : true
+			},
+            {
+                "id": 117,
+                "question": "Quand vous êtes en désaccord sur un sujet important, elle/il :",
+                "responses": [
+                  { "response": "Écoute ton point de vue et cherche un compromis", "score": 0 },
+                  { "response": "Écoute, mais reste sur ses positions", "score": 1 },
+                  { "response": "Semble agacé(e) et évite la discussion", "score": 2 },
+                  { "response": "Ignore complètement ton opinion", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 118,
+                "question": "Si vous devez prendre une décision ensemble, elle/il :",
+                "responses": [
+                  { "response": "Tient compte de ton avis et collabore activement", "score": 0 },
+                  { "response": "Écoute, mais prend la décision seul(e)", "score": 1 },
+                  { "response": "Semble peu intéressé(e) par ton opinion", "score": 2 },
+                  { "response": "Prend la décision sans te consulter", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 119,
+                "question": "Quand vous partagez un moment intime (confidences, secrets), elle/il :",
+                "responses": [
+                  { "response": "Se montre vulnérable et partage aussi ses secrets", "score": 0 },
+                  { "response": "Écoute, mais reste réservé(e) sur ses propres confidences", "score": 1 },
+                  { "response": "Semble mal à l'aise et change de sujet", "score": 2 },
+                  { "response": "Évite complètement ce genre de conversation", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 120,
+                "question": "Comment réagit-elle/il quand vous évoquez vos peurs ou vulnérabilités ?",
+                "responses": [
+                  { "response": "Te réconforte et partage ses propres peurs", "score": 0 },
+                  { "response": "Écoute, mais reste assez neutre", "score": 1 },
+                  { "response": "Semble gêné(e) et minimise tes inquiétudes", "score": 2 },
+                  { "response": "Change de sujet ou ignore ce que tu dis", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 121,
+                "question": "Quand vous exprimez de la jalousie ou de l'insécurité, elle/il :",
+                "responses": [
+                  { "response": "Te rassure et montre qu'elle/il tient à toi", "score": 0 },
+                  { "response": "Écoute, mais ne fait rien pour te rassurer", "score": 1 },
+                  { "response": "Semble agacé(e) par tes inquiétudes", "score": 2 },
+                  { "response": "Ignore ou critique tes sentiments", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 122,
+                "question": "Comment gère-t-elle/il les moments de tension ou de conflit entre vous ?",
+                "responses": [
+                  { "response": "Cherche activement à résoudre le problème", "score": 0 },
+                  { "response": "Attend que les choses se calment d'elles-mêmes", "score": 1 },
+                  { "response": "Évite la confrontation et s'éloigne", "score": 2 },
+                  { "response": "Aggrave la situation par ses réactions", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 123,
+                "question": "Si vous deviez définir votre relation en 3 mots, elle/il dirait :",
+                "responses": [
+                  { "response": "Des mots positifs et affectueux", "score": 0 },
+                  { "response": "Des termes neutres et amicaux", "score": 1 },
+                  { "response": "Des mots vagues ou peu engageants", "score": 2 },
+                  { "response": "Éviterait de répondre ou serait négatif", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 124,
+                "question": "Comment parle-t-elle/il de toi à ses amis les plus proches ?",
+                "responses": [
+                  { "response": "En termes très positifs et affectueux", "score": 0 },
+                  { "response": "De manière neutre, comme un(e) ami(e)", "score": 1 },
+                  { "response": "Rarement ou de façon impersonnelle", "score": 2 },
+                  { "response": "Jamais ou de manière négative", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 125,
+                "question": "Quand vous évoquez l'avenir de votre relation, elle/il :",
+                "responses": [
+                  { "response": "S'enthousiasme et fait des projets avec toi", "score": 0 },
+                  { "response": "Écoute, mais reste vague sur l'avenir", "score": 1 },
+                  { "response": "Semble mal à l'aise et change de sujet", "score": 2 },
+                  { "response": "Évite complètement ce type de discussion", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 126,
+                "question": "Comment utilise-t-elle/il les emojis et réactions dans vos conversations ?",
+                "responses": [
+                  { "response": "Beaucoup d'emojis affectueux et réactions positives", "score": 0 },
+                  { "response": "Quelques emojis neutres de temps en temps", "score": 1 },
+                  { "response": "Très peu d'emojis ou réactions impersonnelles", "score": 2 },
+                  { "response": "Jamais d'emojis ou réactions froides", "score": 3 }
+                ],
+                "ageRangeQuestion": [1, 2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 127,
+                "question": "Quand vous partagez du contenu sur les réseaux sociaux, elle/il :",
+                "responses": [
+                  { "response": "Like, commente et partage régulièrement", "score": 0 },
+                  { "response": "Like parfois, mais ne commente pas", "score": 1 },
+                  { "response": "Réagit rarement à tes publications", "score": 2 },
+                  { "response": "Ignore complètement ton contenu", "score": 3 }
+                ],
+                "ageRangeQuestion": [1, 2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 128,
+                "question": "Comment gère-t-elle/il les silences prolongés dans vos échanges ?",
+                "responses": [
+                  { "response": "Relance la conversation et s'inquiète", "score": 0 },
+                  { "response": "Attend que tu relances toi-même", "score": 1 },
+                  { "response": "Ne semble pas remarquer le silence", "score": 2 },
+                  { "response": "Profite du silence pour s'éloigner", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 129,
+                "question": "Quand vous discutez de vos valeurs fondamentales, elle/il :",
+                "responses": [
+                  { "response": "Partage ses valeurs et cherche des points communs", "score": 0 },
+                  { "response": "Écoute, mais ne partage pas beaucoup", "score": 1 },
+                  { "response": "Semble peu intéressé(e) par le sujet", "score": 2 },
+                  { "response": "Évite ce type de conversation", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 130,
+                "question": "Comment réagit-elle/il face à vos différences d'opinion sur des sujets importants ?",
+                "responses": [
+                  { "response": "Respecte ton opinion et cherche à comprendre", "score": 0 },
+                  { "response": "Accepte la différence, mais ne s'engage pas", "score": 1 },
+                  { "response": "Semble irrité(e) par le désaccord", "score": 2 },
+                  { "response": "Critique ou rejette ton point de vue", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 131,
+                "question": "Quand vous évoquez vos attentes dans une relation, elle/il :",
+                "responses": [
+                  { "response": "Partage ses attentes et cherche un équilibre", "score": 0 },
+                  { "response": "Écoute, mais reste vague sur ses propres attentes", "score": 1 },
+                  { "response": "Semble mal à l'aise avec le sujet", "score": 2 },
+                  { "response": "Évite complètement cette discussion", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 132,
+                "question": "Si vous deviez planifier un projet à long terme ensemble, elle/il :",
+                "responses": [
+                  { "response": "S'enthousiasme et s'implique activement", "score": 0 },
+                  { "response": "Accepte, mais laisse tout le travail à toi", "score": 1 },
+                  { "response": "Semble hésitant(e) et peu motivé(e)", "score": 2 },
+                  { "response": "Refuse ou trouve une excuse", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 133,
+                "question": "Comment parle-t-elle/il de t'inclure dans ses projets personnels ?",
+                "responses": [
+                  { "response": "Te propose spontanément de participer", "score": 0 },
+                  { "response": "T'accepte si tu demandes toi-même", "score": 1 },
+                  { "response": "Te mentionne rarement dans ses projets", "score": 2 },
+                  { "response": "Ne t'inclut jamais dans ses plans", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 134,
+                "question": "Quand vous évoquez des étapes importantes (rencontre famille, etc.), elle/il :",
+                "responses": [
+                  { "response": "S'enthousiasme et propose des idées", "score": 0 },
+                  { "response": "Accepte, mais sans grand enthousiasme", "score": 1 },
+                  { "response": "Semble hésitant(e) et reporte à plus tard", "score": 2 },
+                  { "response": "Évite ou refuse catégoriquement", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 135,
+                "question": "Quels sont les petits gestes qu'elle/il fait qui montrent son attention envers toi ?",
+                "responses": [
+                  { "response": "Beaucoup de petites attentions régulières", "score": 0 },
+                  { "response": "Quelques gestes occasionnels", "score": 1 },
+                  { "response": "Très peu de gestes d'attention", "score": 2 },
+                  { "response": "Aucun geste particulier", "score": 3 }
+                ],
+                "ageRangeQuestion": [1, 2, 3],
+                "isPremium" : true
+              },
+              {
+                "id": 136,
+                "question": "Comment son langage corporel change-t-il quand tu es seul(e) avec elle/lui ?",
+                "responses": [
+                  { "response": "Devient plus détendu(e) et proche de toi", "score": 0 },
+                  { "response": "Reste le même qu'en groupe", "score": 1 },
+                  { "response": "Semble un peu plus distant(e)", "score": 2 },
+                  { "response": "Devient visiblement mal à l'aise", "score": 3 }
+                ],
+                "ageRangeQuestion": [2, 3],
+                "isPremium" : true
+              }
 	]
 }

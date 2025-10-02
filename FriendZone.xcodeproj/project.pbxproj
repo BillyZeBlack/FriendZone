@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FE571C12E8EC3F6008C4574 /* AdInterstitialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571C02E8EC3F6008C4574 /* AdInterstitialManager.swift */; };
+		9FE571C42E8EC43C008C4574 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE571C32E8EC43C008C4574 /* GoogleMobileAds */; };
+		9FE571C62E8EC6D2008C4574 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571C52E8EC6D2008C4574 /* AdBannerView.swift */; };
 		BE015FFF2CF722E500374673 /* DataScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE015FFE2CF722DA00374673 /* DataScore.swift */; };
 		BE0160012CF7544E00374673 /* CardChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0160002CF7544E00374673 /* CardChartView.swift */; };
 		BE5BAD4D2CE4EE06004ED756 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5BAD4C2CE4EE06004ED756 /* CardView.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9FE571C02E8EC3F6008C4574 /* AdInterstitialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdInterstitialManager.swift; sourceTree = "<group>"; };
+		9FE571C52E8EC6D2008C4574 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
+		9FE571C72E8EC754008C4574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BE015FFE2CF722DA00374673 /* DataScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScore.swift; sourceTree = "<group>"; };
 		BE0160002CF7544E00374673 /* CardChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardChartView.swift; sourceTree = "<group>"; };
 		BE5BAD4C2CE4EE06004ED756 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -72,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE571C42E8EC43C008C4574 /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +104,7 @@
 		BEDFF07B2CC8FB4800BB69B2 /* FriendZone */ = {
 			isa = PBXGroup;
 			children = (
+				9FE571C72E8EC754008C4574 /* Info.plist */,
 				BEDFF0972CC9199F00BB69B2 /* question.json */,
 				BEE70E482CEE1BAE000C4B71 /* result.json */,
 				BEDFF08E2CC8FBB500BB69B2 /* View */,
@@ -140,6 +148,7 @@
 				BEA1158C2CD27C2A0093DA74 /* FriendZoneQuestion.swift */,
 				BEE70E402CEDE6B9000C4B71 /* Result.swift */,
 				BEE70E4C2CEE21C7000C4B71 /* CommentResponse.swift */,
+				9FE571C02E8EC3F6008C4574 /* AdInterstitialManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +165,7 @@
 				BEE70E502CEF35FC000C4B71 /* TextShimmer.swift */,
 				BE0160002CF7544E00374673 /* CardChartView.swift */,
 				BEE3791F2CF9BF0D000F41AF /* FormHiddenBackground.swift */,
+				9FE571C52E8EC6D2008C4574 /* AdBannerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +214,9 @@
 				Base,
 			);
 			mainGroup = BEDFF0702CC8FB4800BB69B2;
+			packageReferences = (
+				9FE571C22E8EC43C008C4574 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = BEDFF07A2CC8FB4800BB69B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +247,7 @@
 			files = (
 				BEE70E512CEF35FC000C4B71 /* TextShimmer.swift in Sources */,
 				BEDFF07F2CC8FB4800BB69B2 /* ContentView.swift in Sources */,
+				9FE571C12E8EC3F6008C4574 /* AdInterstitialManager.swift in Sources */,
 				BE0160012CF7544E00374673 /* CardChartView.swift in Sources */,
 				BEE70E412CEDE6B9000C4B71 /* Result.swift in Sources */,
 				BEDFF09A2CC9345200BB69B2 /* QuestionList.swift in Sources */,
@@ -247,6 +261,7 @@
 				BEE70E4D2CEE21C7000C4B71 /* CommentResponse.swift in Sources */,
 				BEDFF0A02CCA818900BB69B2 /* IntroducingQuestionView.swift in Sources */,
 				BE5BAD4D2CE4EE06004ED756 /* CardView.swift in Sources */,
+				9FE571C62E8EC6D2008C4574 /* AdBannerView.swift in Sources */,
 				BEA115802CCBEAC40093DA74 /* FriendZoneRiskView.swift in Sources */,
 				BEDFF07D2CC8FB4800BB69B2 /* FriendZoneApp.swift in Sources */,
 				BEDFF09C2CC934F200BB69B2 /* QuestionLoader.swift in Sources */,
@@ -392,6 +407,7 @@
 				DEVELOPMENT_TEAM = JW5QDUDC7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FriendZone/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -429,6 +445,7 @@
 				DEVELOPMENT_TEAM = JW5QDUDC7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FriendZone/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,6 +493,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9FE571C22E8EC43C008C4574 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FE571C32E8EC43C008C4574 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FE571C22E8EC43C008C4574 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BEDFF0712CC8FB4800BB69B2 /* Project object */;
 }
