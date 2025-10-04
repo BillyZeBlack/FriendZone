@@ -24,10 +24,6 @@ struct CardChartView: View {
 					.font(.title2)
 					.fontWeight(.bold)
 					.foregroundColor(.primary)
-				
-				Text("Score total: \(scoreResult)/30")
-					.font(.headline)
-					.foregroundColor(.secondary)
 			}
 			
 			// Carte principale avec graphique
