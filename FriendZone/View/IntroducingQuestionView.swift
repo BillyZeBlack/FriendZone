@@ -11,6 +11,7 @@ struct IntroducingQuestionView: View {
 	@EnvironmentObject var formData: FormData
 	@EnvironmentObject var questionLoader: QuestionLoader
 	@EnvironmentObject var resultLoader: ResultLoader
+	@EnvironmentObject var premiumManager: PremiumManager
 	
 	@State var ageRange: Int = 1
 	@State var partnerAgeRange: Int = 1
@@ -155,6 +156,59 @@ struct IntroducingQuestionView: View {
 					}
 					.padding(.horizontal, 20)
 					
+					// Bouton Premium (toujours affiché pour les tests)
+					VStack(spacing: 12) {
+						Button(action: {
+							if premiumManager.isPremiumActive {
+								premiumManager.togglePremium()
+							} else {
+								premiumManager.purchasePremium()
+							}
+						}) {
+							HStack(spacing: 12) {
+								Image(systemName: "crown.fill")
+									.font(.headline)
+									.foregroundColor(premiumManager.isPremiumActive ? .green : .yellow)
+								
+								VStack(alignment: .leading, spacing: 4) {
+									Text(premiumManager.isPremiumActive ? "Pack Premium Activé" : "Passer à Premium")
+										.font(.headline)
+										.fontWeight(.semibold)
+										.foregroundColor(.primary)
+									
+									Text(premiumManager.isPremiumActive ? "Cliquez pour désactiver" : "Accès à toutes les questions")
+										.font(.caption)
+										.foregroundColor(.secondary)
+								}
+								
+								Spacer()
+								
+								Image(systemName: premiumManager.isPremiumActive ? "checkmark.circle.fill" : "chevron.right")
+									.font(.caption)
+									.foregroundColor(premiumManager.isPremiumActive ? .green : .secondary)
+							}
+							.padding(16)
+							.background(
+								RoundedRectangle(cornerRadius: 16)
+									.fill(Color(.systemBackground))
+									.shadow(color: .black.opacity(0.05), radius: 8, x: 0, y: 2)
+							)
+						}
+						
+						// Indicateur d'état premium
+						HStack {
+							Image(systemName: premiumManager.isPremiumActive ? "checkmark.circle.fill" : "circle")
+								.foregroundColor(premiumManager.isPremiumActive ? .green : .secondary)
+								.font(.caption)
+							
+							Text(premiumManager.isPremiumActive ? "Premium Activé" : "Premium Désactivé")
+								.font(.caption)
+								.foregroundColor(.secondary)
+						}
+						.padding(8)
+					}
+					.padding(.horizontal, 20)
+					
 					// Bouton de validation
 					Button(action: {
 						formDataResponses()
@@ -225,7 +279,7 @@ struct IntroducingQuestionView: View {
 	
 	private func loadQuestionsList()
 	{
-		questionLoader.loadQuestionsList(ageRange: formData.ageRange)
+		questionLoader.loadQuestionsList(ageRange: formData.ageRange, isPremium: premiumManager.isPremiumActive)
 	}
 }
 

@@ -38,12 +38,19 @@ class QuestionLoader: ObservableObject {
 		}
 	}
 	
-	private func selectedTenRandomQuestion(questionsSelected: [Question], ageRange: Int)
+	private func selectedTenRandomQuestion(questionsSelected: [Question], ageRange: Int, isPremium: Bool = false)
 	{
-		let filteredQuestions = questionsSelected
+		// Filtrer les questions selon l'âge et le statut premium
+		var filteredQuestions = questionsSelected
 			.filter { $0.ageRangeQuestion.contains(ageRange) }
 		
-		print("📋 \(filteredQuestions.count) questions disponibles pour l'âge \(ageRange)")
+		// Si l'utilisateur n'est pas premium, exclure les questions premium
+		if !isPremium {
+			filteredQuestions = filteredQuestions.filter { !$0.isPremium }
+			print("📋 \(filteredQuestions.count) questions gratuites disponibles pour l'âge \(ageRange)")
+		} else {
+			print("📋 \(filteredQuestions.count) questions totales disponibles pour l'âge \(ageRange) (Premium activé)")
+		}
 		
 		// Sélection équilibrée par thème : 2 questions par thème (5 thèmes × 2 = 10 questions)
 		self.questionsSelected = selectBalancedQuestions(questions: filteredQuestions, targetCount: 10)
@@ -91,10 +98,10 @@ class QuestionLoader: ObservableObject {
 		return finalSelection
 	}
 	
-	func loadQuestionsList(ageRange: Int)
+	func loadQuestionsList(ageRange: Int, isPremium: Bool = false)
 	{
 		questionsSelected = []
-		selectedTenRandomQuestion(questionsSelected: questions, ageRange: ageRange)
-		print("📊 \(questionsSelected.count) questions sélectionnées pour l'âge \(ageRange)")
+		selectedTenRandomQuestion(questionsSelected: questions, ageRange: ageRange, isPremium: isPremium)
+		print("📊 \(questionsSelected.count) questions sélectionnées pour l'âge \(ageRange) (Premium: \(isPremium))")
 	}
 }

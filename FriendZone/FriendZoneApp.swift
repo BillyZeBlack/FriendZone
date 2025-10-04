@@ -10,9 +10,10 @@ import SwiftData
 
 @main
 struct FriendZoneApp: App {
-	let formData = FormData()
-	let questionLoader = QuestionLoader()
-	let resultLoader = ResultLoader()
+	@StateObject private var formData = FormData()
+	@StateObject private var questionLoader = QuestionLoader()
+	@StateObject private var resultLoader = ResultLoader()
+	@StateObject private var premiumManager = PremiumManager()
 
     var body: some Scene {
         WindowGroup {
@@ -22,6 +23,7 @@ struct FriendZoneApp: App {
 			.environmentObject(formData)
 			.environmentObject(questionLoader)
 			.environmentObject(resultLoader)
+			.environmentObject(premiumManager)
         }
     }
 }
