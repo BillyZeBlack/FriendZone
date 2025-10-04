@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct QuestionList: Codable {
+struct QuestionList: Decodable {
 	let questions: [Question]
 	
-	func encode(to encoder: any Encoder) throws {
-		//
+	enum CodingKeys: String, CodingKey {
+		case questions
 	}
 }

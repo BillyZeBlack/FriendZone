@@ -1,1624 +1,3703 @@
 {
-    "questions": [
-        {
-            "id": 1,
-            "question": "Quand tu lui envoies un message, elle/il répond rapidement ?",
-            "responses": [
-                { "response": "Oui, elle/il répond dans la minute", "score": 0 },
-                { "response": "Elle/Il répond dans l'heure", "score": 1 },
-                { "response": "Elle/Il met une journée à répondre", "score": 2 },
-                { "response": "Elle/Il ne répond pas ou seulement après plusieurs jours", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 2,
-            "question": "Est-ce qu’elle/il te parle souvent de ses crushs ou d'autres personnes qu’elle/il aime bien ?",
-            "responses": [
-                { "response": "Non, jamais", "score": 0 },
-                { "response": "Rarement, mais ça arrive", "score": 1 },
-                { "response": "Souvent, mais sans trop insister", "score": 2 },
-                { "response": "Tout le temps, comme si j’étais son/sa confident(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 3,
-            "question": "Est-ce qu’elle/il accepte de faire des activités seul(e) avec toi ?",
-            "responses": [
-                { "response": "Oui, elle/il propose même des idées", "score": 0 },
-                { "response": "Oui, mais c'est toujours moi qui propose", "score": 1 },
-                { "response": "Rarement, elle/il préfère quand il y a d'autres personnes", "score": 2 },
-                { "response": "Non, elle/il évite toujours d’être seul(e) avec moi", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 4,
-            "question": "Quand tu fais une blague, elle/il :",
-            "responses": [
-                { "response": "Rit beaucoup et fait des blagues en retour", "score": 0 },
-                { "response": "Sourit, mais sans plus", "score": 1 },
-                { "response": "Change rapidement de sujet", "score": 2 },
-                { "response": "Ne rit pas ou te dit que ce n’est pas drôle", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 5,
-            "question": "Est-ce qu’elle/il te complimente parfois ?",
-            "responses": [
-                { "response": "Oui, souvent et sincèrement", "score": 0 },
-                { "response": "Parfois, mais surtout sur des choses banales", "score": 1 },
-                { "response": "Rarement, seulement quand c’est obligé", "score": 2 },
-                { "response": "Jamais, elle/il semble même éviter de le faire", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 6,
-            "question": "Quand tu lui proposes de te raconter un secret, elle/il :",
-            "responses": [
-                { "response": "Est à l’aise et partage tout de suite", "score": 0 },
-                { "response": "Partage quelque chose de léger", "score": 1 },
-                { "response": "Hésite ou raconte quelque chose de pas très important", "score": 2 },
-                { "response": "Évite complètement de te raconter quoi que ce soit", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 7,
-            "question": "Quand vous êtes dans un groupe, elle/il :",
-            "responses": [
-                { "response": "Passe beaucoup de temps à te parler", "score": 0 },
-                { "response": "Te parle parfois, mais pas toujours", "score": 1 },
-                { "response": "Te parle très peu", "score": 2 },
-                { "response": "T’ignore presque complètement", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 8,
-            "question": "Est-ce qu’elle/il cherche des excuses pour te toucher (donner une tape, high five, etc.) ?",
-            "responses": [
-                { "response": "Oui, elle/il le fait souvent", "score": 0 },
-                { "response": "Oui, mais c’est rare", "score": 1 },
-                { "response": "Seulement dans des situations obligatoires", "score": 2 },
-                { "response": "Non, elle/il évite tout contact physique", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 9,
-            "question": "Si tu parles de tes propres crushs ou de gens que tu trouves cools, elle/il :",
-            "responses": [
-                { "response": "Est curieux(se) et pose des questions", "score": 0 },
-                { "response": "Écoute, mais sans grand intérêt", "score": 1 },
-                { "response": "Change de sujet rapidement", "score": 2 },
-                { "response": "Semble gêné(e) ou agacé(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 10,
-            "question": "Si tu lui dis que tu te sens triste, elle/il :",
-            "responses": [
-                { "response": "Te console et essaie de te remonter le moral", "score": 0 },
-                { "response": "T’écoute, mais sans trop s’impliquer", "score": 1 },
-                { "response": "Te donne un conseil rapide, puis passe à autre chose", "score": 2 },
-                { "response": "Ne semble pas s’en préoccuper du tout", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 11,
-            "question": "Quand tu lui parles de tes passions ou hobbies, elle/il :",
-            "responses": [
-                { "response": "Écoute avec intérêt et pose des questions", "score": 0 },
-                { "response": "Écoute, mais ne montre pas beaucoup d’intérêt", "score": 1 },
-                { "response": "Change de sujet rapidement", "score": 2 },
-                { "response": "Semble s’ennuyer ou ne t’écoute pas", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 12,
-            "question": "Si tu as un problème ou besoin d’aide, elle/il :",
-            "responses": [
-                { "response": "Propose toujours de t’aider sans hésiter", "score": 0 },
-                { "response": "T’aide parfois, mais pas toujours", "score": 1 },
-                { "response": "Trouve une excuse pour ne pas t’aider", "score": 2 },
-                { "response": "Évite complètement de s’impliquer", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 13,
-            "question": "Est-ce qu’elle/il t’invite à des sorties ou événements ?",
-            "responses": [
-                { "response": "Oui, très souvent", "score": 0 },
-                { "response": "Oui, mais seulement de temps en temps", "score": 1 },
-                { "response": "Rarement, et c’est souvent en groupe", "score": 2 },
-                { "response": "Non, jamais", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 14,
-            "question": "Quand vous jouez à un jeu ou participez à une activité ensemble, elle/il :",
-            "responses": [
-                { "response": "S’amuse beaucoup et te complimente souvent", "score": 0 },
-                { "response": "Passe un bon moment, mais sans trop de démonstration", "score": 1 },
-                { "response": "Semble s’ennuyer ou fait autre chose", "score": 2 },
-                { "response": "Préfère ne pas participer avec toi", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 15,
-            "question": "Quand tu lui fais un compliment, elle/il :",
-            "responses": [
-                { "response": "Te remercie et te fait un compliment en retour", "score": 0 },
-                { "response": "Te remercie, mais sans en dire plus", "score": 1 },
-                { "response": "Semble gêné(e) et change de sujet", "score": 2 },
-                { "response": "L’ignore complètement ou répond par une blague", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 16,
-            "question": "Quand elle/il te croise dans les couloirs ou à l’école, elle/il :",
-            "responses": [
-                { "response": "Viens te parler ou te saluer avec enthousiasme", "score": 0 },
-                { "response": "Te salue rapidement, mais sans s’arrêter", "score": 1 },
-                { "response": "Semble t’ignorer sauf si tu lui parles", "score": 2 },
-                { "response": "Fait comme si tu n’existais pas", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 17,
-            "question": "Quand tu lui dis que tu as une bonne nouvelle, elle/il :",
-            "responses": [
-                { "response": "Se réjouit sincèrement pour toi", "score": 0 },
-                { "response": "Est content(e), mais sans trop montrer d’émotion", "score": 1 },
-                { "response": "Semble peu intéressé(e)", "score": 2 },
-                { "response": "Change rapidement de sujet ou t’ignore", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 18,
-            "question": "Quand tu lui demandes son avis sur un sujet personnel, elle/il :",
-            "responses": [
-                { "response": "Te donne des conseils attentionnés et réfléchis", "score": 0 },
-                { "response": "Donne un avis rapide, mais utile", "score": 1 },
-                { "response": "Répond vaguement sans trop s’investir", "score": 2 },
-                { "response": "Évite de répondre ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 19,
-            "question": "Quand tu es malade ou absent(e), elle/il :",
-            "responses": [
-                { "response": "Te demande comment tu vas et prend des nouvelles", "score": 0 },
-                { "response": "Te demande des nouvelles, mais sans insister", "score": 1 },
-                { "response": "Ne semble pas remarquer ton absence", "score": 2 },
-                { "response": "Ne te demande jamais comment tu vas", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 20,
-            "question": "Quand vous êtes ensemble, elle/il :",
-            "responses": [
-                { "response": "Te regarde souvent et semble intéressé(e)", "score": 0 },
-                { "response": "Te parle parfois, mais regarde ailleurs souvent", "score": 1 },
-                { "response": "Évite de croiser ton regard ou de te parler", "score": 2 },
-                { "response": "Passe plus de temps avec les autres qu’avec toi", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 21,
-            "question": "Si tu lui proposes de travailler ensemble sur un projet ou un devoir, elle/il :",
-            "responses": [
-                { "response": "Accepte immédiatement avec plaisir", "score": 0 },
-                { "response": "Accepte, mais semble hésiter", "score": 1 },
-                { "response": "Trouve une excuse pour ne pas le faire", "score": 2 },
-                { "response": "Refuse catégoriquement", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 23,
-            "question": "Si tu lui parles d’une idée de sortie amusante, elle/il :",
-            "responses": [
-                { "response": "S’enthousiasme et propose une date", "score": 0 },
-                { "response": "Dit que c’est une bonne idée, mais sans s’engager", "score": 1 },
-                { "response": "Change de sujet rapidement", "score": 2 },
-                { "response": "Semble désintéressé(e) ou ne répond pas", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 24,
-            "question": "Si quelqu’un te taquine ou se moque de toi, elle/il :",
-            "responses": [
-                { "response": "Te défend et te soutient immédiatement", "score": 0 },
-                { "response": "Te soutient, mais sans trop s’impliquer", "score": 1 },
-                { "response": "Reste silencieux(se) et ne fait rien", "score": 2 },
-                { "response": "Rit ou ne prend pas ta défense", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 25,
-            "question": "Si tu lui racontes une histoire drôle ou un moment embarrassant, elle/il :",
-            "responses": [
-                { "response": "Rit avec toi et partage quelque chose de similaire", "score": 0 },
-                { "response": "Rit, mais sans en dire plus", "score": 1 },
-                { "response": "Semble peu intéressé(e) ou distrait(e)", "score": 2 },
-                { "response": "Ignore ce que tu dis ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 26,
-            "question": "Quand tu lui parles de quelque chose d’important pour toi, elle/il :",
-            "responses": [
-                { "response": "T’écoute attentivement et te soutient", "score": 0 },
-                { "response": "T’écoute, mais reste neutre", "score": 1 },
-                { "response": "Semble distrait(e) ou peu impliqué(e)", "score": 2 },
-                { "response": "N’écoute pas ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 27,
-            "question": "Si elle/il te parle de ses problèmes ou inquiétudes, c’est :",
-            "responses": [
-                { "response": "Souvent et en te montrant qu’elle/il te fait confiance", "score": 0 },
-                { "response": "De temps en temps, mais pas en détail", "score": 1 },
-                { "response": "Rarement ou seulement si tu insistes", "score": 2 },
-                { "response": "Jamais, elle/il ne partage rien avec toi", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 28,
-            "question": "Si tu fais un effort particulier (nouveau style, bonne note, etc.), elle/il :",
-            "responses": [
-                { "response": "Le remarque immédiatement et te félicite", "score": 0 },
-                { "response": "Le remarque, mais sans trop en parler", "score": 1 },
-                { "response": "Ne semble pas le remarquer", "score": 2 },
-                { "response": "L’ignore complètement", "score": 3 }
-            ],
-            "ageRangeQuestion": [1],
-            "isPremium" : false
-        },
-        {
-            "id": 29,
-            "question": "Quand tu lui proposes de regarder un film ensemble, elle/il :",
-            "responses": [
-                { "response": "Accepte immédiatement et propose un film", "score": 0 },
-                { "response": "Accepte, mais semble hésitant(e)", "score": 1 },
-                { "response": "Dit qu’elle/il est occupé(e)", "score": 2 },
-                { "response": "Refuse directement ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 30,
-            "question": "Si tu lui envoies un message tard le soir, elle/il :",
-            "responses": [
-                { "response": "Répond immédiatement et engage la conversation", "score": 0 },
-                { "response": "Répond, mais seulement brièvement", "score": 1 },
-                { "response": "Répond le lendemain matin", "score": 2 },
-                { "response": "Ne répond pas du tout", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 31,
-            "question": "Quand tu parles de tes sentiments, elle/il :",
-            "responses": [
-                { "response": "T’écoute attentivement et te soutient", "score": 0 },
-                { "response": "Écoute, mais reste assez neutre", "score": 1 },
-                { "response": "Semble mal à l’aise ou change de sujet", "score": 2 },
-                { "response": "Ignore ou évite complètement le sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 32,
-            "question": "Si tu lui proposes de t’accompagner à un événement (sport, concert, etc.), elle/il :",
-            "responses": [
-                { "response": "Accepte avec enthousiasme", "score": 0 },
-                { "response": "Accepte, mais semble hésitant(e)", "score": 1 },
-                { "response": "Trouve une excuse pour ne pas venir", "score": 2 },
-                { "response": "Refuse directement", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 33,
-            "question": "Quand vous parlez en face à face, elle/il :",
-            "responses": [
-                { "response": "Te regarde dans les yeux et sourit souvent", "score": 0 },
-                { "response": "Semble distrait(e), mais engage tout de même la conversation", "score": 1 },
-                { "response": "Regarde ailleurs ou semble vouloir écourter la discussion", "score": 2 },
-                { "response": "Trouve une excuse pour s’éloigner rapidement", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 34,
-            "question": "Si tu fais un compliment sur son apparence, elle/il :",
-            "responses": [
-                { "response": "Te remercie avec un sourire sincère", "score": 0 },
-                { "response": "Te remercie, mais semble gêné(e)", "score": 1 },
-                { "response": "Change rapidement de sujet", "score": 2 },
-                { "response": "Ignore complètement ou rit nerveusement", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 35,
-            "question": "Quand tu es absent(e) pendant un moment, elle/il :",
-            "responses": [
-                { "response": "Demande des nouvelles et semble s’inquiéter", "score": 0 },
-                { "response": "Remarque ton absence, mais ne cherche pas à te contacter", "score": 1 },
-                { "response": "Ne semble pas remarquer ton absence", "score": 2 },
-                { "response": "Ne dit rien, même si tu reviens", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 36,
-            "question": "Si tu es triste ou contrarié(e), elle/il :",
-            "responses": [
-                { "response": "Fait tout pour te réconforter", "score": 0 },
-                { "response": "Te demande ce qui ne va pas, mais sans insister", "score": 1 },
-                { "response": "Semble un peu gêné(e) ou mal à l’aise", "score": 2 },
-                { "response": "Ignore complètement ou évite le sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 37,
-            "question": "Si tu évoques l’idée d’une sortie en tête-à-tête, elle/il :",
-            "responses": [
-                { "response": "S’enthousiasme immédiatement", "score": 0 },
-                { "response": "Accepte, mais semble hésitant(e)", "score": 1 },
-                { "response": "Propose d’inviter d’autres personnes", "score": 2 },
-                { "response": "Refuse ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 38,
-            "question": "Quand vous êtes en groupe, elle/il :",
-            "responses": [
-                { "response": "Passe la plupart du temps avec toi", "score": 0 },
-                { "response": "Partage son attention entre toi et les autres", "score": 1 },
-                { "response": "Passe plus de temps avec d’autres qu’avec toi", "score": 2 },
-                { "response": "T’ignore ou reste loin de toi", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 39,
-            "question": "Quand tu postes une photo sur les réseaux sociaux, elle/il :",
-            "responses": [
-                { "response": "Like et commente de façon positive", "score": 0 },
-                { "response": "Like parfois, mais rarement commente", "score": 1 },
-                { "response": "Ne réagit presque jamais", "score": 2 },
-                { "response": "Ne réagit jamais à tes publications", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 40,
-            "question": "Si tu lui proposes d’étudier ensemble pour un examen, elle/il :",
-            "responses": [
-                { "response": "Accepte avec enthousiasme et propose un horaire", "score": 0 },
-                { "response": "Accepte, mais semble peu motivé(e)", "score": 1 },
-                { "response": "Dit qu’elle/il préfère étudier seul(e)", "score": 2 },
-                { "response": "Refuse en trouvant une excuse vague", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 41,
-            "question": "Quand tu fais une blague, elle/il :",
-            "responses": [
-                { "response": "Rit sincèrement et ajoute quelque chose", "score": 0 },
-                { "response": "Rit poliment, mais sans enthousiasme", "score": 1 },
-                { "response": "Fait semblant de rire ou reste neutre", "score": 2 },
-                { "response": "Ne réagit pas ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 42,
-            "question": "Si tu lui envoies un message drôle ou un mème, elle/il :",
-            "responses": [
-                { "response": "Répond avec un emoji ou un message drôle en retour", "score": 0 },
-                { "response": "Répond brièvement avec un emoji ou un simple 'lol'", "score": 1 },
-                { "response": "Réagit très rarement ou avec un message sec", "score": 2 },
-                { "response": "Ne répond pas du tout", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 43,
-            "question": "Quand tu lui proposes de jouer à un jeu vidéo ou à un jeu de société, elle/il :",
-            "responses": [
-                { "response": "Accepte avec enthousiasme et propose une date", "score": 0 },
-                { "response": "Accepte, mais semble hésitant(e)", "score": 1 },
-                { "response": "Dit qu’elle/il n’aime pas ce genre d’activités", "score": 2 },
-                { "response": "Refuse directement ou ignore la proposition", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 44,
-            "question": "Quand vous discutez par message, elle/il :",
-            "responses": [
-                { "response": "Pose des questions et montre un vrai intérêt", "score": 0 },
-                { "response": "Répond, mais ne semble pas trop impliqué(e)", "score": 1 },
-                { "response": "Répond rarement ou oublie parfois de répondre", "score": 2 },
-                { "response": "Ne répond que si tu relances plusieurs fois", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 45,
-            "question": "Quand tu lui parles de quelqu’un d’autre que tu trouves attirant(e), elle/il :",
-            "responses": [
-                { "response": "Semble curieux(se) et te pose des questions", "score": 0 },
-                { "response": "Écoute sans réagir vraiment", "score": 1 },
-                { "response": "Semble un peu mal à l’aise", "score": 2 },
-                { "response": "Change de sujet ou ne réagit pas du tout", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 46,
-            "question": "Quand tu évoques l’idée d’un futur voyage ou projet ensemble, elle/il :",
-            "responses": [
-                { "response": "S’enthousiasme et commence à faire des plans", "score": 0 },
-                { "response": "Semble intéressé(e), mais reste vague", "score": 1 },
-                { "response": "Montre peu d’intérêt ou trouve une excuse", "score": 2 },
-                { "response": "Ignore complètement ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 47,
-            "question": "Si tu lui envoies un message long pour partager quelque chose d'important, elle/il :",
-            "responses": [
-                { "response": "Lit tout et te répond avec attention", "score": 0 },
-                { "response": "Répond brièvement sans entrer dans les détails", "score": 1 },
-                { "response": "Réagit peu et semble indifférent(e)", "score": 2 },
-                { "response": "Ignore complètement ton message", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 48,
-            "question": "Quand vous êtes dans la même pièce mais avec des amis, elle/il :",
-            "responses": [
-                { "response": "Fait attention à toi et engage des discussions", "score": 0 },
-                { "response": "Te parle de temps en temps", "score": 1 },
-                { "response": "S’adresse rarement à toi", "score": 2 },
-                { "response": "Évite tout contact ou interaction avec toi", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 49,
-            "question": "Quand tu fais un effort pour préparer quelque chose pour elle/lui (dessin, cadeau, etc.), elle/il :",
-            "responses": [
-                { "response": "Apprécie sincèrement et te remercie chaleureusement", "score": 0 },
-                { "response": "Te remercie poliment, mais sans grand enthousiasme", "score": 1 },
-                { "response": "Semble peu intéressé(e) ou le remarque à peine", "score": 2 },
-                { "response": "Ignore ton geste ou le trouve gênant", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 50,
-            "question": "Si tu lui parles de tes goûts en musique, films ou séries, elle/il :",
-            "responses": [
-                { "response": "Montre de l'intérêt et propose d'en discuter", "score": 0 },
-                { "response": "Écoute, mais ne réagit pas beaucoup", "score": 1 },
-                { "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
-                { "response": "Change rapidement de sujet ou ne répond pas", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 51,
-            "question": "Quand tu lui proposes une idée originale (voyage, projet, etc.), elle/il :",
-            "responses": [
-                { "response": "Se montre enthousiaste et veut en savoir plus", "score": 0 },
-                { "response": "Accepte d’en parler, mais sans grand intérêt", "score": 1 },
-                { "response": "Semble hésitant(e) ou peu motivé(e)", "score": 2 },
-                { "response": "Évite ou critique directement ton idée", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 52,
-            "question": "Quand tu exprimes tes émotions (joie, tristesse, etc.), elle/il :",
-            "responses": [
-                { "response": "T’écoute attentivement et partage tes sentiments", "score": 0 },
-                { "response": "T’écoute, mais reste assez neutre", "score": 1 },
-                { "response": "Semble gêné(e) ou mal à l’aise", "score": 2 },
-                { "response": "Ignore complètement ou minimise ce que tu ressens", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 53,
-            "question": "Quand tu es en difficulté ou que tu demandes de l’aide, elle/il :",
-            "responses": [
-                { "response": "Te propose immédiatement son aide", "score": 0 },
-                { "response": "Aide, mais seulement si tu insistes", "score": 1 },
-                { "response": "Trouve une excuse pour ne pas t’aider", "score": 2 },
-                { "response": "Ignore ta demande ou refuse clairement", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 54,
-            "question": "Quand vous discutez, elle/il :",
-            "responses": [
-                { "response": "Pose des questions et montre un vrai intérêt", "score": 0 },
-                { "response": "Répond, mais sans s’impliquer vraiment", "score": 1 },
-                { "response": "Donne des réponses courtes et semble distrait(e)", "score": 2 },
-                { "response": "Change souvent de sujet ou semble pressé(e) d’arrêter", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 55,
-            "question": "Quand quelqu’un d’autre te complimente devant elle/lui, elle/il :",
-            "responses": [
-                { "response": "Sourit et semble d’accord avec le compliment", "score": 0 },
-                { "response": "Ne réagit pas ou semble indifférent(e)", "score": 1 },
-                { "response": "Semble mal à l’aise ou évite de réagir", "score": 2 },
-                { "response": "Change de sujet ou fait une remarque dévalorisante", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 56,
-            "question": "Quand vous marchez ensemble ou êtes dans un endroit public, elle/il :",
-            "responses": [
-                { "response": "Reste près de toi et engage la conversation", "score": 0 },
-                { "response": "Reste près, mais parle peu", "score": 1 },
-                { "response": "S’éloigne légèrement ou reste silencieux(se)", "score": 2 },
-                { "response": "Semble vouloir éviter d’être vu(e) avec toi", "score": 3 }
-            ],
-            "ageRangeQuestion": [2],
-            "isPremium" : false
-        },
-        {
-            "id": 57,
-            "question": "Si tu lui proposes de sortir avec tes amis et les siens, elle/il :",
-            "responses": [
-                { "response": "Accepte avec enthousiasme et propose une date", "score": 0 },
-                { "response": "Accepte, mais semble hésitant(e)", "score": 1 },
-                { "response": "Refuse poliment et trouve une excuse", "score": 2 },
-                { "response": "Ignore complètement ou refuse directement", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 58,
-            "question": "Quand tu lui parles de ton projet professionnel ou scolaire, elle/il :",
-            "responses": [
-                { "response": "Écoute attentivement et te pose des questions", "score": 0 },
-                { "response": "Montre un intérêt modéré et réagit brièvement", "score": 1 },
-                { "response": "Semble distrait(e) ou peu concerné(e)", "score": 2 },
-                { "response": "Change de sujet ou ne réagit pas", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 59,
-            "question": "Quand tu évoques un endroit où tu veux voyager, elle/il :",
-            "responses": [
-                { "response": "Propose d’en parler davantage et semble intéressé(e)", "score": 0 },
-                { "response": "Écoute, mais sans trop réagir", "score": 1 },
-                { "response": "Réagit vaguement ou change de sujet", "score": 2 },
-                { "response": "Semble totalement désintéressé(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 60,
-            "question": "Si tu lui proposes de te retrouver pour déjeuner ou boire un café, elle/il :",
-            "responses": [
-                { "response": "Accepte avec enthousiasme", "score": 0 },
-                { "response": "Accepte, mais semble hésitant(e)", "score": 1 },
-                { "response": "Trouve une excuse pour ne pas venir", "score": 2 },
-                { "response": "Refuse directement ou ignore la proposition", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 61,
-            "question": "Si tu mentionnes une personne qui semble s'intéresser à toi, elle/il :",
-            "responses": [
-                { "response": "Semble curieux(se) et te pose des questions", "score": 0 },
-                { "response": "Réagit calmement, mais sans grand intérêt", "score": 1 },
-                { "response": "Change rapidement de sujet", "score": 2 },
-                { "response": "Semble mal à l’aise ou évite le sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 62,
-            "question": "Si tu lui parles d’un conflit que tu as eu avec un(e) ami(e), elle/il :",
-            "responses": [
-                { "response": "Te soutient et te donne des conseils", "score": 0 },
-                { "response": "Écoute, mais reste assez neutre", "score": 1 },
-                { "response": "Semble peu concerné(e) ou distrait(e)", "score": 2 },
-                { "response": "Ignore ou minimise tes préoccupations", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 63,
-            "question": "Quand tu lui demandes ce qu’elle/il pense de toi, elle/il :",
-            "responses": [
-                { "response": "Te fait des compliments sincères", "score": 0 },
-                { "response": "Répond de manière neutre, mais polie", "score": 1 },
-                { "response": "Hésite ou répond vaguement", "score": 2 },
-                { "response": "Évite de répondre ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 64,
-            "question": "Si tu lui envoies un selfie ou une photo amusante, elle/il :",
-            "responses": [
-                { "response": "Réagit positivement avec enthousiasme", "score": 0 },
-                { "response": "Répond avec un simple emoji ou commentaire court", "score": 1 },
-                { "response": "Semble indifférent(e) ou ne réagit pas vraiment", "score": 2 },
-                { "response": "Ignore complètement la photo", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 65,
-            "question": "Quand tu lui proposes d’aller à un événement spécial (concert, exposition, etc.), elle/il :",
-            "responses": [
-                { "response": "Accepte tout de suite et s’enthousiasme", "score": 0 },
-                { "response": "Accepte, mais semble hésitant(e)", "score": 1 },
-                { "response": "Trouve une excuse pour ne pas venir", "score": 2 },
-                { "response": "Refuse directement ou critique l’idée", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 66,
-            "question": "Quand vous discutez de sujets sérieux, elle/il :",
-            "responses": [
-                { "response": "Écoute attentivement et partage son point de vue", "score": 0 },
-                { "response": "Réagit calmement, mais ne développe pas beaucoup", "score": 1 },
-                { "response": "Semble distrait(e) ou peu intéressé(e)", "score": 2 },
-                { "response": "Change de sujet ou met fin à la conversation", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 67,
-            "question": "Quand tu lui parles de tes objectifs à long terme (études, carrière), elle/il :",
-            "responses": [
-                { "response": "Écoute avec beaucoup d’intérêt et te pose des questions", "score": 0 },
-                { "response": "Écoute, mais sans trop réagir", "score": 1 },
-                { "response": "Change de sujet rapidement", "score": 2 },
-                { "response": "Ignore ou semble totalement désintéressé(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : false
-        },
-        {
-            "id": 68,
-            "question": "Quand tu lui proposes de travailler sur un projet ou une idée ensemble, elle/il :",
-            "responses": [
-                { "response": "Accepte immédiatement avec enthousiasme", "score": 0 },
-                { "response": "Accepte, mais reste réservé(e)", "score": 1 },
-                { "response": "Hésite ou trouve une excuse", "score": 2 },
-                { "response": "Refuse directement sans montrer d’intérêt", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 69,
-            "question": "Quand tu partages une réussite personnelle, elle/il :",
-            "responses": [
-                { "response": "Te félicite sincèrement et semble heureux(se) pour toi", "score": 0 },
-                { "response": "Te félicite, mais sans trop d’enthousiasme", "score": 1 },
-                { "response": "Réagit brièvement sans émotion", "score": 2 },
-                { "response": "Change de sujet ou minimise ta réussite", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 70,
-            "question": "Quand tu lui parles de tes relations avec d’autres amis, elle/il :",
-            "responses": [
-                { "response": "S’intéresse et te pose des questions", "score": 0 },
-                { "response": "Écoute, mais reste assez neutre", "score": 1 },
-                { "response": "Semble un peu distrait(e) ou indifférent(e)", "score": 2 },
-                { "response": "Ignore complètement ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 71,
-            "question": "Si tu mentionnes une expérience ou un voyage marquant, elle/il :",
-            "responses": [
-                { "response": "Te demande des détails et semble captivé(e)", "score": 0 },
-                { "response": "Écoute, mais sans trop réagir", "score": 1 },
-                { "response": "Répond vaguement ou semble peu intéressé(e)", "score": 2 },
-                { "response": "Ignore complètement ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 72,
-            "question": "Quand tu parles de tes centres d’intérêt (films, livres, art), elle/il :",
-            "responses": [
-                { "response": "S’intéresse et partage son propre avis", "score": 0 },
-                { "response": "Réagit brièvement et change rapidement de sujet", "score": 1 },
-                { "response": "Écoute distraitement ou reste silencieux(se)", "score": 2 },
-                { "response": "Ignore complètement ou montre de l’ennui", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 73,
-            "question": "Quand tu proposes une activité pour le week-end, elle/il :",
-            "responses": [
-                { "response": "Accepte avec enthousiasme et commence à planifier", "score": 0 },
-                { "response": "Accepte, mais semble hésitant(e)", "score": 1 },
-                { "response": "Hésite et finit par décliner", "score": 2 },
-                { "response": "Refuse directement ou semble agacé(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 74,
-            "question": "Quand tu lui montres un nouveau talent ou une compétence, elle/il :",
-            "responses": [
-                { "response": "Te félicite sincèrement et montre de l’admiration", "score": 0 },
-                { "response": "Fait un compliment, mais sans grande émotion", "score": 1 },
-                { "response": "Réagit vaguement ou avec indifférence", "score": 2 },
-                { "response": "Ignore complètement ou minimise tes efforts", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 75,
-            "question": "Si tu lui demandes de te rejoindre pour un événement inattendu, elle/il :",
-            "responses": [
-                { "response": "Accepte sans hésitation et semble motivé(e)", "score": 0 },
-                { "response": "Accepte, mais avec un peu d’hésitation", "score": 1 },
-                { "response": "Dit qu’elle/il est occupé(e)", "score": 2 },
-                { "response": "Refuse directement ou ignore ta proposition", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 76,
-            "question": "Quand tu parles de tes émotions ou de ce que tu ressens, elle/il :",
-            "responses": [
-                { "response": "Écoute attentivement et te soutient sincèrement", "score": 0 },
-                { "response": "Écoute, mais reste assez neutre", "score": 1 },
-                { "response": "Réagit brièvement ou semble mal à l’aise", "score": 2 },
-                { "response": "Ignore ou minimise ce que tu dis", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 77,
-            "question": "Quand tu lui racontes une anecdote amusante, elle/il :",
-            "responses": [
-                { "response": "Rit sincèrement et ajoute ses propres anecdotes", "score": 0 },
-                { "response": "Rit légèrement, mais sans plus", "score": 1 },
-                { "response": "Semble peu réceptif(ve) ou change de sujet", "score": 2 },
-                { "response": "Ne réagit pas ou semble ennuyé(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 78,
-            "question": "Quand tu lui parles d’un sujet sérieux ou d’actualité, elle/il :",
-            "responses": [
-                { "response": "Participe activement à la discussion", "score": 0 },
-                { "response": "Écoute et donne son avis brièvement", "score": 1 },
-                { "response": "Semble distrait(e) ou peu concerné(e)", "score": 2 },
-                { "response": "Ignore ou évite la conversation", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 79,
-            "question": "Quand tu exprimes un désaccord avec elle/lui, elle/il :",
-            "responses": [
-                { "response": "Écoute calmement et essaie de te comprendre", "score": 0 },
-                { "response": "Accepte le désaccord, mais sans beaucoup réagir", "score": 1 },
-                { "response": "Semble irrité(e) ou peu à l’aise", "score": 2 },
-                { "response": "Ignore ou rejette ton point de vue", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 80,
-            "question": "Quand tu lui demandes de parler d’elle/lui-même, elle/il :",
-            "responses": [
-                { "response": "Te parle ouvertement et partage ses pensées", "score": 0 },
-                { "response": "Répond de manière concise sans trop de détails", "score": 1 },
-                { "response": "Donne une réponse vague et change de sujet", "score": 2 },
-                { "response": "Évite de répondre ou semble gêné(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 81,
-            "question": "Quand vous planifiez une activité ensemble, elle/il :",
-            "responses": [
-                { "response": "S’implique activement dans l’organisation", "score": 0 },
-                { "response": "Participe, mais te laisse gérer la plupart des détails", "score": 1 },
-                { "response": "Se désintéresse et ne fait aucun effort", "score": 2 },
-                { "response": "Trouve une excuse pour éviter de participer", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 82,
-            "question": "Quand tu lui demandes des nouvelles de sa journée, elle/il :",
-            "responses": [
-                { "response": "Raconte tout en détail avec enthousiasme", "score": 0 },
-                { "response": "Partage quelques moments importants", "score": 1 },
-                { "response": "Répond brièvement sans entrer dans les détails", "score": 2 },
-                { "response": "Réagit vaguement ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 83,
-            "question": "Si tu lui offres un cadeau ou une attention particulière, elle/il :",
-            "responses": [
-                { "response": "Te remercie chaleureusement et semble touché(e)", "score": 0 },
-                { "response": "Te remercie poliment, mais sans grand enthousiasme", "score": 1 },
-                { "response": "Réagit brièvement ou semble indifférent(e)", "score": 2 },
-                { "response": "Ignore ou minimise ton geste", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 84,
-            "question": "Quand tu parles de tes proches ou de ta famille, elle/il :",
-            "responses": [
-                { "response": "Pose des questions et montre de l’intérêt", "score": 0 },
-                { "response": "Écoute, mais reste assez neutre", "score": 1 },
-                { "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
-                { "response": "Ignore complètement ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 85,
-            "question": "Quand tu lui demandes conseil sur un choix difficile, elle/il :",
-            "responses": [
-                { "response": "T’aide avec des conseils réfléchis", "score": 0 },
-                { "response": "Répond rapidement sans s’impliquer beaucoup", "score": 1 },
-                { "response": "Donne une réponse vague ou peu utile", "score": 2 },
-                { "response": "Évite de répondre ou semble ennuyé(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 86,
-            "question": "Quand tu lui parles d’une sortie ou d’une fête avec ses amis, elle/il :",
-            "responses": [
-                { "response": "Te propose de venir et t’inclut dans ses plans", "score": 0 },
-                { "response": "Mentionne la fête, mais ne t’invite pas directement", "score": 1 },
-                { "response": "Réagit vaguement ou évite le sujet", "score": 2 },
-                { "response": "Change de sujet ou évite de t’en parler", "score": 3 }
-            ],
-            "ageRangeQuestion": [3],
-            "isPremium" : true
-        },
-        {
-            "id": 87,
-            "question": "Si tu lui envoies un message pour parler de ton jour, elle/il :",
-            "responses": [
-                { "response": "Répond avec intérêt et te pose des questions", "score": 0 },
-                { "response": "Répond, mais de façon neutre", "score": 1 },
-                { "response": "Réagit brièvement ou semble distrait(e)", "score": 2 },
-                { "response": "Ne répond pas ou semble ennuyé(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 88,
-            "question": "Quand tu proposes une sortie en groupe, elle/il :",
-            "responses": [
-                { "response": "S’enthousiasme et t’aide à organiser", "score": 0 },
-                { "response": "Accepte, mais reste en retrait", "score": 1 },
-                { "response": "Semble hésitant(e) et finit par décliner", "score": 2 },
-                { "response": "Refuse directement ou trouve une excuse", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 89,
-            "question": "Quand tu lui fais un cadeau inattendu, elle/il :",
-            "responses": [
-                { "response": "Semble touché(e) et te remercie chaleureusement", "score": 0 },
-                { "response": "Te remercie poliment, mais sans grand enthousiasme", "score": 1 },
-                { "response": "Réagit de façon neutre ou semble gêné(e)", "score": 2 },
-                { "response": "Ignore ou minimise ton geste", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 90,
-            "question": "Quand tu parles d’un projet qui te tient à cœur, elle/il :",
-            "responses": [
-                { "response": "Écoute avec intérêt et te soutient", "score": 0 },
-                { "response": "Écoute, mais ne semble pas très engagé(e)", "score": 1 },
-                { "response": "Change de sujet rapidement", "score": 2 },
-                { "response": "Semble distrait(e) ou peu concerné(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 91,
-            "question": "Quand tu parles d’un événement passé, elle/il :",
-            "responses": [
-                { "response": "Pose des questions et partage ses impressions", "score": 0 },
-                { "response": "Écoute sans trop réagir", "score": 1 },
-                { "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
-                { "response": "Ignore ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 92,
-            "question": "Quand tu lui demandes ce qu’elle/il fait ce week-end, elle/il :",
-            "responses": [
-                { "response": "Te raconte ses plans et te propose de venir", "score": 0 },
-                { "response": "Répond vaguement sans t’inviter", "score": 1 },
-                { "response": "Semble hésitant(e) ou change de sujet", "score": 2 },
-                { "response": "Évite complètement de te répondre", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 93,
-            "question": "Quand tu lui parles de tes envies futures (voyages, activités), elle/il :",
-            "responses": [
-                { "response": "S’intéresse et partage ses propres idées", "score": 0 },
-                { "response": "Écoute, mais sans grand enthousiasme", "score": 1 },
-                { "response": "Semble indifférent(e) ou change de sujet", "score": 2 },
-                { "response": "Ignore complètement ou semble ennuyé(e)", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 94,
-            "question": "Quand tu lui proposes de te rejoindre après l’école ou le travail, elle/il :",
-            "responses": [
-                { "response": "Accepte avec plaisir", "score": 0 },
-                { "response": "Accepte, mais semble hésitant(e)", "score": 1 },
-                { "response": "Trouve une excuse pour ne pas venir", "score": 2 },
-                { "response": "Refuse directement ou ne répond pas", "score": 3 }
-            ],
-            "ageRangeQuestion": [1,2],
-            "isPremium" : true
-        },
-        {
-            "id": 95,
-            "question": "Quand tu lui racontes une anecdote amusante, elle/il :",
-            "responses": [
-                { "response": "Rit sincèrement et rebondit sur ton histoire", "score": 0 },
-                { "response": "Rit légèrement, mais sans plus", "score": 1 },
-                { "response": "Semble peu intéressé(e) ou distrait(e)", "score": 2 },
-                { "response": "Ne réagit pas ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 96,
-            "question": "Quand tu lui proposes de participer à un projet commun, elle/il :",
-            "responses": [
-                { "response": "S’enthousiasme et propose des idées", "score": 0 },
-                { "response": "Accepte, mais sans beaucoup s’investir", "score": 1 },
-                { "response": "Hésite ou trouve une excuse", "score": 2 },
-                { "response": "Refuse directement ou ignore ta proposition", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 97,
-            "question": "Quand tu lui parles de ta journée, elle/il :",
-            "responses": [
-                { "response": "Écoute attentivement et te pose des questions", "score": 0 },
-                { "response": "Écoute, mais sans montrer beaucoup d’intérêt", "score": 1 },
-                { "response": "Répond brièvement ou semble distrait(e)", "score": 2 },
-                { "response": "Ignore ou change de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 98,
-            "question": "Quand tu partages tes centres d’intérêt (musique, cinéma, etc.), elle/il :",
-            "responses": [
-                { "response": "Partage les siens et engage la conversation", "score": 0 },
-                { "response": "Écoute, mais ne réagit pas beaucoup", "score": 1 },
-                { "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
-                { "response": "Change de sujet ou ne répond pas", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 99,
-            "question": "Quand tu lui dis que tu es fatigué(e) ou stressé(e), elle/il :",
-            "responses": [
-                { "response": "Prend le temps de te réconforter", "score": 0 },
-                { "response": "Écoute, mais sans trop s’impliquer", "score": 1 },
-                { "response": "Semble distrait(e) ou indifférent(e)", "score": 2 },
-                { "response": "Ignore ou change rapidement de sujet", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 100,
-            "question": "Quand tu fais un effort pour l’impressionner (nouveau look, réussite), elle/il :",
-            "responses": [
-                { "response": "Le remarque immédiatement et te complimente", "score": 0 },
-                { "response": "Le remarque, mais reste neutre", "score": 1 },
-                { "response": "Ne semble pas le remarquer", "score": 2 },
-                { "response": "Ignore ou minimise ton effort", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 101,
-            "question": "Quand tu es malade ou absent(e), elle/il :",
-            "responses": [
-                { "response": "Te demande des nouvelles régulièrement", "score": 0 },
-                { "response": "Prend des nouvelles une fois", "score": 1 },
-                { "response": "Semble indifférent(e)", "score": 2 },
-                { "response": "N’y fait pas attention", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 102,
-            "question": "Quand vous êtes en groupe, elle/il :",
-            "responses": [
-                { "response": "Passe beaucoup de temps avec toi", "score": 0 },
-                { "response": "Te parle parfois, mais partage son temps", "score": 1 },
-                { "response": "S’éloigne ou passe plus de temps avec les autres", "score": 2 },
-                { "response": "Semble t’éviter", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 103,
-            "question": "Quand tu mentionnes une réussite personnelle, elle/il :",
-            "responses": [
-                { "response": "Te félicite chaleureusement et montre de l’intérêt", "score": 0 },
-                { "response": "Te félicite, mais reste neutre", "score": 1 },
-                { "response": "Réagit brièvement ou semble distrait(e)", "score": 2 },
-                { "response": "Ignore ou minimise ta réussite", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 104,
-            "question": "Quand tu lui dis que tu veux passer plus de temps avec elle/lui, elle/il :",
-            "responses": [
-                { "response": "Accepte avec enthousiasme", "score": 0 },
-                { "response": "Accepte, mais semble hésitant(e)", "score": 1 },
-                { "response": "Semble éviter ou trouver des excuses", "score": 2 },
-                { "response": "Refuse directement ou ignore ta demande", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-            "id": 105,
-            "question": "Quand tu lui demandes son avis sur une tenue ou un style, elle/il :",
-            "responses": [
-                { "response": "Te complimente et te donne un avis détaillé", "score": 0 },
-                { "response": "Donne un avis poli, mais bref", "score": 1 },
-                { "response": "Semble peu intéressé(e) ou distrait(e)", "score": 2 },
-                { "response": "Évite de répondre ou fait une remarque négative", "score": 3 }
-            ],
-            "ageRangeQuestion": [2, 3],
-            "isPremium" : true
-        },
-        {
-                "id": 106,
-                "question": "Quand tu lui demandes de jouer avec toi à un jeu vidéo ou un jeu de société, elle/il :",
-                "responses": [
-                    { "response": "Accepte avec enthousiasme", "score": 0 },
-                    { "response": "Accepte, mais reste neutre", "score": 1 },
-                    { "response": "Hésite et finit par refuser", "score": 2 },
-                    { "response": "Refuse directement ou ignore ta demande", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2],
-                "isPremium" : true
-            },
-            {
-                "id": 107,
-                "question": "Quand tu lui envoies une blague ou un mème, elle/il :",
-                "responses": [
-                    { "response": "Rit sincèrement et te répond avec une autre blague", "score": 0 },
-                    { "response": "Rit légèrement, mais ne rebondit pas", "score": 1 },
-                    { "response": "Semble peu intéressé(e) ou réagit tardivement", "score": 2 },
-                    { "response": "Ignore complètement ou ne répond pas", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2],
-                "isPremium" : true
-            },
-            {
-                "id": 108,
-                "question": "Quand tu parles de tes loisirs ou activités, elle/il :",
-                "responses": [
-                    { "response": "Montre de l’intérêt et partage les siens", "score": 0 },
-                    { "response": "Écoute sans trop réagir", "score": 1 },
-                    { "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
-                    { "response": "Change de sujet ou ne répond pas", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2],
-                "isPremium" : true
-            },
-            {
-                "id": 109,
-                "question": "Quand tu lui proposes de travailler ensemble sur un devoir ou un projet, elle/il :",
-                "responses": [
-                    { "response": "Accepte avec plaisir", "score": 0 },
-                    { "response": "Accepte, mais ne semble pas motivé(e)", "score": 1 },
-                    { "response": "Trouve une excuse pour ne pas le faire", "score": 2 },
-                    { "response": "Refuse directement ou ignore ta proposition", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2],
-                "isPremium" : true
-            },
-            {
-                "id": 110,
-                "question": "Quand tu lui envoies un message pour parler d’un sujet qui te tient à cœur, elle/il :",
-                "responses": [
-                    { "response": "Te répond rapidement et te soutient", "score": 0 },
-                    { "response": "Répond, mais reste neutre", "score": 1 },
-                    { "response": "Réagit brièvement ou semble peu intéressé(e)", "score": 2 },
-                    { "response": "Ignore ou répond tardivement sans s’impliquer", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2],
-                "isPremium" : true
-            },
-            {
-                "id": 111,
-                "question": "Quand tu partages une de tes réussites (sport, école, création), elle/il :",
-                "responses": [
-                    { "response": "Te félicite sincèrement et montre de l’intérêt", "score": 0 },
-                    { "response": "Te félicite brièvement", "score": 1 },
-                    { "response": "Semble peu concerné(e)", "score": 2 },
-                    { "response": "Ignore ou minimise ta réussite", "score": 3 }
-                ],
-                "ageRangeQuestion": [1,2,3],
-                "isPremium" : true
-            },
-            {
-                "id": 112,
-                "question": "Quand tu proposes de l’aider pour quelque chose, elle/il :",
-                "responses": [
-                    { "response": "Accepte avec gratitude", "score": 0 },
-                    { "response": "Accepte, mais reste distant(e)", "score": 1 },
-                    { "response": "Refuse poliment", "score": 2 },
-                    { "response": "Refuse ou semble agacé(e)", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2],
-                "isPremium" : true
-            },
-            {
-                "id": 113,
-                "question": "Quand tu es triste ou contrarié(e), elle/il :",
-                "responses": [
-                    { "response": "Te réconforte et te propose son aide", "score": 0 },
-                    { "response": "Te demande ce qui ne va pas, mais sans insister", "score": 1 },
-                    { "response": "Semble indifférent(e) ou distrait(e)", "score": 2 },
-                    { "response": "Ignore ou minimise ce que tu ressens", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2],
-                "isPremium" : true
-            },
-            {
-                "id": 114,
-                "question": "Quand vous discutez en groupe, elle/il :",
-                "responses": [
-                    { "response": "Te parle souvent et partage des moments avec toi", "score": 0 },
-                    { "response": "Te parle, mais partage aussi avec les autres", "score": 1 },
-                    { "response": "Semble distant(e) ou concentré(e) sur les autres", "score": 2 },
-                    { "response": "Évite ou ignore ta présence", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2],
-                "isPremium" : true
-            },
-            {
-                "id": 115,
-                "question": "Quand tu fais un compliment à son sujet, elle/il :",
-                "responses": [
-                    { "response": "Te remercie chaleureusement et semble touché(e)", "score": 0 },
-                    { "response": "Te remercie poliment, mais sans grande réaction", "score": 1 },
-                    { "response": "Semble gêné(e) ou réagit peu", "score": 2 },
-                    { "response": "Ignore ou minimise ton compliment", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2],
-                "isPremium" : true
-            },
-            {
-                "id": 116,
-                "question": "Quand tu mentionnes quelque chose que tu veux vraiment faire, elle/il :",
-                "responses": [
-                    { "response": "Te soutient et montre de l’enthousiasme", "score": 0 },
-                    { "response": "Écoute, mais reste neutre", "score": 1 },
-                    { "response": "Semble distrait(e) ou change de sujet", "score": 2 },
-                    { "response": "Ignore complètement ce que tu dis", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2],
-                "isPremium" : true
-            },
-            {
-                "id": 117,
-                "question": "Quand vous êtes en désaccord sur un sujet important, elle/il :",
-                "responses": [
-                  { "response": "Écoute ton point de vue et cherche un compromis", "score": 0 },
-                  { "response": "Écoute, mais reste sur ses positions", "score": 1 },
-                  { "response": "Semble agacé(e) et évite la discussion", "score": 2 },
-                  { "response": "Ignore complètement ton opinion", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 118,
-                "question": "Si vous devez prendre une décision ensemble, elle/il :",
-                "responses": [
-                  { "response": "Tient compte de ton avis et collabore activement", "score": 0 },
-                  { "response": "Écoute, mais prend la décision seul(e)", "score": 1 },
-                  { "response": "Semble peu intéressé(e) par ton opinion", "score": 2 },
-                  { "response": "Prend la décision sans te consulter", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 119,
-                "question": "Quand vous partagez un moment intime (confidences, secrets), elle/il :",
-                "responses": [
-                  { "response": "Se montre vulnérable et partage aussi ses secrets", "score": 0 },
-                  { "response": "Écoute, mais reste réservé(e) sur ses propres confidences", "score": 1 },
-                  { "response": "Semble mal à l'aise et change de sujet", "score": 2 },
-                  { "response": "Évite complètement ce genre de conversation", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 120,
-                "question": "Comment réagit-elle/il quand vous évoquez vos peurs ou vulnérabilités ?",
-                "responses": [
-                  { "response": "Te réconforte et partage ses propres peurs", "score": 0 },
-                  { "response": "Écoute, mais reste assez neutre", "score": 1 },
-                  { "response": "Semble gêné(e) et minimise tes inquiétudes", "score": 2 },
-                  { "response": "Change de sujet ou ignore ce que tu dis", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 121,
-                "question": "Quand vous exprimez de la jalousie ou de l'insécurité, elle/il :",
-                "responses": [
-                  { "response": "Te rassure et montre qu'elle/il tient à toi", "score": 0 },
-                  { "response": "Écoute, mais ne fait rien pour te rassurer", "score": 1 },
-                  { "response": "Semble agacé(e) par tes inquiétudes", "score": 2 },
-                  { "response": "Ignore ou critique tes sentiments", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 122,
-                "question": "Comment gère-t-elle/il les moments de tension ou de conflit entre vous ?",
-                "responses": [
-                  { "response": "Cherche activement à résoudre le problème", "score": 0 },
-                  { "response": "Attend que les choses se calment d'elles-mêmes", "score": 1 },
-                  { "response": "Évite la confrontation et s'éloigne", "score": 2 },
-                  { "response": "Aggrave la situation par ses réactions", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 123,
-                "question": "Si vous deviez définir votre relation en 3 mots, elle/il dirait :",
-                "responses": [
-                  { "response": "Des mots positifs et affectueux", "score": 0 },
-                  { "response": "Des termes neutres et amicaux", "score": 1 },
-                  { "response": "Des mots vagues ou peu engageants", "score": 2 },
-                  { "response": "Éviterait de répondre ou serait négatif", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 124,
-                "question": "Comment parle-t-elle/il de vous à ses amis les plus proches ?",
-                "responses": [
-                  { "response": "En termes très positifs et affectueux", "score": 0 },
-                  { "response": "De manière neutre, comme un(e) ami(e)", "score": 1 },
-                  { "response": "Rarement ou de façon impersonnelle", "score": 2 },
-                  { "response": "Jamais ou de manière négative", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 125,
-                "question": "Quand vous évoquez l'avenir de votre relation, elle/il :",
-                "responses": [
-                  { "response": "S'enthousiasme et fait des projets avec toi", "score": 0 },
-                  { "response": "Écoute, mais reste vague sur l'avenir", "score": 1 },
-                  { "response": "Semble mal à l'aise et change de sujet", "score": 2 },
-                  { "response": "Évite complètement ce type de discussion", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 126,
-                "question": "Comment utilise-t-elle/il les emojis et réactions dans vos conversations ?",
-                "responses": [
-                  { "response": "Beaucoup d'emojis affectueux et réactions positives", "score": 0 },
-                  { "response": "Quelques emojis neutres de temps en temps", "score": 1 },
-                  { "response": "Très peu d'emojis ou réactions impersonnelles", "score": 2 },
-                  { "response": "Jamais d'emojis ou réactions froides", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 127,
-                "question": "Quand vous partagez du contenu sur les réseaux sociaux, elle/il :",
-                "responses": [
-                  { "response": "Like, commente et partage régulièrement", "score": 0 },
-                  { "response": "Like parfois, mais ne commente pas", "score": 1 },
-                  { "response": "Réagit rarement à tes publications", "score": 2 },
-                  { "response": "Ignore complètement ton contenu", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 128,
-                "question": "Comment gère-t-elle/il les silences prolongés dans vos échanges ?",
-                "responses": [
-                  { "response": "Relance la conversation et s'inquiète", "score": 0 },
-                  { "response": "Attend que tu relances toi-même", "score": 1 },
-                  { "response": "Ne semble pas remarquer le silence", "score": 2 },
-                  { "response": "Profite du silence pour s'éloigner", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 129,
-                "question": "Quand vous discutez de vos valeurs fondamentales, elle/il :",
-                "responses": [
-                  { "response": "Partage ses valeurs et cherche des points communs", "score": 0 },
-                  { "response": "Écoute, mais ne partage pas beaucoup", "score": 1 },
-                  { "response": "Semble peu intéressé(e) par le sujet", "score": 2 },
-                  { "response": "Évite ce type de conversation", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 130,
-                "question": "Comment réagit-elle/il face à vos différences d'opinion sur des sujets importants ?",
-                "responses": [
-                  { "response": "Respecte ton opinion et cherche à comprendre", "score": 0 },
-                  { "response": "Accepte la différence, mais ne s'engage pas", "score": 1 },
-                  { "response": "Semble irrité(e) par le désaccord", "score": 2 },
-                  { "response": "Critique ou rejette ton point de vue", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 131,
-                "question": "Quand vous évoquez vos attentes dans une relation, elle/il :",
-                "responses": [
-                  { "response": "Partage ses attentes et cherche un équilibre", "score": 0 },
-                  { "response": "Écoute, mais reste vague sur ses propres attentes", "score": 1 },
-                  { "response": "Semble mal à l'aise avec le sujet", "score": 2 },
-                  { "response": "Évite complètement cette discussion", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 132,
-                "question": "Si vous deviez planifier un projet à long terme ensemble, elle/il :",
-                "responses": [
-                  { "response": "S'enthousiasme et s'implique activement", "score": 0 },
-                  { "response": "Accepte, mais laisse tout le travail à toi", "score": 1 },
-                  { "response": "Semble hésitant(e) et peu motivé(e)", "score": 2 },
-                  { "response": "Refuse ou trouve une excuse", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 133,
-                "question": "Comment parle-t-elle/il de vous inclure dans ses projets personnels ?",
-                "responses": [
-                  { "response": "Te propose spontanément de participer", "score": 0 },
-                  { "response": "T'accepte si tu demandes toi-même", "score": 1 },
-                  { "response": "Te mentionne rarement dans ses projets", "score": 2 },
-                  { "response": "Ne t'inclut jamais dans ses plans", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 134,
-                "question": "Quand vous évoquez des étapes importantes (rencontre famille, etc.), elle/il :",
-                "responses": [
-                  { "response": "S'enthousiasme et propose des idées", "score": 0 },
-                  { "response": "Accepte, mais sans grand enthousiasme", "score": 1 },
-                  { "response": "Semble hésitant(e) et reporte à plus tard", "score": 2 },
-                  { "response": "Évite ou refuse catégoriquement", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 135,
-                "question": "Quels sont les petits gestes qu'elle/il fait qui montrent son attention envers vous ?",
-                "responses": [
-                  { "response": "Beaucoup de petites attentions régulières", "score": 0 },
-                  { "response": "Quelques gestes occasionnels", "score": 1 },
-                  { "response": "Très peu de gestes d'attention", "score": 2 },
-                  { "response": "Aucun geste particulier", "score": 3 }
-                ],
-                "ageRangeQuestion": [1, 2, 3],
-                "isPremium" : true
-              },
-              {
-                "id": 136,
-                "question": "Comment son langage corporel change-t-il quand vous êtes seul(e) avec elle/lui ?",
-                "responses": [
-                  { "response": "Devient plus détendu(e) et proche de toi", "score": 0 },
-                  { "response": "Reste le même qu'en groupe", "score": 1 },
-                  { "response": "Semble un peu plus distant(e)", "score": 2 },
-                  { "response": "Devient visiblement mal à l'aise", "score": 3 }
-                ],
-                "ageRangeQuestion": [2, 3],
-                "isPremium" : true
-              }
-    ]
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quand tu lui envoies un message, elle/il répond rapidement ?",
+      "responses": [
+        {
+          "response": "Oui, elle/il répond dans la minute",
+          "score": 0
+        },
+        {
+          "response": "Elle/Il répond dans l'heure",
+          "score": 1
+        },
+        {
+          "response": "Elle/Il met une journée à répondre",
+          "score": 2
+        },
+        {
+          "response": "Elle/Il ne répond pas ou seulement après plusieurs jours",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 2,
+      "question": "Est-ce qu’elle/il te parle souvent de ses crushs ou d'autres personnes qu’elle/il aime bien ?",
+      "responses": [
+        {
+          "response": "Non, jamais",
+          "score": 0
+        },
+        {
+          "response": "Rarement, mais ça arrive",
+          "score": 1
+        },
+        {
+          "response": "Souvent, mais sans trop insister",
+          "score": 2
+        },
+        {
+          "response": "Tout le temps, comme si j’étais son/sa confident(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 3,
+      "question": "Est-ce qu’elle/il accepte de faire des activités seul(e) avec toi ?",
+      "responses": [
+        {
+          "response": "Oui, elle/il propose même des idées",
+          "score": 0
+        },
+        {
+          "response": "Oui, mais c'est toujours moi qui propose",
+          "score": 1
+        },
+        {
+          "response": "Rarement, elle/il préfère quand il y a d'autres personnes",
+          "score": 2
+        },
+        {
+          "response": "Non, elle/il évite toujours d’être seul(e) avec moi",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 4,
+      "question": "Quand tu fais une blague, elle/il :",
+      "responses": [
+        {
+          "response": "Rit beaucoup et fait des blagues en retour",
+          "score": 0
+        },
+        {
+          "response": "Sourit, mais sans plus",
+          "score": 1
+        },
+        {
+          "response": "Change rapidement de sujet",
+          "score": 2
+        },
+        {
+          "response": "Ne rit pas ou te dit que ce n’est pas drôle",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 5,
+      "question": "Est-ce qu’elle/il te complimente parfois ?",
+      "responses": [
+        {
+          "response": "Oui, souvent et sincèrement",
+          "score": 0
+        },
+        {
+          "response": "Parfois, mais surtout sur des choses banales",
+          "score": 1
+        },
+        {
+          "response": "Rarement, seulement quand c’est obligé",
+          "score": 2
+        },
+        {
+          "response": "Jamais, elle/il semble même éviter de le faire",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 6,
+      "question": "Quand tu lui proposes de te raconter un secret, elle/il :",
+      "responses": [
+        {
+          "response": "Est à l’aise et partage tout de suite",
+          "score": 0
+        },
+        {
+          "response": "Partage quelque chose de léger",
+          "score": 1
+        },
+        {
+          "response": "Hésite ou raconte quelque chose de pas très important",
+          "score": 2
+        },
+        {
+          "response": "Évite complètement de te raconter quoi que ce soit",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 7,
+      "question": "Quand vous êtes dans un groupe, elle/il :",
+      "responses": [
+        {
+          "response": "Passe beaucoup de temps à te parler",
+          "score": 0
+        },
+        {
+          "response": "Te parle parfois, mais pas toujours",
+          "score": 1
+        },
+        {
+          "response": "Te parle très peu",
+          "score": 2
+        },
+        {
+          "response": "T’ignore presque complètement",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 8,
+      "question": "Est-ce qu’elle/il cherche des excuses pour te toucher (donner une tape, high five, etc.) ?",
+      "responses": [
+        {
+          "response": "Oui, elle/il le fait souvent",
+          "score": 0
+        },
+        {
+          "response": "Oui, mais c’est rare",
+          "score": 1
+        },
+        {
+          "response": "Seulement dans des situations obligatoires",
+          "score": 2
+        },
+        {
+          "response": "Non, elle/il évite tout contact physique",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 9,
+      "question": "Si tu parles de tes propres crushs ou de gens que tu trouves cools, elle/il :",
+      "responses": [
+        {
+          "response": "Est curieux(se) et pose des questions",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais sans grand intérêt",
+          "score": 1
+        },
+        {
+          "response": "Change de sujet rapidement",
+          "score": 2
+        },
+        {
+          "response": "Semble gêné(e) ou agacé(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 10,
+      "question": "Si tu lui dis que tu te sens triste, elle/il :",
+      "responses": [
+        {
+          "response": "Te console et essaie de te remonter le moral",
+          "score": 0
+        },
+        {
+          "response": "T’écoute, mais sans trop s’impliquer",
+          "score": 1
+        },
+        {
+          "response": "Te donne un conseil rapide, puis passe à autre chose",
+          "score": 2
+        },
+        {
+          "response": "Ne semble pas s’en préoccuper du tout",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 11,
+      "question": "Quand tu lui parles de tes passions ou hobbies, elle/il :",
+      "responses": [
+        {
+          "response": "Écoute avec intérêt et pose des questions",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais ne montre pas beaucoup d’intérêt",
+          "score": 1
+        },
+        {
+          "response": "Change de sujet rapidement",
+          "score": 2
+        },
+        {
+          "response": "Semble s’ennuyer ou ne t’écoute pas",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 12,
+      "question": "Si tu as un problème ou besoin d’aide, elle/il :",
+      "responses": [
+        {
+          "response": "Propose toujours de t’aider sans hésiter",
+          "score": 0
+        },
+        {
+          "response": "T’aide parfois, mais pas toujours",
+          "score": 1
+        },
+        {
+          "response": "Trouve une excuse pour ne pas t’aider",
+          "score": 2
+        },
+        {
+          "response": "Évite complètement de s’impliquer",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 13,
+      "question": "Est-ce qu’elle/il t’invite à des sorties ou événements ?",
+      "responses": [
+        {
+          "response": "Oui, très souvent",
+          "score": 0
+        },
+        {
+          "response": "Oui, mais seulement de temps en temps",
+          "score": 1
+        },
+        {
+          "response": "Rarement, et c’est souvent en groupe",
+          "score": 2
+        },
+        {
+          "response": "Non, jamais",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 14,
+      "question": "Quand vous jouez à un jeu ou participez à une activité ensemble, elle/il :",
+      "responses": [
+        {
+          "response": "S’amuse beaucoup et te complimente souvent",
+          "score": 0
+        },
+        {
+          "response": "Passe un bon moment, mais sans trop de démonstration",
+          "score": 1
+        },
+        {
+          "response": "Semble s’ennuyer ou fait autre chose",
+          "score": 2
+        },
+        {
+          "response": "Préfère ne pas participer avec toi",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 15,
+      "question": "Quand tu lui fais un compliment, elle/il :",
+      "responses": [
+        {
+          "response": "Te remercie et te fait un compliment en retour",
+          "score": 0
+        },
+        {
+          "response": "Te remercie, mais sans en dire plus",
+          "score": 1
+        },
+        {
+          "response": "Semble gêné(e) et change de sujet",
+          "score": 2
+        },
+        {
+          "response": "L’ignore complètement ou répond par une blague",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 16,
+      "question": "Quand elle/il te croise dans les couloirs ou à l’école, elle/il :",
+      "responses": [
+        {
+          "response": "Viens te parler ou te saluer avec enthousiasme",
+          "score": 0
+        },
+        {
+          "response": "Te salue rapidement, mais sans s’arrêter",
+          "score": 1
+        },
+        {
+          "response": "Semble t’ignorer sauf si tu lui parles",
+          "score": 2
+        },
+        {
+          "response": "Fait comme si tu n’existais pas",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 17,
+      "question": "Quand tu lui dis que tu as une bonne nouvelle, elle/il :",
+      "responses": [
+        {
+          "response": "Se réjouit sincèrement pour toi",
+          "score": 0
+        },
+        {
+          "response": "Est content(e), mais sans trop montrer d’émotion",
+          "score": 1
+        },
+        {
+          "response": "Semble peu intéressé(e)",
+          "score": 2
+        },
+        {
+          "response": "Change rapidement de sujet ou t’ignore",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 18,
+      "question": "Quand tu lui demandes son avis sur un sujet personnel, elle/il :",
+      "responses": [
+        {
+          "response": "Te donne des conseils attentionnés et réfléchis",
+          "score": 0
+        },
+        {
+          "response": "Donne un avis rapide, mais utile",
+          "score": 1
+        },
+        {
+          "response": "Répond vaguement sans trop s’investir",
+          "score": 2
+        },
+        {
+          "response": "Évite de répondre ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 19,
+      "question": "Quand tu es malade ou absent(e), elle/il :",
+      "responses": [
+        {
+          "response": "Te demande comment tu vas et prend des nouvelles",
+          "score": 0
+        },
+        {
+          "response": "Te demande des nouvelles, mais sans insister",
+          "score": 1
+        },
+        {
+          "response": "Ne semble pas remarquer ton absence",
+          "score": 2
+        },
+        {
+          "response": "Ne te demande jamais comment tu vas",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 20,
+      "question": "Quand vous êtes ensemble, elle/il :",
+      "responses": [
+        {
+          "response": "Te regarde souvent et semble intéressé(e)",
+          "score": 0
+        },
+        {
+          "response": "Te parle parfois, mais regarde ailleurs souvent",
+          "score": 1
+        },
+        {
+          "response": "Évite de croiser ton regard ou de te parler",
+          "score": 2
+        },
+        {
+          "response": "Passe plus de temps avec les autres qu’avec toi",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 21,
+      "question": "Si tu lui proposes de travailler ensemble sur un projet ou un devoir, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte immédiatement avec plaisir",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésiter",
+          "score": 1
+        },
+        {
+          "response": "Trouve une excuse pour ne pas le faire",
+          "score": 2
+        },
+        {
+          "response": "Refuse catégoriquement",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 23,
+      "question": "Si tu lui parles d’une idée de sortie amusante, elle/il :",
+      "responses": [
+        {
+          "response": "S’enthousiasme et propose une date",
+          "score": 0
+        },
+        {
+          "response": "Dit que c’est une bonne idée, mais sans s’engager",
+          "score": 1
+        },
+        {
+          "response": "Change de sujet rapidement",
+          "score": 2
+        },
+        {
+          "response": "Semble désintéressé(e) ou ne répond pas",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 24,
+      "question": "Si quelqu’un te taquine ou se moque de toi, elle/il :",
+      "responses": [
+        {
+          "response": "Te défend et te soutient immédiatement",
+          "score": 0
+        },
+        {
+          "response": "Te soutient, mais sans trop s’impliquer",
+          "score": 1
+        },
+        {
+          "response": "Reste silencieux(se) et ne fait rien",
+          "score": 2
+        },
+        {
+          "response": "Rit ou ne prend pas ta défense",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 25,
+      "question": "Si tu lui racontes une histoire drôle ou un moment embarrassant, elle/il :",
+      "responses": [
+        {
+          "response": "Rit avec toi et partage quelque chose de similaire",
+          "score": 0
+        },
+        {
+          "response": "Rit, mais sans en dire plus",
+          "score": 1
+        },
+        {
+          "response": "Semble peu intéressé(e) ou distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ce que tu dis ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 26,
+      "question": "Quand tu lui parles de quelque chose d’important pour toi, elle/il :",
+      "responses": [
+        {
+          "response": "T’écoute attentivement et te soutient",
+          "score": 0
+        },
+        {
+          "response": "T’écoute, mais reste neutre",
+          "score": 1
+        },
+        {
+          "response": "Semble distrait(e) ou peu impliqué(e)",
+          "score": 2
+        },
+        {
+          "response": "N’écoute pas ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 27,
+      "question": "Si elle/il te parle de ses problèmes ou inquiétudes, c’est :",
+      "responses": [
+        {
+          "response": "Souvent et en te montrant qu’elle/il te fait confiance",
+          "score": 0
+        },
+        {
+          "response": "De temps en temps, mais pas en détail",
+          "score": 1
+        },
+        {
+          "response": "Rarement ou seulement si tu insistes",
+          "score": 2
+        },
+        {
+          "response": "Jamais, elle/il ne partage rien avec toi",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 28,
+      "question": "Si tu fais un effort particulier (nouveau style, bonne note, etc.), elle/il :",
+      "responses": [
+        {
+          "response": "Le remarque immédiatement et te félicite",
+          "score": 0
+        },
+        {
+          "response": "Le remarque, mais sans trop en parler",
+          "score": 1
+        },
+        {
+          "response": "Ne semble pas le remarquer",
+          "score": 2
+        },
+        {
+          "response": "L’ignore complètement",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 29,
+      "question": "Quand tu lui proposes de regarder un film ensemble, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte immédiatement et propose un film",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésitant(e)",
+          "score": 1
+        },
+        {
+          "response": "Dit qu’elle/il est occupé(e)",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 30,
+      "question": "Si tu lui envoies un message tard le soir, elle/il :",
+      "responses": [
+        {
+          "response": "Répond immédiatement et engage la conversation",
+          "score": 0
+        },
+        {
+          "response": "Répond, mais seulement brièvement",
+          "score": 1
+        },
+        {
+          "response": "Répond le lendemain matin",
+          "score": 2
+        },
+        {
+          "response": "Ne répond pas du tout",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 31,
+      "question": "Quand tu parles de tes sentiments, elle/il :",
+      "responses": [
+        {
+          "response": "T’écoute attentivement et te soutient",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste assez neutre",
+          "score": 1
+        },
+        {
+          "response": "Semble mal à l’aise ou change de sujet",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou évite complètement le sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 32,
+      "question": "Si tu lui proposes de t’accompagner à un événement (sport, concert, etc.), elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec enthousiasme",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésitant(e)",
+          "score": 1
+        },
+        {
+          "response": "Trouve une excuse pour ne pas venir",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 33,
+      "question": "Quand vous parlez en face à face, elle/il :",
+      "responses": [
+        {
+          "response": "Te regarde dans les yeux et sourit souvent",
+          "score": 0
+        },
+        {
+          "response": "Semble distrait(e), mais engage tout de même la conversation",
+          "score": 1
+        },
+        {
+          "response": "Regarde ailleurs ou semble vouloir écourter la discussion",
+          "score": 2
+        },
+        {
+          "response": "Trouve une excuse pour s’éloigner rapidement",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 34,
+      "question": "Si tu fais un compliment sur son apparence, elle/il :",
+      "responses": [
+        {
+          "response": "Te remercie avec un sourire sincère",
+          "score": 0
+        },
+        {
+          "response": "Te remercie, mais semble gêné(e)",
+          "score": 1
+        },
+        {
+          "response": "Change rapidement de sujet",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou rit nerveusement",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 35,
+      "question": "Quand tu es absent(e) pendant un moment, elle/il :",
+      "responses": [
+        {
+          "response": "Demande des nouvelles et semble s’inquiéter",
+          "score": 0
+        },
+        {
+          "response": "Remarque ton absence, mais ne cherche pas à te contacter",
+          "score": 1
+        },
+        {
+          "response": "Ne semble pas remarquer ton absence",
+          "score": 2
+        },
+        {
+          "response": "Ne dit rien, même si tu reviens",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 36,
+      "question": "Si tu es triste ou contrarié(e), elle/il :",
+      "responses": [
+        {
+          "response": "Fait tout pour te réconforter",
+          "score": 0
+        },
+        {
+          "response": "Te demande ce qui ne va pas, mais sans insister",
+          "score": 1
+        },
+        {
+          "response": "Semble un peu gêné(e) ou mal à l’aise",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou évite le sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 37,
+      "question": "Si tu évoques l’idée d’une sortie en tête-à-tête, elle/il :",
+      "responses": [
+        {
+          "response": "S’enthousiasme immédiatement",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésitant(e)",
+          "score": 1
+        },
+        {
+          "response": "Propose d’inviter d’autres personnes",
+          "score": 2
+        },
+        {
+          "response": "Refuse ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 38,
+      "question": "Quand vous êtes en groupe, elle/il :",
+      "responses": [
+        {
+          "response": "Passe la plupart du temps avec toi",
+          "score": 0
+        },
+        {
+          "response": "Partage son attention entre toi et les autres",
+          "score": 1
+        },
+        {
+          "response": "Passe plus de temps avec d’autres qu’avec toi",
+          "score": 2
+        },
+        {
+          "response": "T’ignore ou reste loin de toi",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 39,
+      "question": "Quand tu postes une photo sur les réseaux sociaux, elle/il :",
+      "responses": [
+        {
+          "response": "Like et commente de façon positive",
+          "score": 0
+        },
+        {
+          "response": "Like parfois, mais rarement commente",
+          "score": 1
+        },
+        {
+          "response": "Ne réagit presque jamais",
+          "score": 2
+        },
+        {
+          "response": "Ne réagit jamais à tes publications",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 40,
+      "question": "Si tu lui proposes d’étudier ensemble pour un examen, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec enthousiasme et propose un horaire",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble peu motivé(e)",
+          "score": 1
+        },
+        {
+          "response": "Dit qu’elle/il préfère étudier seul(e)",
+          "score": 2
+        },
+        {
+          "response": "Refuse en trouvant une excuse vague",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 41,
+      "question": "Quand tu fais une blague, elle/il :",
+      "responses": [
+        {
+          "response": "Rit sincèrement et ajoute quelque chose",
+          "score": 0
+        },
+        {
+          "response": "Rit poliment, mais sans enthousiasme",
+          "score": 1
+        },
+        {
+          "response": "Fait semblant de rire ou reste neutre",
+          "score": 2
+        },
+        {
+          "response": "Ne réagit pas ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 42,
+      "question": "Si tu lui envoies un message drôle ou un mème, elle/il :",
+      "responses": [
+        {
+          "response": "Répond avec un emoji ou un message drôle en retour",
+          "score": 0
+        },
+        {
+          "response": "Répond brièvement avec un emoji ou un simple 'lol'",
+          "score": 1
+        },
+        {
+          "response": "Réagit très rarement ou avec un message sec",
+          "score": 2
+        },
+        {
+          "response": "Ne répond pas du tout",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 43,
+      "question": "Quand tu lui proposes de jouer à un jeu vidéo ou à un jeu de société, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec enthousiasme et propose une date",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésitant(e)",
+          "score": 1
+        },
+        {
+          "response": "Dit qu’elle/il n’aime pas ce genre d’activités",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou ignore la proposition",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 44,
+      "question": "Quand vous discutez par message, elle/il :",
+      "responses": [
+        {
+          "response": "Pose des questions et montre un vrai intérêt",
+          "score": 0
+        },
+        {
+          "response": "Répond, mais ne semble pas trop impliqué(e)",
+          "score": 1
+        },
+        {
+          "response": "Répond rarement ou oublie parfois de répondre",
+          "score": 2
+        },
+        {
+          "response": "Ne répond que si tu relances plusieurs fois",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 45,
+      "question": "Quand tu lui parles de quelqu’un d’autre que tu trouves attirant(e), elle/il :",
+      "responses": [
+        {
+          "response": "Semble curieux(se) et te pose des questions",
+          "score": 0
+        },
+        {
+          "response": "Écoute sans réagir vraiment",
+          "score": 1
+        },
+        {
+          "response": "Semble un peu mal à l’aise",
+          "score": 2
+        },
+        {
+          "response": "Change de sujet ou ne réagit pas du tout",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 46,
+      "question": "Quand tu évoques l’idée d’un futur voyage ou projet ensemble, elle/il :",
+      "responses": [
+        {
+          "response": "S’enthousiasme et commence à faire des plans",
+          "score": 0
+        },
+        {
+          "response": "Semble intéressé(e), mais reste vague",
+          "score": 1
+        },
+        {
+          "response": "Montre peu d’intérêt ou trouve une excuse",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 47,
+      "question": "Si tu lui envoies un message long pour partager quelque chose d'important, elle/il :",
+      "responses": [
+        {
+          "response": "Lit tout et te répond avec attention",
+          "score": 0
+        },
+        {
+          "response": "Répond brièvement sans entrer dans les détails",
+          "score": 1
+        },
+        {
+          "response": "Réagit peu et semble indifférent(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ton message",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 48,
+      "question": "Quand vous êtes dans la même pièce mais avec des amis, elle/il :",
+      "responses": [
+        {
+          "response": "Fait attention à toi et engage des discussions",
+          "score": 0
+        },
+        {
+          "response": "Te parle de temps en temps",
+          "score": 1
+        },
+        {
+          "response": "S’adresse rarement à toi",
+          "score": 2
+        },
+        {
+          "response": "Évite tout contact ou interaction avec toi",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 49,
+      "question": "Quand tu fais un effort pour préparer quelque chose pour elle/lui (dessin, cadeau, etc.), elle/il :",
+      "responses": [
+        {
+          "response": "Apprécie sincèrement et te remercie chaleureusement",
+          "score": 0
+        },
+        {
+          "response": "Te remercie poliment, mais sans grand enthousiasme",
+          "score": 1
+        },
+        {
+          "response": "Semble peu intéressé(e) ou le remarque à peine",
+          "score": 2
+        },
+        {
+          "response": "Ignore ton geste ou le trouve gênant",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 50,
+      "question": "Si tu lui parles de tes goûts en musique, films ou séries, elle/il :",
+      "responses": [
+        {
+          "response": "Montre de l'intérêt et propose d'en discuter",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais ne réagit pas beaucoup",
+          "score": 1
+        },
+        {
+          "response": "Semble indifférent(e) ou distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Change rapidement de sujet ou ne répond pas",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 51,
+      "question": "Quand tu lui proposes une idée originale (voyage, projet, etc.), elle/il :",
+      "responses": [
+        {
+          "response": "Se montre enthousiaste et veut en savoir plus",
+          "score": 0
+        },
+        {
+          "response": "Accepte d’en parler, mais sans grand intérêt",
+          "score": 1
+        },
+        {
+          "response": "Semble hésitant(e) ou peu motivé(e)",
+          "score": 2
+        },
+        {
+          "response": "Évite ou critique directement ton idée",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 52,
+      "question": "Quand tu exprimes tes émotions (joie, tristesse, etc.), elle/il :",
+      "responses": [
+        {
+          "response": "T’écoute attentivement et partage tes sentiments",
+          "score": 0
+        },
+        {
+          "response": "T’écoute, mais reste assez neutre",
+          "score": 1
+        },
+        {
+          "response": "Semble gêné(e) ou mal à l’aise",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou minimise ce que tu ressens",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 53,
+      "question": "Quand tu es en difficulté ou que tu demandes de l’aide, elle/il :",
+      "responses": [
+        {
+          "response": "Te propose immédiatement son aide",
+          "score": 0
+        },
+        {
+          "response": "Aide, mais seulement si tu insistes",
+          "score": 1
+        },
+        {
+          "response": "Trouve une excuse pour ne pas t’aider",
+          "score": 2
+        },
+        {
+          "response": "Ignore ta demande ou refuse clairement",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 54,
+      "question": "Quand vous discutez, elle/il :",
+      "responses": [
+        {
+          "response": "Pose des questions et montre un vrai intérêt",
+          "score": 0
+        },
+        {
+          "response": "Répond, mais sans s’impliquer vraiment",
+          "score": 1
+        },
+        {
+          "response": "Donne des réponses courtes et semble distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Change souvent de sujet ou semble pressé(e) d’arrêter",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 55,
+      "question": "Quand quelqu’un d’autre te complimente devant elle/lui, elle/il :",
+      "responses": [
+        {
+          "response": "Sourit et semble d’accord avec le compliment",
+          "score": 0
+        },
+        {
+          "response": "Ne réagit pas ou semble indifférent(e)",
+          "score": 1
+        },
+        {
+          "response": "Semble mal à l’aise ou évite de réagir",
+          "score": 2
+        },
+        {
+          "response": "Change de sujet ou fait une remarque dévalorisante",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 56,
+      "question": "Quand vous marchez ensemble ou êtes dans un endroit public, elle/il :",
+      "responses": [
+        {
+          "response": "Reste près de toi et engage la conversation",
+          "score": 0
+        },
+        {
+          "response": "Reste près, mais parle peu",
+          "score": 1
+        },
+        {
+          "response": "S’éloigne légèrement ou reste silencieux(se)",
+          "score": 2
+        },
+        {
+          "response": "Semble vouloir éviter d’être vu(e) avec toi",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 57,
+      "question": "Si tu lui proposes de sortir avec tes amis et les siens, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec enthousiasme et propose une date",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésitant(e)",
+          "score": 1
+        },
+        {
+          "response": "Refuse poliment et trouve une excuse",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou refuse directement",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 58,
+      "question": "Quand tu lui parles de ton projet professionnel ou scolaire, elle/il :",
+      "responses": [
+        {
+          "response": "Écoute attentivement et te pose des questions",
+          "score": 0
+        },
+        {
+          "response": "Montre un intérêt modéré et réagit brièvement",
+          "score": 1
+        },
+        {
+          "response": "Semble distrait(e) ou peu concerné(e)",
+          "score": 2
+        },
+        {
+          "response": "Change de sujet ou ne réagit pas",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 59,
+      "question": "Quand tu évoques un endroit où tu veux voyager, elle/il :",
+      "responses": [
+        {
+          "response": "Propose d’en parler davantage et semble intéressé(e)",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais sans trop réagir",
+          "score": 1
+        },
+        {
+          "response": "Réagit vaguement ou change de sujet",
+          "score": 2
+        },
+        {
+          "response": "Semble totalement désintéressé(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 60,
+      "question": "Si tu lui proposes de te retrouver pour déjeuner ou boire un café, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec enthousiasme",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésitant(e)",
+          "score": 1
+        },
+        {
+          "response": "Trouve une excuse pour ne pas venir",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou ignore la proposition",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 61,
+      "question": "Si tu mentionnes une personne qui semble s'intéresser à toi, elle/il :",
+      "responses": [
+        {
+          "response": "Semble curieux(se) et te pose des questions",
+          "score": 0
+        },
+        {
+          "response": "Réagit calmement, mais sans grand intérêt",
+          "score": 1
+        },
+        {
+          "response": "Change rapidement de sujet",
+          "score": 2
+        },
+        {
+          "response": "Semble mal à l’aise ou évite le sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 62,
+      "question": "Si tu lui parles d’un conflit que tu as eu avec un(e) ami(e), elle/il :",
+      "responses": [
+        {
+          "response": "Te soutient et te donne des conseils",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste assez neutre",
+          "score": 1
+        },
+        {
+          "response": "Semble peu concerné(e) ou distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou minimise tes préoccupations",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 63,
+      "question": "Quand tu lui demandes ce qu’elle/il pense de toi, elle/il :",
+      "responses": [
+        {
+          "response": "Te fait des compliments sincères",
+          "score": 0
+        },
+        {
+          "response": "Répond de manière neutre, mais polie",
+          "score": 1
+        },
+        {
+          "response": "Hésite ou répond vaguement",
+          "score": 2
+        },
+        {
+          "response": "Évite de répondre ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 64,
+      "question": "Si tu lui envoies un selfie ou une photo amusante, elle/il :",
+      "responses": [
+        {
+          "response": "Réagit positivement avec enthousiasme",
+          "score": 0
+        },
+        {
+          "response": "Répond avec un simple emoji ou commentaire court",
+          "score": 1
+        },
+        {
+          "response": "Semble indifférent(e) ou ne réagit pas vraiment",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement la photo",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 65,
+      "question": "Quand tu lui proposes d’aller à un événement spécial (concert, exposition, etc.), elle/il :",
+      "responses": [
+        {
+          "response": "Accepte tout de suite et s’enthousiasme",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésitant(e)",
+          "score": 1
+        },
+        {
+          "response": "Trouve une excuse pour ne pas venir",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou critique l’idée",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 66,
+      "question": "Quand vous discutez de sujets sérieux, elle/il :",
+      "responses": [
+        {
+          "response": "Écoute attentivement et partage son point de vue",
+          "score": 0
+        },
+        {
+          "response": "Réagit calmement, mais ne développe pas beaucoup",
+          "score": 1
+        },
+        {
+          "response": "Semble distrait(e) ou peu intéressé(e)",
+          "score": 2
+        },
+        {
+          "response": "Change de sujet ou met fin à la conversation",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 67,
+      "question": "Quand tu lui parles de tes objectifs à long terme (études, carrière), elle/il :",
+      "responses": [
+        {
+          "response": "Écoute avec beaucoup d’intérêt et te pose des questions",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais sans trop réagir",
+          "score": 1
+        },
+        {
+          "response": "Change de sujet rapidement",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou semble totalement désintéressé(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": false,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 68,
+      "question": "Quand tu lui proposes de travailler sur un projet ou une idée ensemble, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte immédiatement avec enthousiasme",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais reste réservé(e)",
+          "score": 1
+        },
+        {
+          "response": "Hésite ou trouve une excuse",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement sans montrer d’intérêt",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 69,
+      "question": "Quand tu partages une réussite personnelle, elle/il :",
+      "responses": [
+        {
+          "response": "Te félicite sincèrement et semble heureux(se) pour toi",
+          "score": 0
+        },
+        {
+          "response": "Te félicite, mais sans trop d’enthousiasme",
+          "score": 1
+        },
+        {
+          "response": "Réagit brièvement sans émotion",
+          "score": 2
+        },
+        {
+          "response": "Change de sujet ou minimise ta réussite",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 70,
+      "question": "Quand tu lui parles de tes relations avec d’autres amis, elle/il :",
+      "responses": [
+        {
+          "response": "S’intéresse et te pose des questions",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste assez neutre",
+          "score": 1
+        },
+        {
+          "response": "Semble un peu distrait(e) ou indifférent(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 71,
+      "question": "Si tu mentionnes une expérience ou un voyage marquant, elle/il :",
+      "responses": [
+        {
+          "response": "Te demande des détails et semble captivé(e)",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais sans trop réagir",
+          "score": 1
+        },
+        {
+          "response": "Répond vaguement ou semble peu intéressé(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 72,
+      "question": "Quand tu parles de tes centres d’intérêt (films, livres, art), elle/il :",
+      "responses": [
+        {
+          "response": "S’intéresse et partage son propre avis",
+          "score": 0
+        },
+        {
+          "response": "Réagit brièvement et change rapidement de sujet",
+          "score": 1
+        },
+        {
+          "response": "Écoute distraitement ou reste silencieux(se)",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou montre de l’ennui",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 73,
+      "question": "Quand tu proposes une activité pour le week-end, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec enthousiasme et commence à planifier",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésitant(e)",
+          "score": 1
+        },
+        {
+          "response": "Hésite et finit par décliner",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou semble agacé(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 74,
+      "question": "Quand tu lui montres un nouveau talent ou une compétence, elle/il :",
+      "responses": [
+        {
+          "response": "Te félicite sincèrement et montre de l’admiration",
+          "score": 0
+        },
+        {
+          "response": "Fait un compliment, mais sans grande émotion",
+          "score": 1
+        },
+        {
+          "response": "Réagit vaguement ou avec indifférence",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou minimise tes efforts",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 75,
+      "question": "Si tu lui demandes de te rejoindre pour un événement inattendu, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte sans hésitation et semble motivé(e)",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais avec un peu d’hésitation",
+          "score": 1
+        },
+        {
+          "response": "Dit qu’elle/il est occupé(e)",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou ignore ta proposition",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 76,
+      "question": "Quand tu parles de tes émotions ou de ce que tu ressens, elle/il :",
+      "responses": [
+        {
+          "response": "Écoute attentivement et te soutient sincèrement",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste assez neutre",
+          "score": 1
+        },
+        {
+          "response": "Réagit brièvement ou semble mal à l’aise",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou minimise ce que tu dis",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 77,
+      "question": "Quand tu lui racontes une anecdote amusante, elle/il :",
+      "responses": [
+        {
+          "response": "Rit sincèrement et ajoute ses propres anecdotes",
+          "score": 0
+        },
+        {
+          "response": "Rit légèrement, mais sans plus",
+          "score": 1
+        },
+        {
+          "response": "Semble peu réceptif(ve) ou change de sujet",
+          "score": 2
+        },
+        {
+          "response": "Ne réagit pas ou semble ennuyé(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 78,
+      "question": "Quand tu lui parles d’un sujet sérieux ou d’actualité, elle/il :",
+      "responses": [
+        {
+          "response": "Participe activement à la discussion",
+          "score": 0
+        },
+        {
+          "response": "Écoute et donne son avis brièvement",
+          "score": 1
+        },
+        {
+          "response": "Semble distrait(e) ou peu concerné(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou évite la conversation",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 79,
+      "question": "Quand tu exprimes un désaccord avec elle/lui, elle/il :",
+      "responses": [
+        {
+          "response": "Écoute calmement et essaie de te comprendre",
+          "score": 0
+        },
+        {
+          "response": "Accepte le désaccord, mais sans beaucoup réagir",
+          "score": 1
+        },
+        {
+          "response": "Semble irrité(e) ou peu à l’aise",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou rejette ton point de vue",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 80,
+      "question": "Quand tu lui demandes de parler d’elle/lui-même, elle/il :",
+      "responses": [
+        {
+          "response": "Te parle ouvertement et partage ses pensées",
+          "score": 0
+        },
+        {
+          "response": "Répond de manière concise sans trop de détails",
+          "score": 1
+        },
+        {
+          "response": "Donne une réponse vague et change de sujet",
+          "score": 2
+        },
+        {
+          "response": "Évite de répondre ou semble gêné(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 81,
+      "question": "Quand vous planifiez une activité ensemble, elle/il :",
+      "responses": [
+        {
+          "response": "S’implique activement dans l’organisation",
+          "score": 0
+        },
+        {
+          "response": "Participe, mais te laisse gérer la plupart des détails",
+          "score": 1
+        },
+        {
+          "response": "Se désintéresse et ne fait aucun effort",
+          "score": 2
+        },
+        {
+          "response": "Trouve une excuse pour éviter de participer",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 82,
+      "question": "Quand tu lui demandes des nouvelles de sa journée, elle/il :",
+      "responses": [
+        {
+          "response": "Raconte tout en détail avec enthousiasme",
+          "score": 0
+        },
+        {
+          "response": "Partage quelques moments importants",
+          "score": 1
+        },
+        {
+          "response": "Répond brièvement sans entrer dans les détails",
+          "score": 2
+        },
+        {
+          "response": "Réagit vaguement ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 83,
+      "question": "Si tu lui offres un cadeau ou une attention particulière, elle/il :",
+      "responses": [
+        {
+          "response": "Te remercie chaleureusement et semble touché(e)",
+          "score": 0
+        },
+        {
+          "response": "Te remercie poliment, mais sans grand enthousiasme",
+          "score": 1
+        },
+        {
+          "response": "Réagit brièvement ou semble indifférent(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou minimise ton geste",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 84,
+      "question": "Quand tu parles de tes proches ou de ta famille, elle/il :",
+      "responses": [
+        {
+          "response": "Pose des questions et montre de l’intérêt",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste assez neutre",
+          "score": 1
+        },
+        {
+          "response": "Semble indifférent(e) ou distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 85,
+      "question": "Quand tu lui demandes conseil sur un choix difficile, elle/il :",
+      "responses": [
+        {
+          "response": "T’aide avec des conseils réfléchis",
+          "score": 0
+        },
+        {
+          "response": "Répond rapidement sans s’impliquer beaucoup",
+          "score": 1
+        },
+        {
+          "response": "Donne une réponse vague ou peu utile",
+          "score": 2
+        },
+        {
+          "response": "Évite de répondre ou semble ennuyé(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 86,
+      "question": "Quand tu lui parles d’une sortie ou d’une fête avec ses amis, elle/il :",
+      "responses": [
+        {
+          "response": "Te propose de venir et t’inclut dans ses plans",
+          "score": 0
+        },
+        {
+          "response": "Mentionne la fête, mais ne t’invite pas directement",
+          "score": 1
+        },
+        {
+          "response": "Réagit vaguement ou évite le sujet",
+          "score": 2
+        },
+        {
+          "response": "Change de sujet ou évite de t’en parler",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 87,
+      "question": "Si tu lui envoies un message pour parler de ton jour, elle/il :",
+      "responses": [
+        {
+          "response": "Répond avec intérêt et te pose des questions",
+          "score": 0
+        },
+        {
+          "response": "Répond, mais de façon neutre",
+          "score": 1
+        },
+        {
+          "response": "Réagit brièvement ou semble distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Ne répond pas ou semble ennuyé(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 88,
+      "question": "Quand tu proposes une sortie en groupe, elle/il :",
+      "responses": [
+        {
+          "response": "S’enthousiasme et t’aide à organiser",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais reste en retrait",
+          "score": 1
+        },
+        {
+          "response": "Semble hésitant(e) et finit par décliner",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou trouve une excuse",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 89,
+      "question": "Quand tu lui fais un cadeau inattendu, elle/il :",
+      "responses": [
+        {
+          "response": "Semble touché(e) et te remercie chaleureusement",
+          "score": 0
+        },
+        {
+          "response": "Te remercie poliment, mais sans grand enthousiasme",
+          "score": 1
+        },
+        {
+          "response": "Réagit de façon neutre ou semble gêné(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou minimise ton geste",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 90,
+      "question": "Quand tu parles d’un projet qui te tient à cœur, elle/il :",
+      "responses": [
+        {
+          "response": "Écoute avec intérêt et te soutient",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais ne semble pas très engagé(e)",
+          "score": 1
+        },
+        {
+          "response": "Change de sujet rapidement",
+          "score": 2
+        },
+        {
+          "response": "Semble distrait(e) ou peu concerné(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 91,
+      "question": "Quand tu parles d’un événement passé, elle/il :",
+      "responses": [
+        {
+          "response": "Pose des questions et partage ses impressions",
+          "score": 0
+        },
+        {
+          "response": "Écoute sans trop réagir",
+          "score": 1
+        },
+        {
+          "response": "Semble indifférent(e) ou distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 92,
+      "question": "Quand tu lui demandes ce qu’elle/il fait ce week-end, elle/il :",
+      "responses": [
+        {
+          "response": "Te raconte ses plans et te propose de venir",
+          "score": 0
+        },
+        {
+          "response": "Répond vaguement sans t’inviter",
+          "score": 1
+        },
+        {
+          "response": "Semble hésitant(e) ou change de sujet",
+          "score": 2
+        },
+        {
+          "response": "Évite complètement de te répondre",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 93,
+      "question": "Quand tu lui parles de tes envies futures (voyages, activités), elle/il :",
+      "responses": [
+        {
+          "response": "S’intéresse et partage ses propres idées",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais sans grand enthousiasme",
+          "score": 1
+        },
+        {
+          "response": "Semble indifférent(e) ou change de sujet",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou semble ennuyé(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 94,
+      "question": "Quand tu lui proposes de te rejoindre après l’école ou le travail, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec plaisir",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésitant(e)",
+          "score": 1
+        },
+        {
+          "response": "Trouve une excuse pour ne pas venir",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou ne répond pas",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 95,
+      "question": "Quand tu lui racontes une anecdote amusante, elle/il :",
+      "responses": [
+        {
+          "response": "Rit sincèrement et rebondit sur ton histoire",
+          "score": 0
+        },
+        {
+          "response": "Rit légèrement, mais sans plus",
+          "score": 1
+        },
+        {
+          "response": "Semble peu intéressé(e) ou distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Ne réagit pas ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 96,
+      "question": "Quand tu lui proposes de participer à un projet commun, elle/il :",
+      "responses": [
+        {
+          "response": "S’enthousiasme et propose des idées",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais sans beaucoup s’investir",
+          "score": 1
+        },
+        {
+          "response": "Hésite ou trouve une excuse",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou ignore ta proposition",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 97,
+      "question": "Quand tu lui parles de ta journée, elle/il :",
+      "responses": [
+        {
+          "response": "Écoute attentivement et te pose des questions",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais sans montrer beaucoup d’intérêt",
+          "score": 1
+        },
+        {
+          "response": "Répond brièvement ou semble distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou change de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 98,
+      "question": "Quand tu partages tes centres d’intérêt (musique, cinéma, etc.), elle/il :",
+      "responses": [
+        {
+          "response": "Partage les siens et engage la conversation",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais ne réagit pas beaucoup",
+          "score": 1
+        },
+        {
+          "response": "Semble indifférent(e) ou distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Change de sujet ou ne répond pas",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 99,
+      "question": "Quand tu lui dis que tu es fatigué(e) ou stressé(e), elle/il :",
+      "responses": [
+        {
+          "response": "Prend le temps de te réconforter",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais sans trop s’impliquer",
+          "score": 1
+        },
+        {
+          "response": "Semble distrait(e) ou indifférent(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou change rapidement de sujet",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 100,
+      "question": "Quand tu fais un effort pour l’impressionner (nouveau look, réussite), elle/il :",
+      "responses": [
+        {
+          "response": "Le remarque immédiatement et te complimente",
+          "score": 0
+        },
+        {
+          "response": "Le remarque, mais reste neutre",
+          "score": 1
+        },
+        {
+          "response": "Ne semble pas le remarquer",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou minimise ton effort",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 101,
+      "question": "Quand tu es malade ou absent(e), elle/il :",
+      "responses": [
+        {
+          "response": "Te demande des nouvelles régulièrement",
+          "score": 0
+        },
+        {
+          "response": "Prend des nouvelles une fois",
+          "score": 1
+        },
+        {
+          "response": "Semble indifférent(e)",
+          "score": 2
+        },
+        {
+          "response": "N’y fait pas attention",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 102,
+      "question": "Quand vous êtes en groupe, elle/il :",
+      "responses": [
+        {
+          "response": "Passe beaucoup de temps avec toi",
+          "score": 0
+        },
+        {
+          "response": "Te parle parfois, mais partage son temps",
+          "score": 1
+        },
+        {
+          "response": "S’éloigne ou passe plus de temps avec les autres",
+          "score": 2
+        },
+        {
+          "response": "Semble t’éviter",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 103,
+      "question": "Quand tu mentionnes une réussite personnelle, elle/il :",
+      "responses": [
+        {
+          "response": "Te félicite chaleureusement et montre de l’intérêt",
+          "score": 0
+        },
+        {
+          "response": "Te félicite, mais reste neutre",
+          "score": 1
+        },
+        {
+          "response": "Réagit brièvement ou semble distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou minimise ta réussite",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 104,
+      "question": "Quand tu lui dis que tu veux passer plus de temps avec elle/lui, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec enthousiasme",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais semble hésitant(e)",
+          "score": 1
+        },
+        {
+          "response": "Semble éviter ou trouver des excuses",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou ignore ta demande",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 105,
+      "question": "Quand tu lui demandes son avis sur une tenue ou un style, elle/il :",
+      "responses": [
+        {
+          "response": "Te complimente et te donne un avis détaillé",
+          "score": 0
+        },
+        {
+          "response": "Donne un avis poli, mais bref",
+          "score": 1
+        },
+        {
+          "response": "Semble peu intéressé(e) ou distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Évite de répondre ou fait une remarque négative",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 106,
+      "question": "Quand tu lui demandes de jouer avec toi à un jeu vidéo ou un jeu de société, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec enthousiasme",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais reste neutre",
+          "score": 1
+        },
+        {
+          "response": "Hésite et finit par refuser",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou ignore ta demande",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 107,
+      "question": "Quand tu lui envoies une blague ou un mème, elle/il :",
+      "responses": [
+        {
+          "response": "Rit sincèrement et te répond avec une autre blague",
+          "score": 0
+        },
+        {
+          "response": "Rit légèrement, mais ne rebondit pas",
+          "score": 1
+        },
+        {
+          "response": "Semble peu intéressé(e) ou réagit tardivement",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ou ne répond pas",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 108,
+      "question": "Quand tu parles de tes loisirs ou activités, elle/il :",
+      "responses": [
+        {
+          "response": "Montre de l’intérêt et partage les siens",
+          "score": 0
+        },
+        {
+          "response": "Écoute sans trop réagir",
+          "score": 1
+        },
+        {
+          "response": "Semble indifférent(e) ou distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Change de sujet ou ne répond pas",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 109,
+      "question": "Quand tu lui proposes de travailler ensemble sur un devoir ou un projet, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec plaisir",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais ne semble pas motivé(e)",
+          "score": 1
+        },
+        {
+          "response": "Trouve une excuse pour ne pas le faire",
+          "score": 2
+        },
+        {
+          "response": "Refuse directement ou ignore ta proposition",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 110,
+      "question": "Quand tu lui envoies un message pour parler d’un sujet qui te tient à cœur, elle/il :",
+      "responses": [
+        {
+          "response": "Te répond rapidement et te soutient",
+          "score": 0
+        },
+        {
+          "response": "Répond, mais reste neutre",
+          "score": 1
+        },
+        {
+          "response": "Réagit brièvement ou semble peu intéressé(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou répond tardivement sans s’impliquer",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 111,
+      "question": "Quand tu partages une de tes réussites (sport, école, création), elle/il :",
+      "responses": [
+        {
+          "response": "Te félicite sincèrement et montre de l’intérêt",
+          "score": 0
+        },
+        {
+          "response": "Te félicite brièvement",
+          "score": 1
+        },
+        {
+          "response": "Semble peu concerné(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou minimise ta réussite",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 112,
+      "question": "Quand tu proposes de l’aider pour quelque chose, elle/il :",
+      "responses": [
+        {
+          "response": "Accepte avec gratitude",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais reste distant(e)",
+          "score": 1
+        },
+        {
+          "response": "Refuse poliment",
+          "score": 2
+        },
+        {
+          "response": "Refuse ou semble agacé(e)",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 113,
+      "question": "Quand tu es triste ou contrarié(e), elle/il :",
+      "responses": [
+        {
+          "response": "Te réconforte et te propose son aide",
+          "score": 0
+        },
+        {
+          "response": "Te demande ce qui ne va pas, mais sans insister",
+          "score": 1
+        },
+        {
+          "response": "Semble indifférent(e) ou distrait(e)",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou minimise ce que tu ressens",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 114,
+      "question": "Quand vous discutez en groupe, elle/il :",
+      "responses": [
+        {
+          "response": "Te parle souvent et partage des moments avec toi",
+          "score": 0
+        },
+        {
+          "response": "Te parle, mais partage aussi avec les autres",
+          "score": 1
+        },
+        {
+          "response": "Semble distant(e) ou concentré(e) sur les autres",
+          "score": 2
+        },
+        {
+          "response": "Évite ou ignore ta présence",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 115,
+      "question": "Quand tu fais un compliment à son sujet, elle/il :",
+      "responses": [
+        {
+          "response": "Te remercie chaleureusement et semble touché(e)",
+          "score": 0
+        },
+        {
+          "response": "Te remercie poliment, mais sans grande réaction",
+          "score": 1
+        },
+        {
+          "response": "Semble gêné(e) ou réagit peu",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou minimise ton compliment",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 116,
+      "question": "Quand tu mentionnes quelque chose que tu veux vraiment faire, elle/il :",
+      "responses": [
+        {
+          "response": "Te soutient et montre de l’enthousiasme",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste neutre",
+          "score": 1
+        },
+        {
+          "response": "Semble distrait(e) ou change de sujet",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ce que tu dis",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 117,
+      "question": "Quand vous êtes en désaccord sur un sujet important, elle/il :",
+      "responses": [
+        {
+          "response": "Écoute ton point de vue et cherche un compromis",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste sur ses positions",
+          "score": 1
+        },
+        {
+          "response": "Semble agacé(e) et évite la discussion",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ton opinion",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 118,
+      "question": "Si vous devez prendre une décision ensemble, elle/il :",
+      "responses": [
+        {
+          "response": "Tient compte de ton avis et collabore activement",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais prend la décision seul(e)",
+          "score": 1
+        },
+        {
+          "response": "Semble peu intéressé(e) par ton opinion",
+          "score": 2
+        },
+        {
+          "response": "Prend la décision sans te consulter",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 119,
+      "question": "Quand vous partagez un moment intime (confidences, secrets), elle/il :",
+      "responses": [
+        {
+          "response": "Se montre vulnérable et partage aussi ses secrets",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste réservé(e) sur ses propres confidences",
+          "score": 1
+        },
+        {
+          "response": "Semble mal à l'aise et change de sujet",
+          "score": 2
+        },
+        {
+          "response": "Évite complètement ce genre de conversation",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 120,
+      "question": "Comment réagit-elle/il quand vous évoquez vos peurs ou vulnérabilités ?",
+      "responses": [
+        {
+          "response": "Te réconforte et partage ses propres peurs",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste assez neutre",
+          "score": 1
+        },
+        {
+          "response": "Semble gêné(e) et minimise tes inquiétudes",
+          "score": 2
+        },
+        {
+          "response": "Change de sujet ou ignore ce que tu dis",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 121,
+      "question": "Quand vous exprimez de la jalousie ou de l'insécurité, elle/il :",
+      "responses": [
+        {
+          "response": "Te rassure et montre qu'elle/il tient à toi",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais ne fait rien pour te rassurer",
+          "score": 1
+        },
+        {
+          "response": "Semble agacé(e) par tes inquiétudes",
+          "score": 2
+        },
+        {
+          "response": "Ignore ou critique tes sentiments",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 122,
+      "question": "Comment gère-t-elle/il les moments de tension ou de conflit entre vous ?",
+      "responses": [
+        {
+          "response": "Cherche activement à résoudre le problème",
+          "score": 0
+        },
+        {
+          "response": "Attend que les choses se calment d'elles-mêmes",
+          "score": 1
+        },
+        {
+          "response": "Évite la confrontation et s'éloigne",
+          "score": 2
+        },
+        {
+          "response": "Aggrave la situation par ses réactions",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 123,
+      "question": "Si vous deviez définir votre relation en 3 mots, elle/il dirait :",
+      "responses": [
+        {
+          "response": "Des mots positifs et affectueux",
+          "score": 0
+        },
+        {
+          "response": "Des termes neutres et amicaux",
+          "score": 1
+        },
+        {
+          "response": "Des mots vagues ou peu engageants",
+          "score": 2
+        },
+        {
+          "response": "Éviterait de répondre ou serait négatif",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 124,
+      "question": "Comment parle-t-elle/il de vous à ses amis les plus proches ?",
+      "responses": [
+        {
+          "response": "En termes très positifs et affectueux",
+          "score": 0
+        },
+        {
+          "response": "De manière neutre, comme un(e) ami(e)",
+          "score": 1
+        },
+        {
+          "response": "Rarement ou de façon impersonnelle",
+          "score": 2
+        },
+        {
+          "response": "Jamais ou de manière négative",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 125,
+      "question": "Quand vous évoquez l'avenir de votre relation, elle/il :",
+      "responses": [
+        {
+          "response": "S'enthousiasme et fait des projets avec toi",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste vague sur l'avenir",
+          "score": 1
+        },
+        {
+          "response": "Semble mal à l'aise et change de sujet",
+          "score": 2
+        },
+        {
+          "response": "Évite complètement ce type de discussion",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 126,
+      "question": "Comment utilise-t-elle/il les emojis et réactions dans vos conversations ?",
+      "responses": [
+        {
+          "response": "Beaucoup d'emojis affectueux et réactions positives",
+          "score": 0
+        },
+        {
+          "response": "Quelques emojis neutres de temps en temps",
+          "score": 1
+        },
+        {
+          "response": "Très peu d'emojis ou réactions impersonnelles",
+          "score": 2
+        },
+        {
+          "response": "Jamais d'emojis ou réactions froides",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 127,
+      "question": "Quand vous partagez du contenu sur les réseaux sociaux, elle/il :",
+      "responses": [
+        {
+          "response": "Like, commente et partage régulièrement",
+          "score": 0
+        },
+        {
+          "response": "Like parfois, mais ne commente pas",
+          "score": 1
+        },
+        {
+          "response": "Réagit rarement à tes publications",
+          "score": 2
+        },
+        {
+          "response": "Ignore complètement ton contenu",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Affection"
+    },
+    {
+      "id": 128,
+      "question": "Comment gère-t-elle/il les silences prolongés dans vos échanges ?",
+      "responses": [
+        {
+          "response": "Relance la conversation et s'inquiète",
+          "score": 0
+        },
+        {
+          "response": "Attend que tu relances toi-même",
+          "score": 1
+        },
+        {
+          "response": "Ne semble pas remarquer le silence",
+          "score": 2
+        },
+        {
+          "response": "Profite du silence pour s'éloigner",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Communication"
+    },
+    {
+      "id": 129,
+      "question": "Quand vous discutez de vos valeurs fondamentales, elle/il :",
+      "responses": [
+        {
+          "response": "Partage ses valeurs et cherche des points communs",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais ne partage pas beaucoup",
+          "score": 1
+        },
+        {
+          "response": "Semble peu intéressé(e) par le sujet",
+          "score": 2
+        },
+        {
+          "response": "Évite ce type de conversation",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 130,
+      "question": "Comment réagit-elle/il face à vos différences d'opinion sur des sujets importants ?",
+      "responses": [
+        {
+          "response": "Respecte ton opinion et cherche à comprendre",
+          "score": 0
+        },
+        {
+          "response": "Accepte la différence, mais ne s'engage pas",
+          "score": 1
+        },
+        {
+          "response": "Semble irrité(e) par le désaccord",
+          "score": 2
+        },
+        {
+          "response": "Critique ou rejette ton point de vue",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 131,
+      "question": "Quand vous évoquez vos attentes dans une relation, elle/il :",
+      "responses": [
+        {
+          "response": "Partage ses attentes et cherche un équilibre",
+          "score": 0
+        },
+        {
+          "response": "Écoute, mais reste vague sur ses propres attentes",
+          "score": 1
+        },
+        {
+          "response": "Semble mal à l'aise avec le sujet",
+          "score": 2
+        },
+        {
+          "response": "Évite complètement cette discussion",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Intimité"
+    },
+    {
+      "id": 132,
+      "question": "Si vous deviez planifier un projet à long terme ensemble, elle/il :",
+      "responses": [
+        {
+          "response": "S'enthousiasme et s'implique activement",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais laisse tout le travail à toi",
+          "score": 1
+        },
+        {
+          "response": "Semble hésitant(e) et peu motivé(e)",
+          "score": 2
+        },
+        {
+          "response": "Refuse ou trouve une excuse",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 133,
+      "question": "Comment parle-t-elle/il de vous inclure dans ses projets personnels ?",
+      "responses": [
+        {
+          "response": "Te propose spontanément de participer",
+          "score": 0
+        },
+        {
+          "response": "T'accepte si tu demandes toi-même",
+          "score": 1
+        },
+        {
+          "response": "Te mentionne rarement dans ses projets",
+          "score": 2
+        },
+        {
+          "response": "Ne t'inclut jamais dans ses plans",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 134,
+      "question": "Quand vous évoquez des étapes importantes (rencontre famille, etc.), elle/il :",
+      "responses": [
+        {
+          "response": "S'enthousiasme et propose des idées",
+          "score": 0
+        },
+        {
+          "response": "Accepte, mais sans grand enthousiasme",
+          "score": 1
+        },
+        {
+          "response": "Semble hésitant(e) et reporte à plus tard",
+          "score": 2
+        },
+        {
+          "response": "Évite ou refuse catégoriquement",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Projet"
+    },
+    {
+      "id": 135,
+      "question": "Quels sont les petits gestes qu'elle/il fait qui montrent son attention envers vous ?",
+      "responses": [
+        {
+          "response": "Beaucoup de petites attentions régulières",
+          "score": 0
+        },
+        {
+          "response": "Quelques gestes occasionnels",
+          "score": 1
+        },
+        {
+          "response": "Très peu de gestes d'attention",
+          "score": 2
+        },
+        {
+          "response": "Aucun geste particulier",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        1,
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Attention"
+    },
+    {
+      "id": 136,
+      "question": "Comment son langage corporel change-t-il quand vous êtes seul(e) avec elle/lui ?",
+      "responses": [
+        {
+          "response": "Devient plus détendu(e) et proche de toi",
+          "score": 0
+        },
+        {
+          "response": "Reste le même qu'en groupe",
+          "score": 1
+        },
+        {
+          "response": "Semble un peu plus distant(e)",
+          "score": 2
+        },
+        {
+          "response": "Devient visiblement mal à l'aise",
+          "score": 3
+        }
+      ],
+      "ageRangeQuestion": [
+        2,
+        3
+      ],
+      "isPremium": true,
+      "questionTheme": "Affection"
+    }
+  ]
 }
