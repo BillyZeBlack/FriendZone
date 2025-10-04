@@ -11,6 +11,7 @@
 		9FE571C42E8EC43C008C4574 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE571C32E8EC43C008C4574 /* GoogleMobileAds */; };
 		9FE571C62E8EC6D2008C4574 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571C52E8EC6D2008C4574 /* AdBannerView.swift */; };
 		9FE571C92E911A07008C4574 /* PremiumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571C82E911A07008C4574 /* PremiumManager.swift */; };
+		9FE571CB2E912FEB008C4574 /* AnalysisLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571CA2E912FEB008C4574 /* AnalysisLoaderView.swift */; };
 		BE015FFF2CF722E500374673 /* DataScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE015FFE2CF722DA00374673 /* DataScore.swift */; };
 		BE0160012CF7544E00374673 /* CardChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0160002CF7544E00374673 /* CardChartView.swift */; };
 		BE5BAD4D2CE4EE06004ED756 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5BAD4C2CE4EE06004ED756 /* CardView.swift */; };
@@ -45,6 +46,7 @@
 		9FE571C52E8EC6D2008C4574 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
 		9FE571C72E8EC754008C4574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9FE571C82E911A07008C4574 /* PremiumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumManager.swift; sourceTree = "<group>"; };
+		9FE571CA2E912FEB008C4574 /* AnalysisLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisLoaderView.swift; sourceTree = "<group>"; };
 		BE015FFE2CF722DA00374673 /* DataScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScore.swift; sourceTree = "<group>"; };
 		BE0160002CF7544E00374673 /* CardChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardChartView.swift; sourceTree = "<group>"; };
 		BE5BAD4C2CE4EE06004ED756 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				BE0160002CF7544E00374673 /* CardChartView.swift */,
 				BEE3791F2CF9BF0D000F41AF /* FormHiddenBackground.swift */,
 				9FE571C52E8EC6D2008C4574 /* AdBannerView.swift */,
+				9FE571CA2E912FEB008C4574 /* AnalysisLoaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				BEE70E512CEF35FC000C4B71 /* TextShimmer.swift in Sources */,
 				BEDFF07F2CC8FB4800BB69B2 /* ContentView.swift in Sources */,
+				9FE571CB2E912FEB008C4574 /* AnalysisLoaderView.swift in Sources */,
 				9FE571C12E8EC3F6008C4574 /* AdInterstitialManager.swift in Sources */,
 				BE0160012CF7544E00374673 /* CardChartView.swift in Sources */,
 				BEE70E412CEDE6B9000C4B71 /* Result.swift in Sources */,

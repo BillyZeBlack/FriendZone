@@ -154,7 +154,7 @@ struct ContentView: View {
 				.background(Color(.systemGroupedBackground))
 				
 			} else {
-				ResultView()
+				AnalysisLoaderView()
 					.environmentObject(formData)
 					.environmentObject(resultLoader)
 					.toolbarRole(.editor)
