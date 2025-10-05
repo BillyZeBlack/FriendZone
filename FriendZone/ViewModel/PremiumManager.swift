@@ -9,7 +9,17 @@ import Foundation
 import StoreKit
 
 class PremiumManager: ObservableObject {
-    @Published var isPremiumActive: Bool = false
+    @Published var isPremiumActive: Bool = false {
+        didSet {
+            // Synchroniser avec ContentViewModel
+            if let contentVM = contentViewModel {
+                contentVM.hasPremiumPack = isPremiumActive
+            }
+        }
+    }
+    
+    // Référence à ContentViewModel pour synchronisation
+    weak var contentViewModel: ContentViewModel?
     
     // Pour les tests : variable pour activer/désactiver manuellement
     @Published var isTestMode: Bool = true

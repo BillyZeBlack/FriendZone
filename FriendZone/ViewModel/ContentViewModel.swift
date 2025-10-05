@@ -13,6 +13,7 @@ class ContentViewModel: ObservableObject {
         didSet {
             if hasPremiumPack {
                 UserDefaults.standard.set(true, forKey: "hasPremiumPack")
+                print("Pack activé")
             }
         }
     }

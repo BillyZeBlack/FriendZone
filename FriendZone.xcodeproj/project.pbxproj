@@ -12,6 +12,7 @@
 		9FE571C62E8EC6D2008C4574 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571C52E8EC6D2008C4574 /* AdBannerView.swift */; };
 		9FE571C92E911A07008C4574 /* PremiumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571C82E911A07008C4574 /* PremiumManager.swift */; };
 		9FE571CB2E912FEB008C4574 /* AnalysisLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571CA2E912FEB008C4574 /* AnalysisLoaderView.swift */; };
+		9FE571CD2E926F5A008C4574 /* AdInterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571CC2E926F5A008C4574 /* AdInterstitialView.swift */; };
 		BE015FFF2CF722E500374673 /* DataScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE015FFE2CF722DA00374673 /* DataScore.swift */; };
 		BE0160012CF7544E00374673 /* CardChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0160002CF7544E00374673 /* CardChartView.swift */; };
 		BE5BAD4D2CE4EE06004ED756 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5BAD4C2CE4EE06004ED756 /* CardView.swift */; };
@@ -47,6 +48,7 @@
 		9FE571C72E8EC754008C4574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9FE571C82E911A07008C4574 /* PremiumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumManager.swift; sourceTree = "<group>"; };
 		9FE571CA2E912FEB008C4574 /* AnalysisLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisLoaderView.swift; sourceTree = "<group>"; };
+		9FE571CC2E926F5A008C4574 /* AdInterstitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdInterstitialView.swift; sourceTree = "<group>"; };
 		BE015FFE2CF722DA00374673 /* DataScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScore.swift; sourceTree = "<group>"; };
 		BE0160002CF7544E00374673 /* CardChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardChartView.swift; sourceTree = "<group>"; };
 		BE5BAD4C2CE4EE06004ED756 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		BEDFF08C2CC8FB9300BB69B2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9FE571C02E8EC3F6008C4574 /* AdInterstitialManager.swift */,
 				BEDFF09B2CC934F200BB69B2 /* QuestionLoader.swift */,
 				BEDFF0A12CCB7C5B00BB69B2 /* FormData.swift */,
 				BEA115902CE204CC0093DA74 /* ContentViewModel.swift */,
@@ -153,7 +156,6 @@
 				BEA1158C2CD27C2A0093DA74 /* FriendZoneQuestion.swift */,
 				BEE70E402CEDE6B9000C4B71 /* Result.swift */,
 				BEE70E4C2CEE21C7000C4B71 /* CommentResponse.swift */,
-				9FE571C02E8EC3F6008C4574 /* AdInterstitialManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +174,7 @@
 				BEE3791F2CF9BF0D000F41AF /* FormHiddenBackground.swift */,
 				9FE571C52E8EC6D2008C4574 /* AdBannerView.swift */,
 				9FE571CA2E912FEB008C4574 /* AnalysisLoaderView.swift */,
+				9FE571CC2E926F5A008C4574 /* AdInterstitialView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				BE015FFF2CF722E500374673 /* DataScore.swift in Sources */,
 				BEA115912CE204CC0093DA74 /* ContentViewModel.swift in Sources */,
 				BEDFF0A42CCB842500BB69B2 /* ResultView.swift in Sources */,
+				9FE571CD2E926F5A008C4574 /* AdInterstitialView.swift in Sources */,
 				BEDFF0A22CCB7C5B00BB69B2 /* FormData.swift in Sources */,
 				BEE70E4B2CEE1BDA000C4B71 /* ResultLoader.swift in Sources */,
 				BEDFF0902CC8FBD900BB69B2 /* Question.swift in Sources */,

@@ -216,10 +216,6 @@ struct IntroducingQuestionView: View {
                                 }
                                 
                                 Spacer()
-                                
-//                                Image(systemName: premiumManager.isPremiumActive ? "checkmark.circle.fill" : "chevron.right")
-//                                    .font(.caption)
-//                                    .foregroundColor(premiumManager.isPremiumActive ? .green : .secondary)
                             }
                             .padding(16)
                             .background(
@@ -228,24 +224,8 @@ struct IntroducingQuestionView: View {
                                     .shadow(color: .black.opacity(0.05), radius: 8, x: 0, y: 2)
                             )
                         }
-                        
-                        // Indicateur d'état premium
-                        HStack {
-                            Image(systemName: premiumManager.isPremiumActive ? "checkmark.circle.fill" : "circle")
-                                .foregroundColor(premiumManager.isPremiumActive ? .green : .secondary)
-                                .font(.caption)
-                            
-                            Text(premiumManager.isPremiumActive ? "Premium Activé" : "Premium Désactivé")
-                                .font(.caption)
-                                .foregroundColor(.secondary)
-                        }
-                        .padding(8)
                     }
                     .padding(.horizontal, 20)
-//                    .padding(.top, 8)
-                    
-//                    Spacer(minLength: 20)
-
                 }
             }
             .background(

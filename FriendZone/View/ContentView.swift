@@ -6,15 +6,15 @@
 //
 
 import SwiftUI
+import GoogleMobileAds
 
 struct ContentView: View {
 	@EnvironmentObject var formData: FormData
 	@EnvironmentObject var questionLoader: QuestionLoader
 	@EnvironmentObject var resultLoader: ResultLoader
+	@EnvironmentObject var contentVM: ContentViewModel
     
-    @StateObject var vm = ContentViewModel()
-	
-	@State var contentVM = ContentViewModel()
+    @State var interstitial: InterstitialAd?
 	//var questions : [Question] = []
 	
 	@State var i = 0
@@ -161,7 +161,8 @@ struct ContentView: View {
 			}
             
             // Bannière conditionnelle (uniquement si pas premium)
-            if !vm.hasPremiumPack {
+            
+            if !contentVM.hasPremiumPack {
                 VStack {
                     // TODO: : A remplacer avec le bon ID de banniere : ca-app-pub-8777271534976494/7963981117
                     AdBannerView(adUnitID: "ca-app-pub-3940256099942544/2934735716")
@@ -220,6 +221,13 @@ struct ContentView: View {
 	{
 		return contentVM.adaptPronom(response: response, genre: genre)
 	}
+    
+    private func showInterstitialIfAvailable() {
+        if let interstitial = interstitial {
+            let root = UIApplication.shared.windows.first?.rootViewController
+            interstitial.present(from: root!)
+        }
+    }
 }
 
 #Preview {

@@ -14,6 +14,7 @@ struct FriendZoneApp: App {
 	@StateObject private var questionLoader = QuestionLoader()
 	@StateObject private var resultLoader = ResultLoader()
 	@StateObject private var premiumManager = PremiumManager()
+	@StateObject private var contentVM = ContentViewModel()
 
     var body: some Scene {
         WindowGroup {
@@ -24,6 +25,11 @@ struct FriendZoneApp: App {
 			.environmentObject(questionLoader)
 			.environmentObject(resultLoader)
 			.environmentObject(premiumManager)
+			.environmentObject(contentVM)
+			.onAppear {
+				// Configurer la liaison entre PremiumManager et ContentViewModel
+				premiumManager.contentViewModel = contentVM
+			}
         }
     }
 }

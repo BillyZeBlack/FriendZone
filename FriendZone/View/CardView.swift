@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CardView: View {
+    @EnvironmentObject var contentVM: ContentViewModel
+    
 	var textContent: String
 	var textColor: Color
 	var backgroundColor: Color
@@ -97,6 +99,18 @@ struct CardView: View {
 					.font(.caption)
 					.foregroundColor(.secondary)
 					.padding(.bottom, 20)
+                
+                Spacer()
+                
+                // Bannière conditionnelle (uniquement si pas premium)
+                if !contentVM.hasPremiumPack {
+                    VStack {
+                        // TODO: : A remplacer avec le bon ID de banniere : ca-app-pub-8777271534976494/7963981117
+                        AdBannerView(adUnitID: "ca-app-pub-3940256099942544/2934735716")
+                            .frame(height: 50)
+                    }
+                    .padding()
+                }
 			}
 			.frame(maxWidth: .infinity, maxHeight: .infinity)
 		}

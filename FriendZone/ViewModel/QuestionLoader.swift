@@ -20,7 +20,6 @@ class QuestionLoader: ObservableObject {
 	private func loadQuestion()
 	{
 		guard let url = Bundle.main.url(forResource: "question", withExtension: "json") else {
-			print("Erreur : le fichier JSON est introuvable.")
 			return
 		}
 		
@@ -31,7 +30,6 @@ class QuestionLoader: ObservableObject {
 			
 			let questionsList = try decoder.decode(QuestionList.self, from: data)
 			questions = questionsList.questions
-			print("✅ \(questions.count) questions chargées avec succès")
 		}
 		catch {
 			print("❌ Erreur lors du chargement du fichier JSON : \(error)")
@@ -47,9 +45,6 @@ class QuestionLoader: ObservableObject {
 		// Si l'utilisateur n'est pas premium, exclure les questions premium
 		if !isPremium {
 			filteredQuestions = filteredQuestions.filter { !$0.isPremium }
-			print("📋 \(filteredQuestions.count) questions gratuites disponibles pour l'âge \(ageRange)")
-		} else {
-			print("📋 \(filteredQuestions.count) questions totales disponibles pour l'âge \(ageRange) (Premium activé)")
 		}
 		
 		// Sélection équilibrée par thème : 2 questions par thème (5 thèmes × 2 = 10 questions)
@@ -88,11 +83,8 @@ class QuestionLoader: ObservableObject {
 		// Mélanger final pour éviter l'effet "bloc"
 		let finalSelection = Array(selectedQuestions.shuffled().prefix(targetCount))
 		
-		print("📊 Sélection finale: \(finalSelection.count) questions")
-		print("🎨 Répartition par thème:")
 		for theme in themes {
 			let count = finalSelection.filter { $0.questionTheme == theme }.count
-			print("   \(theme): \(count) questions")
 		}
 		
 		return finalSelection
@@ -102,6 +94,5 @@ class QuestionLoader: ObservableObject {
 	{
 		questionsSelected = []
 		selectedTenRandomQuestion(questionsSelected: questions, ageRange: ageRange, isPremium: isPremium)
-		print("📊 \(questionsSelected.count) questions sélectionnées pour l'âge \(ageRange) (Premium: \(isPremium))")
 	}
 }

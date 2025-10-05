@@ -9,7 +9,8 @@ import SwiftUI
 import Charts
 
 struct CardChartView: View {
-	
+    @EnvironmentObject var contentVM: ContentViewModel
+    
 	var dataScore : [DataScore]
 	var isFlipped: Bool
 	var isTrue: CGFloat
@@ -133,6 +134,18 @@ struct CardChartView: View {
 				.font(.caption)
 				.foregroundColor(.secondary)
 				.padding(.top, 8)
+            
+            Spacer()
+            
+            // Bannière conditionnelle (uniquement si pas premium)
+            if !contentVM.hasPremiumPack {
+                VStack {
+                    // TODO: : A remplacer avec le bon ID de banniere : ca-app-pub-8777271534976494/7963981117
+                    AdBannerView(adUnitID: "ca-app-pub-3940256099942544/2934735716")
+                        .frame(height: 50)
+                }
+                .padding()
+            }
 		}
 		.padding(.horizontal, 20)
 		.rotation3DEffect(

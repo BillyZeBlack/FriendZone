@@ -23,14 +23,6 @@ class FormData: ObservableObject {
 		self.gender = gender
 		self.partnerAgeRange = partenerAgeRange
 		self.durationOfRelationship = durationOfRelationShip
-		
-		/*formResponses = [
-			"rangeDescription" : rangeDescription,
-			"partnerGender" : partnerGender,
-			"gender" : gender,
-			"partnerAgeRange" : partnerAgeRange,
-			"durationOfRelationship" : durationOfRelationship
-		]*/
 	}
 	
 }

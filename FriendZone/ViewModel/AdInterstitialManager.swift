@@ -15,7 +15,7 @@ final class AdInterstitialManager: NSObject, ObservableObject {
     @Published var lastError: String?
     
     private var currentAd: InterstitialAd?
-    private let adUnitID: String
+    private let adUnitID: String //ca-app-pub-8777271534976494~6779301073
     
     var onAdDismissed: (() -> Void)?
     var onAdFailedToLoad: ((Error) -> Void)?
@@ -26,7 +26,6 @@ final class AdInterstitialManager: NSObject, ObservableObject {
     
     func showInterstitial() {
         guard !isLoading else {
-            print("⏳ Interstitielle déjà en cours de chargement")
             return
         }
         
@@ -41,7 +40,6 @@ final class AdInterstitialManager: NSObject, ObservableObject {
             
             if let error = error {
                 self.lastError = error.localizedDescription
-                print("❌ Erreur chargement interstitielle: \(error.localizedDescription)")
                 self.onAdFailedToLoad?(error)
                 return
             }
@@ -50,17 +48,14 @@ final class AdInterstitialManager: NSObject, ObservableObject {
                 self.currentAd = ad
                 ad.fullScreenContentDelegate = self
                 self.shouldShowInterstitial = true
-                print("✅ Interstitielle chargée et prête à afficher")
             }
         }
     }
     
     func presentInterstitial(from controller: UIViewController) -> Bool {
         guard let ad = currentAd else {
-            print("❌ Aucune interstitielle à présenter")
             return false
         }
-        
         ad.present(from: controller)
         return true
     }
@@ -76,17 +71,13 @@ final class AdInterstitialManager: NSObject, ObservableObject {
 
 extension AdInterstitialManager: FullScreenContentDelegate {
     func adDidDismissFullScreenContent(_ ad: FullScreenPresentingAd) {
-        print("✅ Interstitielle fermée")
         reset()
         onAdDismissed?()
     }
     
     func ad(_ ad: FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
-        print("❌ Erreur présentation interstitielle: \(error.localizedDescription)")
         reset()
     }
     
-    func adDidRecordImpression(_ ad: FullScreenPresentingAd) {
-        print("📊 Impression interstitielle enregistrée")
-    }
+    func adDidRecordImpression(_ ad: FullScreenPresentingAd) {}
 }
