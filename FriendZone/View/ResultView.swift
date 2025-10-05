@@ -50,11 +50,12 @@ struct ResultView: View {
             ToolbarItem(placement: .navigationBarLeading) {
                 Button(action: {
                     // Afficher la pub quand l'utilisateur veut revenir pour refaire un test
-                    if !hasShownAdForRetest {
+                    // Uniquement si pas premium et si pas déjà affichée
+                    if !contentVM.hasPremiumPack && !hasShownAdForRetest {
                         showInterstitialAd = true
                         hasShownAdForRetest = true
                     } else {
-                        // Si la pub a déjà été vue, revenir directement
+                        // Si premium ou pub déjà vue, revenir directement
                         dismiss()
                     }
                 }) {

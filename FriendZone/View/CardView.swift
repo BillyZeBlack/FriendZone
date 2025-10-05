@@ -20,105 +20,106 @@ struct CardView: View {
 	var zoneScore: String
 	
 	var body: some View {
-		ZStack {
-			// Fond principal avec effet de profondeur
-			RoundedRectangle(cornerRadius: 24)
-				.frame(width: 340, height: 520)
-				.foregroundStyle(
-					.linearGradient(
-						colors: [Color(.systemBackground), Color(.systemGray6)],
-						startPoint: .topLeading,
-						endPoint: .bottomTrailing
-					)
-				)
-				.shadow(color: .black.opacity(0.15), radius: 20, x: 0, y: 10)
-			
-			// Accent color stylisé
-			RoundedRectangle(cornerRadius: 24)
-				.trim(from: 0, to: 0.25)
-				.rotation(.degrees(45))
-				.frame(width: 280, height: 280)
-				.foregroundStyle(
-					.linearGradient(
-						colors: [getAccentColor(for: zoneScore), getAccentColor(for: zoneScore).opacity(0.7)],
-						startPoint: .topLeading,
-						endPoint: .bottomTrailing
-					)
-				)
-				.offset(x: 80, y: -120)
-				.blur(radius: 20)
-				.opacity(0.3)
-			
-			// Contenu principal
-			VStack(spacing: 24) {
-				// Header avec résultat
-				VStack(spacing: 12) {
-					Image(systemName: getResultIcon(for: zoneScore))
-						.font(.system(size: 48))
-						.foregroundStyle(
-							.linearGradient(
-								colors: [getAccentColor(for: zoneScore), getAccentColor(for: zoneScore).opacity(0.7)],
-								startPoint: .topLeading,
-								endPoint: .bottomTrailing
-							)
+		VStack(spacing: 20) {
+			// Carte principale
+			ZStack {
+				// Fond principal avec effet de profondeur
+				RoundedRectangle(cornerRadius: 24)
+					.frame(width: 340, height: 520)
+					.foregroundStyle(
+						.linearGradient(
+							colors: [Color(.systemBackground), Color(.systemGray6)],
+							startPoint: .topLeading,
+							endPoint: .bottomTrailing
 						)
-					
-					Text(getZoneScore(zoneScore: zoneScore))
-						.font(.title2)
-						.fontWeight(.bold)
-						.foregroundColor(getAccentColor(for: zoneScore))
-						.multilineTextAlignment(.center)
-				}
-				.padding(.top, 20)
+					)
+					.shadow(color: .black.opacity(0.15), radius: 20, x: 0, y: 10)
 				
-				// Contenu du commentaire
-				VStack(spacing: 16) {
-					Text("Analyse personnalisée")
-						.font(.headline)
-						.fontWeight(.semibold)
-						.foregroundColor(.primary)
-						.frame(maxWidth: .infinity, alignment: .leading)
-					
-					ScrollView {
-						Text(textContent)
-							.font(.body)
-							.foregroundColor(.primary)
-							.multilineTextAlignment(.leading)
-							.lineSpacing(6)
-							.padding(.horizontal, 4)
+				// Accent color stylisé
+				RoundedRectangle(cornerRadius: 24)
+					.trim(from: 0, to: 0.25)
+					.rotation(.degrees(45))
+					.frame(width: 280, height: 280)
+					.foregroundStyle(
+						.linearGradient(
+							colors: [getAccentColor(for: zoneScore), getAccentColor(for: zoneScore).opacity(0.7)],
+							startPoint: .topLeading,
+							endPoint: .bottomTrailing
+						)
+					)
+					.offset(x: 80, y: -120)
+					.blur(radius: 20)
+					.opacity(0.3)
+				
+				// Contenu principal
+				VStack(spacing: 24) {
+					// Header avec résultat
+					VStack(spacing: 12) {
+						Image(systemName: getResultIcon(for: zoneScore))
+							.font(.system(size: 48))
+							.foregroundStyle(
+								.linearGradient(
+									colors: [getAccentColor(for: zoneScore), getAccentColor(for: zoneScore).opacity(0.7)],
+									startPoint: .topLeading,
+									endPoint: .bottomTrailing
+								)
+							)
+						
+						Text(getZoneScore(zoneScore: zoneScore))
+							.font(.title2)
+							.fontWeight(.bold)
+							.foregroundColor(getAccentColor(for: zoneScore))
+							.multilineTextAlignment(.center)
 					}
-					.frame(height: 280)
-					.scrollIndicators(.visible)
+					.padding(.top, 20)
+					
+					// Contenu du commentaire
+					VStack(spacing: 16) {
+						Text("Analyse personnalisée")
+							.font(.headline)
+							.fontWeight(.semibold)
+							.foregroundColor(.primary)
+							.frame(maxWidth: .infinity, alignment: .leading)
+						
+						ScrollView {
+							Text(textContent)
+								.font(.body)
+								.foregroundColor(.primary)
+								.multilineTextAlignment(.leading)
+								.lineSpacing(6)
+								.padding(.horizontal, 4)
+						}
+						.frame(height: 280)
+						.scrollIndicators(.visible)
+					}
+					.padding(.horizontal, 20)
+					
+					Spacer()
+					
+					// Instructions
+					Text("Touche l'écran pour voir les statistiques")
+						.font(.caption)
+						.foregroundColor(.secondary)
+						.padding(.bottom, 20)
 				}
-				.padding(.horizontal, 20)
-				
-				Spacer()
-				
-				// Instructions
-				Text("Touche l'écran pour voir les statistiques")
-					.font(.caption)
-					.foregroundColor(.secondary)
-					.padding(.bottom, 20)
-                
-                Spacer()
-                
-                // Bannière conditionnelle (uniquement si pas premium)
-                if !contentVM.hasPremiumPack {
-                    VStack {
-                        // TODO: : A remplacer avec le bon ID de banniere : ca-app-pub-8777271534976494/7963981117
-                        AdBannerView(adUnitID: "ca-app-pub-3940256099942544/2934735716")
-                            .frame(height: 50)
-                    }
-                    .padding()
-                }
+				.frame(maxWidth: .infinity, maxHeight: .infinity)
 			}
-			.frame(maxWidth: .infinity, maxHeight: .infinity)
+			.frame(width: 340, height: 520)
+			.rotation3DEffect(
+				.degrees(isFlipped ? isTrue : isFalse),
+				axis: (x: 0.0, y: 1.0, z: 0.0)
+			)
+			
+			// Bannière conditionnelle (uniquement si pas premium) - SOUS la carte
+			if !contentVM.hasPremiumPack {
+				VStack {
+					// TODO: : A remplacer avec le bon ID de banniere : ca-app-pub-8777271534976494/7963981117
+					AdBannerView(adUnitID: "ca-app-pub-3940256099942544/2934735716")
+						.frame(height: 50)
+				}
+				.padding(.horizontal)
+			}
 		}
-		.frame(width: 340, height: 520)
-		.rotation3DEffect(
-			.degrees(isFlipped ? isTrue : isFalse),
-			axis: (x: 0.0, y: 1.0, z: 0.0)
-		)
 	}
 	
 	private func getZoneScore(zoneScore: String) -> String {
