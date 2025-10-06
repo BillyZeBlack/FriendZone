@@ -51,8 +51,10 @@ struct CardView: View {
 					.blur(radius: 20)
 					.opacity(0.3)
 				
-				// Contenu principal
+				// Contenu principal - centré verticalement
 				VStack(spacing: 24) {
+					Spacer()
+					
 					// Header avec résultat
 					VStack(spacing: 12) {
 						Image(systemName: getResultIcon(for: zoneScore))
@@ -71,7 +73,6 @@ struct CardView: View {
 							.foregroundColor(getAccentColor(for: zoneScore))
 							.multilineTextAlignment(.center)
 					}
-					.padding(.top, 20)
 					
 					// Contenu du commentaire
 					VStack(spacing: 16) {
@@ -89,7 +90,7 @@ struct CardView: View {
 								.lineSpacing(6)
 								.padding(.horizontal, 4)
 						}
-						.frame(height: 280)
+						.frame(height: 240)
 						.scrollIndicators(.visible)
 					}
 					.padding(.horizontal, 20)
@@ -110,7 +111,7 @@ struct CardView: View {
 				axis: (x: 0.0, y: 1.0, z: 0.0)
 			)
 			
-			// Bannière conditionnelle (uniquement si pas premium) - SOUS la carte
+			// Bannière conditionnelle (uniquement si pas premium)
 			if !contentVM.hasPremiumPack {
 				VStack {
 					// TODO: : A remplacer avec le bon ID de banniere : ca-app-pub-8777271534976494/7963981117

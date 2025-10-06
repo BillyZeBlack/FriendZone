@@ -18,15 +18,7 @@ struct CardChartView: View {
 	var scoreResult: Int
 	
     var body: some View {
-		VStack(spacing: 20) {
-			// Header avec titre et score total
-			VStack(spacing: 8) {
-				Text("Analyse de tes réponses")
-					.font(.title2)
-					.fontWeight(.bold)
-					.foregroundColor(.primary)
-			}
-			
+		VStack(spacing: 20) {			
 			// Carte principale avec graphique
 			ZStack {
 				// Fond avec effet de profondeur
@@ -47,6 +39,12 @@ struct CardChartView: View {
 					.frame(width: 340, height: 480)
 				
 				VStack(spacing: 16) {
+                    VStack(spacing: 8) {
+                        Text("Analyse de tes réponses")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(.primary)
+                    }
 					// Graphique amélioré
 					Chart{
 						ForEach(dataScore, id: \.id) { ds in
@@ -120,23 +118,19 @@ struct CardChartView: View {
                                         .font(.caption)
                                         .foregroundColor(.secondary)
                                 }
-								
 							}
 						}
+                        // Instructions
+                        Text("Touche l'écran pour voir le commentaire")
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                            .padding(.top, 8)
 					}
 					.padding(.horizontal, 20)
 				}
 				.padding(.vertical, 20)
 			}
 			
-			// Instructions
-			Text("Touche l'écran pour voir le commentaire")
-				.font(.caption)
-				.foregroundColor(.secondary)
-				.padding(.top, 8)
-            
-            Spacer()
-            
             // Bannière conditionnelle (uniquement si pas premium)
             if !contentVM.hasPremiumPack {
                 VStack {
