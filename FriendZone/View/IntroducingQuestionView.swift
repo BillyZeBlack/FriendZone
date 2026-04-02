@@ -245,13 +245,13 @@ struct IntroducingQuestionView: View {
     private func getAgeRangeText(for index: Int) -> String {
         switch index {
         case 1:
-            return "10 - 13 ans"
-        case 2:
             return "13 - 15 ans"
+        case 2:
+            return "15 - 17 ans"
         case 3:
-            return "Plus de 15 ans"
+            return "Plus de 17 ans"
         default:
-            return "10 - 13 ans"
+            return "13 - 15 ans"
         }
     }
     
@@ -269,4 +269,3 @@ struct IntroducingQuestionView: View {
 #Preview {
     IntroducingQuestionView()
 }
-

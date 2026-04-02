@@ -18,9 +18,9 @@ struct LocalizationHelper {
     static let garcon = NSLocalizedString("garçon", comment: "boy")
     static let fille = NSLocalizedString("fille", comment: "girl")
     static let jaiEntre = NSLocalizedString("J'ai entre ", comment: "I am between ")
-    static let age10_13 = NSLocalizedString("10 - 13 ans", comment: "10 - 13 years old")
     static let age13_15 = NSLocalizedString("13 - 15 ans", comment: "13 - 15 years old")
-    static let agePlus15 = NSLocalizedString(" Plus de 15 ans", comment: "Over 15 years old")
+    static let age15_17 = NSLocalizedString("15 - 17 ans", comment: "15 - 17 years old")
+    static let agePlus17 = NSLocalizedString(" Plus de 17 ans", comment: "Over 17 years old")
     static let valider = NSLocalizedString("Valider", comment: "Validate")
     
     // MARK: - Content View

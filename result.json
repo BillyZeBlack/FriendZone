@@ -5,7 +5,7 @@
 	  "status": "friendzone",
 	  "ageRanges": [
 		{
-		  "rangeDescription": "10-13",
+		  "rangeDescription": "13-15",
 		  "comments": [
 			  "Vous êtes simplement des amis, et c’est très bien comme ça. \nAvoir un(e) ami(e) de confiance est super important, surtout quand on peut rire, partager des choses et s’amuser ensemble. Il n’y a pas besoin de chercher à changer cette belle amitié. Parfois, c’est juste ça qui compte.",
 			  "Elle/Il aime sûrement passer du temps avec toi, mais juste en tant qu’ami(e). \nLes moments que vous partagez sont précieux, et elle/il apprécie sûrement ta compagnie. Cela ne veut pas dire qu’il y a quelque chose qui manque, mais simplement qu’elle/il se sent bien avec toi comme ça. Continuez à profiter des bons moments ensemble.",
@@ -16,7 +16,7 @@
 		  ]
 		},
 		{
-		  "rangeDescription": "13-15",
+		  "rangeDescription": "15-17",
 		  "comments": [
 			  "Elle/Il semble te voir vraiment comme un(e) ami(e), et c’est parfaitement ok.\nParfois, les relations amicales sont exactement ce dont on a besoin. Elle/Il te respecte et t'apprécie pour la personne que tu es, mais ne cherche pas plus. Ce n'est pas négatif, au contraire, c'est une belle amitié. Profite de cette relation pour partager des moments agréables sans pression.",
 			  "Tu as peut-être des sentiments plus forts, mais elle/Il ne semble pas être sur la même longueur d’onde.\nIl est normal de ressentir des choses pour quelqu’un qu’on apprécie, mais parfois, ces sentiments ne sont pas réciproques. Cela peut être frustrant, mais c’est aussi un moment pour apprendre à mieux comprendre ce que tu recherches vraiment dans une relation.",
@@ -27,7 +27,7 @@
 		  ]
 		},
 		{
-		  "rangeDescription": "15 plus",
+		  "rangeDescription": "17 plus",
 		  "comments": [
 			"Elle/Il te considère comme un(e) ami(e) de confiance, mais pas plus.\nElle/Il apprécie ta compagnie et la relation que vous avez, mais ne semble pas vouloir dépasser le cadre de l’amitié. Cela peut être décevant, mais cela montre aussi qu’elle/Il valorise vraiment le lien que vous partagez, même si ce n’est pas de la manière que tu espérais.",
 			"Elle/Il ne partage pas les mêmes sentiments, mais cela ne diminue pas l’importance de votre relation.\nLes émotions ne se contrôlent pas, et il est possible qu’elle/Il ne ressente pas la même chose que toi. Cependant, cela ne veut pas dire que ta présence n’a pas d’impact positif dans sa vie. Une amitié sincère peut parfois être plus solide qu’une relation amoureuse.",
@@ -44,7 +44,7 @@
 	  "status": "middle",
 	  "ageRanges": [
 		{
-		  "rangeDescription": "10-13",
+		  "rangeDescription": "13-15",
 		  "comments": [
 			  "C’est un peu flou, mais vous semblez bien vous entendre. \nParfois, il est difficile de savoir si une relation va au-delà de l’amitié. Il y a des moments où vous vous comprenez bien, mais d’autres où les choses ne sont pas aussi claires. Cela ne veut pas dire que quelque chose ne va pas, juste que les choses peuvent évoluer lentement et naturellement.",
 			  "Vous avez des moments sympas ensemble, mais il y a encore des zones d’ombre. \nIl y a des moments où vous vous sentez proches, mais parfois, il y a des signes qui rendent la situation un peu incertaine. Peut-être qu’elle/il hésite encore ou que vous n’êtes pas sur la même longueur d’onde. Ce n’est pas un problème, c’est juste que tout n’est pas encore défini.",
@@ -55,7 +55,7 @@
 		  ]
 		},
 		{
-		  "rangeDescription": "13-15",
+		  "rangeDescription": "15-17",
 		  "comments": [
 			  "Elle/Il semble être indécis(e), et c’est complètement normal à cet âge.\nLes sentiments peuvent être assez mélangés à cet âge, et il est possible que cette personne ne sache pas encore ce qu’elle ressent. Les relations à cet âge peuvent être compliquées, et elle/il peut encore chercher à comprendre ses émotions. Ce n'est pas un mauvais signe, mais juste une phase d'incertitude.",
 			  "Vous passez de bons moments ensemble, mais elle/il ne semble pas vouloir franchir le cap.\nIl y a une bonne connexion entre vous, mais elle/il hésite peut-être à aller plus loin. Cela peut être parce qu’elle/il n’est pas sûr(e) de ce qu’elle/il ressent ou parce qu’elle/il préfère garder la relation amicale pour l’instant. Il n'y a pas de mal à ça, c’est juste que la situation est encore floue.",
@@ -66,7 +66,7 @@
 		  ]
 		},
 		{
-		  "rangeDescription": "15 plus",
+		  "rangeDescription": "17 plus",
 		  "comments": [
 			  "Elle/Il semble hésiter, ce qui peut arriver quand on ne sait pas exactement ce qu’on veut.\nLes sentiments peuvent être compliqués à exprimer ou à comprendre, surtout lorsqu’une relation évolue. Peut-être qu’elle/Il est encore en train de réfléchir à ce qu’elle/Il ressent pour toi, ou qu’elle/Il a peur de gâcher ce que vous avez déjà. Sois patient(e) et laisse les choses se clarifier avec le temps.",
 			  "Vous êtes dans une phase d’incertitude, mais cela ne veut pas dire que ça n’évoluera pas.\nElle/Il semble à mi-chemin entre l’amitié et quelque chose de plus. Ce flou peut être frustrant, mais c’est aussi une opportunité d’apprendre à mieux vous connaître et à renforcer votre lien avant d’aller plus loin. Parfois, c’est une question de timing.",
@@ -83,7 +83,7 @@
 	  "status": "letsGo",
 	  "ageRanges": [
 		{
-		  "rangeDescription": "10-13",
+		  "rangeDescription": "13-15",
 		  "comments": [
 			  "Elle/Il semble vraiment t’apprécier, et tu le ressens aussi. \nC’est génial que vous vous entendiez aussi bien. Quand deux personnes sont sur la même longueur d’onde, ça se voit dans la manière dont elles se parlent et se comportent. Elle/Il semble vraiment apprécier ta compagnie et c’est réciproque, alors profite de cette belle connexion.",
 			  "Elle/Il aime passer du temps avec toi et tu vois qu’elle/il en a envie. \nTu vois sûrement que cette personne aime être avec toi, que ce soit pour discuter, rigoler ou simplement traîner ensemble. Si ces moments sont toujours agréables et sans prise de tête, c’est un bon signe que vous partagez une vraie complicité.",
@@ -94,7 +94,7 @@
 		  ]
 		},
 		{
-		  "rangeDescription": "13-15",
+		  "rangeDescription": "15-17",
 		  "comments": [
 			  "Elle/Il semble vraiment t’apprécier et te voir d’une manière spéciale.\nLes signes sont clairs : elle/il apprécie ta compagnie et semble vouloir passer plus de temps avec toi. Vous avez une vraie connexion, et cela se voit dans la manière dont vous vous comprenez et vous vous écoutez. C’est un excellent point de départ pour une relation solide.",
 			  "Elle/Il n’hésite pas à montrer qu’elle/il tient à toi.\nElle/Il prend le temps de te répondre, d’être présent(e) pour toi, et de montrer que tu es important(e) dans sa vie. Ce genre de comportements montre qu’elle/il te valorise et veut construire quelque chose de spécial avec toi.",
@@ -105,7 +105,7 @@
 		  ]
 		},
 		{
-		  "rangeDescription": "15 plus",
+		  "rangeDescription": "17 plus",
 		  "comments": [
 			  "Elle/Il semble vraiment intéressé(e) par toi, et ça se voit dans ses actions.\nQue ce soit à travers des messages, des attentions ou simplement la façon dont elle/Il te regarde, tout indique qu’elle/Il apprécie sincèrement être avec toi. Cette clarté dans son comportement est un excellent signe que vous partagez une vraie connexion. Profite de ce moment pour approfondir votre lien.",
 			  "Elle/Il te montre clairement qu’elle/Il tient à toi et veut être présent(e) dans ta vie.\nElle/Il fait des efforts pour te voir, pour parler avec toi, ou même pour te soutenir quand tu en as besoin. Ces gestes montrent qu’elle/Il veut construire quelque chose de sérieux avec toi. Cela reflète une volonté d’aller plus loin ensemble.",

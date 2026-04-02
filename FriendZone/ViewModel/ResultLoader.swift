@@ -41,12 +41,12 @@ class ResultLoader: ObservableObject {
 	func getCommentResult(ageRange: Int) -> String
 	{
 		let ageRangesMap = [
-			1: "10-13",
-			2: "13-15",
-			3: "15 plus"
+			1: "13-15",
+			2: "15-17",
+			3: "17 plus"
 		]
 		
-		let ageRangeString = ageRangesMap[ageRange] ?? "10-13"
+		let ageRangeString = ageRangesMap[ageRange] ?? "13-15"
 		
 		// Déterminer la zone basée sur la catégorie avec le plus de réponses
 		let categoryScores = [
