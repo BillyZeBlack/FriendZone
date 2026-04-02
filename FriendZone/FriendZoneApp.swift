@@ -7,6 +7,8 @@
 
 import SwiftUI
 import SwiftData
+import AppTrackingTransparency
+import AdSupport
 
 @main
 struct FriendZoneApp: App {
@@ -29,7 +31,37 @@ struct FriendZoneApp: App {
 			.onAppear {
 				// Configurer la liaison entre PremiumManager et ContentViewModel
 				premiumManager.contentViewModel = contentVM
+				
+				// Demander l'autorisation de suivi (ATT) après un court délai
+				DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+					requestTrackingAuthorization()
+				}
 			}
         }
     }
+	
+	private func requestTrackingAuthorization() {
+		// Vérifier si nous sommes sur iOS 14.5+
+		if #available(iOS 14.5, *) {
+			ATTrackingManager.requestTrackingAuthorization { status in
+				switch status {
+				case .authorized:
+					print("✅ Autorisation de suivi accordée")
+					// L'IDFA est maintenant disponible pour les publicités
+					let idfa = ASIdentifierManager.shared().advertisingIdentifier
+					print("IDFA: \(idfa)")
+				case .denied:
+					print("❌ Autorisation de suivi refusée")
+				case .notDetermined:
+					print("⏳ Autorisation non déterminée")
+				case .restricted:
+					print("🚫 Autorisation restreinte")
+				@unknown default:
+					print("❓ État d'autorisation inconnu")
+				}
+			}
+		} else {
+			print("📱 iOS version < 14.5, ATT non requis")
+		}
+	}
 }
