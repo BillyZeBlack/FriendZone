@@ -19,6 +19,7 @@ struct IntroducingQuestionView: View {
     @State var durationOfRelationship: Int = 1
     @State var genderPartner: Bool = false
     @State var navigateToNextView: Bool = false
+    @State private var showPremiumSheet: Bool = false
     
     let blockSpacing: CGFloat = 20 //32 si premium activé
     
@@ -190,32 +191,31 @@ struct IntroducingQuestionView: View {
                     .padding(.horizontal, 20)
 //                    .padding(2)
                     
-                    // Bouton Premium (toujours affiché pour les tests)
                     VStack(spacing: 8) {
                         Button(action: {
-                            if premiumManager.isPremiumActive {
-                                premiumManager.togglePremium()
-                            } else {
-                                premiumManager.purchasePremium()
-                            }
+                            showPremiumSheet = true
                         }) {
                             HStack(spacing: 12) {
-                                Image(systemName: "crown.fill")
+                                Image(systemName: premiumManager.isPremiumActive ? "crown.fill" : "crown")
                                     .font(.headline)
                                     .foregroundColor(premiumManager.isPremiumActive ? .green : .yellow)
                                 
                                 VStack(alignment: .leading, spacing: 4) {
-                                    Text(premiumManager.isPremiumActive ? "Pack Premium Activé" : "Passer à Premium")
+                                    Text(premiumManager.isPremiumActive ? "Pack Premium activé" : "Passer à Premium")
                                         .font(.headline)
                                         .fontWeight(.semibold)
                                         .foregroundColor(.primary)
                                     
-                                    Text(premiumManager.isPremiumActive ? "Cliquez pour désactiver" : "Accès à toutes les questions")
+                                    Text(premiumManager.isPremiumActive ? "Gérer votre achat" : "Accès à toutes les questions")
                                         .font(.caption)
                                         .foregroundColor(.secondary)
                                 }
                                 
                                 Spacer()
+                                
+                                Image(systemName: "chevron.right")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
                             }
                             .padding(16)
                             .background(
@@ -223,6 +223,14 @@ struct IntroducingQuestionView: View {
                                     .fill(Color(.systemBackground))
                                     .shadow(color: .black.opacity(0.05), radius: 8, x: 0, y: 2)
                             )
+                        }
+                        
+                        if let error = premiumManager.errorMessage {
+                            Text(error)
+                                .font(.caption)
+                                .foregroundColor(.red)
+                                .multilineTextAlignment(.center)
+                                .padding(.horizontal, 8)
                         }
                     }
                     .padding(.horizontal, 20)
@@ -239,7 +247,153 @@ struct IntroducingQuestionView: View {
                     .environmentObject(resultLoader)
                     .toolbarRole(.editor)
             }
+            .sheet(isPresented: $showPremiumSheet) {
+                NavigationStack {
+                    ScrollView {
+                        premiumOfferCard
+                            .padding(20)
+                    }
+                    .background(Color(.systemGroupedBackground).ignoresSafeArea())
+                    .navigationTitle("Pack Premium")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            Button("Fermer") {
+                                showPremiumSheet = false
+                            }
+                        }
+                    }
+                }
+            }
         }
+    }
+    
+    private var premiumOfferCard: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            HStack(alignment: .top, spacing: 12) {
+                Image(systemName: premiumManager.isPremiumActive ? "crown.fill" : "sparkles.rectangle.stack.fill")
+                    .font(.title3)
+                    .foregroundColor(premiumManager.isPremiumActive ? .green : .yellow)
+                
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(premiumManager.isPremiumActive ? "Pack Premium activé" : premiumManager.premiumDisplayName)
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                    
+                    Text(premiumManager.premiumDescription)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                    
+                    Text(premiumManager.isPremiumActive ? "Achat unique déjà débloqué" : "Achat unique \(premiumManager.premiumDisplayPrice)")
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.primary)
+                }
+                
+                Spacer()
+            }
+            
+            VStack(alignment: .leading, spacing: 6) {
+                benefitRow("Accès à toutes les questions premium")
+                benefitRow("Suppression des publicités")
+                benefitRow("Déblocage permanent du pack")
+            }
+            
+            if premiumManager.isLoading {
+                HStack(spacing: 10) {
+                    ProgressView()
+                    Text(premiumManager.purchaseStatusMessage ?? "Chargement de l’offre...")
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                }
+            } else if let status = premiumManager.purchaseStatusMessage {
+                Text(status)
+                    .font(.subheadline)
+                    .foregroundColor(premiumManager.isPremiumActive ? .green : .secondary)
+            }
+            
+            if let error = premiumManager.errorMessage {
+                Text(error)
+                    .font(.caption)
+                    .foregroundColor(.red)
+                    .multilineTextAlignment(.leading)
+            }
+            
+            HStack(spacing: 12) {
+                Button(action: startPurchase) {
+                    Text(premiumManager.isPremiumActive ? "Déjà acheté" : "Acheter \(premiumManager.premiumDisplayPrice)")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 14)
+                        .background(
+                            RoundedRectangle(cornerRadius: 14)
+                                .fill(premiumManager.isPremiumActive ? Color.green : Color.blue)
+                        )
+                }
+                .disabled(premiumManager.isLoading || premiumManager.premiumProduct == nil || premiumManager.isPremiumActive)
+                
+                Button(action: premiumManager.restorePurchases) {
+                    Text("Restaurer")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.primary)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 14)
+                        .background(
+                            RoundedRectangle(cornerRadius: 14)
+                                .stroke(Color.gray.opacity(0.35), lineWidth: 1)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 14)
+                                        .fill(Color(.secondarySystemBackground))
+                                )
+                        )
+                }
+                .disabled(premiumManager.isLoading)
+            }
+            
+            if premiumManager.premiumProduct == nil && !premiumManager.isLoading {
+                Button(action: premiumManager.loadProducts) {
+                    Text("Réessayer de charger l’offre")
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.blue)
+                }
+            }
+        }
+        .padding(18)
+        .background(
+            RoundedRectangle(cornerRadius: 18)
+                .fill(Color(.systemBackground))
+                .shadow(color: .black.opacity(0.05), radius: 8, x: 0, y: 2)
+        )
+    }
+    
+    private func benefitRow(_ text: String) -> some View {
+        HStack(spacing: 8) {
+            Image(systemName: "checkmark.circle.fill")
+                .foregroundColor(.green)
+                .font(.caption)
+            Text(text)
+                .font(.subheadline)
+                .foregroundColor(.primary)
+        }
+    }
+    
+    private func startPurchase() {
+        provideHapticFeedback()
+        premiumManager.errorMessage = nil
+        premiumManager.purchaseStatusMessage = nil
+        premiumManager.purchasePremium()
+    }
+    
+    private func provideHapticFeedback() {
+        #if os(iOS)
+        let generator = UIImpactFeedbackGenerator(style: .medium)
+        generator.prepare()
+        generator.impactOccurred()
+        #endif
     }
     
     private func getAgeRangeText(for index: Int) -> String {

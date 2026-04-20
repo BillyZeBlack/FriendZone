@@ -9,11 +9,32 @@ import Foundation
 
 class ContentViewModel: ObservableObject {
     
-    @Published var hasPremiumPack: Bool = false {
-        didSet {
-            if hasPremiumPack {
-                UserDefaults.standard.set(true, forKey: "hasPremiumPack")
-                print("Pack activé")
+    @Published var hasPremiumPack: Bool = false
+    
+    init() {
+        // Charger depuis la même clé que PremiumManager
+        hasPremiumPack = UserDefaults.standard.bool(forKey: "isPremiumPurchased")
+        print("📱 ContentViewModel: Premium pack status = \(hasPremiumPack)")
+        
+        // Écouter les changements de PremiumManager
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(premiumStatusChanged(_:)),
+            name: .premiumStatusChanged,
+            object: nil
+        )
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
+    @objc func premiumStatusChanged(_ notification: Notification) {
+        if let userInfo = notification.userInfo,
+           let isPremiumActive = userInfo["isPremiumActive"] as? Bool {
+            DispatchQueue.main.async {
+                self.hasPremiumPack = isPremiumActive
+                print("🔄 ContentViewModel updated: \(isPremiumActive)")
             }
         }
     }

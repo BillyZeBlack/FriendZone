@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3432AE2F7E6934008E523C /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 9F3432AD2F7E6934008E523C /* GoogleMobileAds */; };
+		9F3432B12F7E69D1008E523C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3432B02F7E69D1008E523C /* StoreKit.framework */; };
 		9FE571C12E8EC3F6008C4574 /* AdInterstitialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571C02E8EC3F6008C4574 /* AdInterstitialManager.swift */; };
 		9FE571C42E8EC43C008C4574 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE571C32E8EC43C008C4574 /* GoogleMobileAds */; };
 		9FE571C62E8EC6D2008C4574 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571C52E8EC6D2008C4574 /* AdBannerView.swift */; };
 		9FE571C92E911A07008C4574 /* PremiumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571C82E911A07008C4574 /* PremiumManager.swift */; };
 		9FE571CB2E912FEB008C4574 /* AnalysisLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571CA2E912FEB008C4574 /* AnalysisLoaderView.swift */; };
 		9FE571CD2E926F5A008C4574 /* AdInterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571CC2E926F5A008C4574 /* AdInterstitialView.swift */; };
+		9FEAFB582F961E7300E5ADF9 /* TestPurchases.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 9FEAFB572F961E7300E5ADF9 /* TestPurchases.storekit */; };
 		BE015FFF2CF722E500374673 /* DataScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE015FFE2CF722DA00374673 /* DataScore.swift */; };
 		BE0160012CF7544E00374673 /* CardChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0160002CF7544E00374673 /* CardChartView.swift */; };
 		BE5BAD4D2CE4EE06004ED756 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5BAD4C2CE4EE06004ED756 /* CardView.swift */; };
@@ -43,12 +46,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F3432B02F7E69D1008E523C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		9FE571C02E8EC3F6008C4574 /* AdInterstitialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdInterstitialManager.swift; sourceTree = "<group>"; };
 		9FE571C52E8EC6D2008C4574 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
 		9FE571C72E8EC754008C4574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9FE571C82E911A07008C4574 /* PremiumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumManager.swift; sourceTree = "<group>"; };
 		9FE571CA2E912FEB008C4574 /* AnalysisLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisLoaderView.swift; sourceTree = "<group>"; };
 		9FE571CC2E926F5A008C4574 /* AdInterstitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdInterstitialView.swift; sourceTree = "<group>"; };
+		9FEAFB572F961E7300E5ADF9 /* TestPurchases.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPurchases.storekit; sourceTree = "<group>"; };
 		BE015FFE2CF722DA00374673 /* DataScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScore.swift; sourceTree = "<group>"; };
 		BE0160002CF7544E00374673 /* CardChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardChartView.swift; sourceTree = "<group>"; };
 		BE5BAD4C2CE4EE06004ED756 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -84,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3432B12F7E69D1008E523C /* StoreKit.framework in Frameworks */,
+				9F3432AE2F7E6934008E523C /* GoogleMobileAds in Frameworks */,
 				9FE571C42E8EC43C008C4574 /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,10 +98,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F3432AF2F7E69D1008E523C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F3432B02F7E69D1008E523C /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEDFF0702CC8FB4800BB69B2 = {
 			isa = PBXGroup;
 			children = (
 				BEDFF07B2CC8FB4800BB69B2 /* FriendZone */,
+				9F3432AF2F7E69D1008E523C /* Frameworks */,
 				BEDFF07A2CC8FB4800BB69B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,6 +135,7 @@
 				BEDFF07C2CC8FB4800BB69B2 /* FriendZoneApp.swift */,
 				BEDFF0822CC8FB4A00BB69B2 /* Assets.xcassets */,
 				BEDFF0842CC8FB4A00BB69B2 /* Preview Content */,
+				9FEAFB572F961E7300E5ADF9 /* TestPurchases.storekit */,
 			);
 			path = FriendZone;
 			sourceTree = "<group>";
@@ -242,6 +259,7 @@
 			files = (
 				BEDFF0862CC8FB4A00BB69B2 /* Preview Assets.xcassets in Resources */,
 				BEDFF0982CC9199F00BB69B2 /* question.json in Resources */,
+				9FEAFB582F961E7300E5ADF9 /* TestPurchases.storekit in Resources */,
 				BEDFF0832CC8FB4A00BB69B2 /* Assets.xcassets in Resources */,
 				BEE70E492CEE1BAE000C4B71 /* result.json in Resources */,
 			);
@@ -420,6 +438,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FriendZone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Friendzone;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -431,7 +450,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = sliceofdigital.FriendZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -458,6 +477,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FriendZone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Friendzone;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,7 +489,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = sliceofdigital.FriendZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -518,6 +538,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9F3432AD2F7E6934008E523C /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FE571C22E8EC43C008C4574 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
 		9FE571C32E8EC43C008C4574 /* GoogleMobileAds */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9FE571C22E8EC43C008C4574 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;

@@ -29,9 +29,6 @@ struct FriendZoneApp: App {
 			.environmentObject(premiumManager)
 			.environmentObject(contentVM)
 			.onAppear {
-				// Configurer la liaison entre PremiumManager et ContentViewModel
-				premiumManager.contentViewModel = contentVM
-				
 				// Demander l'autorisation de suivi (ATT) après un court délai
 				DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
 					requestTrackingAuthorization()

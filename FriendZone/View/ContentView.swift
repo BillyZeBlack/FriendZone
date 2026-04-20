@@ -13,6 +13,7 @@ struct ContentView: View {
 	@EnvironmentObject var questionLoader: QuestionLoader
 	@EnvironmentObject var resultLoader: ResultLoader
 	@EnvironmentObject var contentVM: ContentViewModel
+    @EnvironmentObject var premiumManager: PremiumManager
     
     @State var interstitial: InterstitialAd?
 	//var questions : [Question] = []
@@ -175,7 +176,7 @@ struct ContentView: View {
 		.onAppear{
 			isVisible = false
 			i = 0
-			questionLoader.loadQuestionsList(ageRange: formData.ageRange)
+			questionLoader.loadQuestionsList(ageRange: formData.ageRange, isPremium: premiumManager.isPremiumActive)
 		}
 	}
 	
@@ -214,7 +215,7 @@ struct ContentView: View {
 	{
 		i = 0
 		progress = 1.0
-		questionLoader.loadQuestionsList(ageRange: formData.ageRange)
+		questionLoader.loadQuestionsList(ageRange: formData.ageRange, isPremium: premiumManager.isPremiumActive)
 	}
 	
 	private func adaptPronom(response: String, genre: Bool) ->String
