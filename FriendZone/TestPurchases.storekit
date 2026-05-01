@@ -15,7 +15,7 @@
   ],
   "products" : [
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "3",
       "familyShareable" : false,
       "internalID" : "103937FE",
       "localizations" : [
@@ -25,7 +25,7 @@
           "locale" : "fr"
         }
       ],
-      "productID" : "friendzone_premium",
+      "productID" : "fz_premium_pack_1.99",
       "referenceName" : "FriendZone Premium Pack",
       "type" : "NonConsumable"
     }

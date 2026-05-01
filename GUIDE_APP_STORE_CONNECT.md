@@ -27,7 +27,7 @@ Ce guide vous explique étape par étape comment configurer App Store Connect po
 
 - **Référence du produit** : 
   ```
-  friendzone_premium
+  fz_premium_pack_1.99
   ```
   - ⚠️ **IMPORTANT** : Cet identifiant doit correspondre EXACTEMENT à celui dans le code
   - **Identifiant Apple** : 6761523018 (pour référence dans App Store Connect)
@@ -77,7 +77,7 @@ Ce guide vous explique étape par étape comment configurer App Store Connect po
 // À CONFIGURER DANS APP STORE CONNECT :
 // 1. Allez sur App Store Connect → FriendZone → Fonctionnalités → Achats intégrés
 // 2. Créez un produit "Non consommable" avec cet identifiant :
-private let premiumProductID = "friendzone_premium"
+private let premiumProductID = "fz_premium_pack_1.99"
 // 3. Prix suggéré : 4,99 € (Non consommable - l'utilisateur achète une fois)
 // 4. Identifiant Apple : 6761523018 (pour référence dans App Store Connect)
 ```
@@ -87,7 +87,7 @@ private let premiumProductID = "friendzone_premium"
 // ⚠️ PLACEHOLDER IMPORTANT : CONFIGURATION APP STORE CONNECT
 // Si vous voyez ce message, vérifiez que :
 // 1. Le produit est créé dans App Store Connect
-// 2. L'identifiant correspond exactement : "friendzone_premium"
+// 2. L'identifiant correspond exactement : "fz_premium_pack_1.99"
 // 3. Le produit est approuvé et actif
 // 4. L'accord financier est signé
 // 5. Identifiant Apple : 6761523018

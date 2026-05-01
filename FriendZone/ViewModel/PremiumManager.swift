@@ -32,11 +32,13 @@ final class PremiumManager: ObservableObject {
     @Published var purchaseStatusMessage: String? = nil
     @Published var products: [Product] = []
 
-    private let premiumProductID = "friendzone_premium"
+    private let premiumProductID = "fdz_premium_pack_1.99"
     private var transactionUpdatesTask: Task<Void, Never>?
+    private var purchaseIntentsTask: Task<Void, Never>?
 
     init() {
         transactionUpdatesTask = observeTransactionUpdates()
+        purchaseIntentsTask = observePurchaseIntents()
 
         Task {
             await refreshPremiumStatus()
@@ -48,33 +50,72 @@ final class PremiumManager: ObservableObject {
 
     deinit {
         transactionUpdatesTask?.cancel()
+        purchaseIntentsTask?.cancel()
     }
 
+//    func loadProducts() async {
+//        isLoading = true
+//        errorMessage = nil
+//        purchaseStatusMessage = nil
+//
+//        do {
+//            let fetchedProducts = try await Product.products(for: [premiumProductID])
+//            products = fetchedProducts.sorted { $0.id < $1.id }
+//            isLoading = false
+//
+//            if let product = premiumProduct {
+//                clearError()
+//                purchaseStatusMessage = "Offre disponible"
+//                print("✅ Produit chargé : \(product.displayName) - \(product.displayPrice)")
+//                print("   Description : \(product.description)")
+//                print("   ID : \(product.id)")
+//            } else {
+//                errorMessage = "Aucun produit disponible pour le moment."
+//                print("⚠️ Aucun produit disponible")
+//            }
+//        } catch {
+//            isLoading = false
+//            products = []
+//            errorMessage = "Impossible de charger l’offre : \(error.localizedDescription)"
+//            print("❌ Erreur StoreKit : \(error.localizedDescription)")
+//        }
+//    }
+    
     func loadProducts() async {
         isLoading = true
         errorMessage = nil
         purchaseStatusMessage = nil
 
+        print("🟡 Bundle réel :", Bundle.main.bundleIdentifier ?? "nil")
+        print("🟡 Produit demandé :", premiumProductID)
+
         do {
             let fetchedProducts = try await Product.products(for: [premiumProductID])
+
+            print("🟢 Nombre produits reçus :", fetchedProducts.count)
+            print("🟢 IDs reçus :", fetchedProducts.map { $0.id })
+
             products = fetchedProducts.sorted { $0.id < $1.id }
             isLoading = false
 
-            if let product = premiumProduct {
+            if let product = fetchedProducts.first {
                 clearError()
                 purchaseStatusMessage = "Offre disponible"
-                print("✅ Produit chargé : \(product.displayName) - \(product.displayPrice)")
-                print("   Description : \(product.description)")
-                print("   ID : \(product.id)")
+
+                print("✅ Produit chargé depuis StoreKit")
+                print("   ID :", product.id)
+                print("   Nom :", product.displayName)
+                print("   Prix :", product.displayPrice)
+                print("   Description :", product.description)
             } else {
                 errorMessage = "Aucun produit disponible pour le moment."
-                print("⚠️ Aucun produit disponible")
+                print("⚠️ StoreKit a retourné 0 produit")
             }
         } catch {
             isLoading = false
             products = []
             errorMessage = "Impossible de charger l’offre : \(error.localizedDescription)"
-            print("❌ Erreur StoreKit : \(error.localizedDescription)")
+            print("❌ Erreur StoreKit :", error.localizedDescription)
         }
     }
 
@@ -86,14 +127,20 @@ final class PremiumManager: ObservableObject {
 
     func purchasePremium() {
         Task {
-            await purchasePremiumFlow()
+            await purchase(product: premiumProduct)
         }
     }
 
-    private func purchasePremiumFlow() async {
-        guard let product = premiumProduct else {
+    private func purchase(product optionalProduct: Product?) async {
+        guard let product = optionalProduct else {
             errorMessage = "Produit non disponible. Veuillez réessayer."
             print("❌ Produit non disponible pour l'achat")
+            return
+        }
+
+        guard product.id == premiumProductID else {
+            errorMessage = "Produit non reconnu."
+            print("❌ Produit non reconnu : \(product.id)")
             return
         }
 
@@ -186,6 +233,14 @@ final class PremiumManager: ObservableObject {
                 } catch {
                     print("❌ Transaction non vérifiée : \(error.localizedDescription)")
                 }
+            }
+        }
+    }
+
+    private func observePurchaseIntents() -> Task<Void, Never> {
+        Task.detached(priority: .background) {
+            for await purchaseIntent in PurchaseIntent.intents {
+                await self.purchase(product: purchaseIntent.product)
             }
         }
     }

@@ -15,7 +15,6 @@
 		9FE571C92E911A07008C4574 /* PremiumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571C82E911A07008C4574 /* PremiumManager.swift */; };
 		9FE571CB2E912FEB008C4574 /* AnalysisLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571CA2E912FEB008C4574 /* AnalysisLoaderView.swift */; };
 		9FE571CD2E926F5A008C4574 /* AdInterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE571CC2E926F5A008C4574 /* AdInterstitialView.swift */; };
-		9FEAFB582F961E7300E5ADF9 /* TestPurchases.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 9FEAFB572F961E7300E5ADF9 /* TestPurchases.storekit */; };
 		BE015FFF2CF722E500374673 /* DataScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE015FFE2CF722DA00374673 /* DataScore.swift */; };
 		BE0160012CF7544E00374673 /* CardChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0160002CF7544E00374673 /* CardChartView.swift */; };
 		BE5BAD4D2CE4EE06004ED756 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5BAD4C2CE4EE06004ED756 /* CardView.swift */; };
@@ -53,7 +52,6 @@
 		9FE571C82E911A07008C4574 /* PremiumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumManager.swift; sourceTree = "<group>"; };
 		9FE571CA2E912FEB008C4574 /* AnalysisLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisLoaderView.swift; sourceTree = "<group>"; };
 		9FE571CC2E926F5A008C4574 /* AdInterstitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdInterstitialView.swift; sourceTree = "<group>"; };
-		9FEAFB572F961E7300E5ADF9 /* TestPurchases.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPurchases.storekit; sourceTree = "<group>"; };
 		BE015FFE2CF722DA00374673 /* DataScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScore.swift; sourceTree = "<group>"; };
 		BE0160002CF7544E00374673 /* CardChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardChartView.swift; sourceTree = "<group>"; };
 		BE5BAD4C2CE4EE06004ED756 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 				BEDFF07C2CC8FB4800BB69B2 /* FriendZoneApp.swift */,
 				BEDFF0822CC8FB4A00BB69B2 /* Assets.xcassets */,
 				BEDFF0842CC8FB4A00BB69B2 /* Preview Content */,
-				9FEAFB572F961E7300E5ADF9 /* TestPurchases.storekit */,
 			);
 			path = FriendZone;
 			sourceTree = "<group>";
@@ -259,7 +256,6 @@
 			files = (
 				BEDFF0862CC8FB4A00BB69B2 /* Preview Assets.xcassets in Resources */,
 				BEDFF0982CC9199F00BB69B2 /* question.json in Resources */,
-				9FEAFB582F961E7300E5ADF9 /* TestPurchases.storekit in Resources */,
 				BEDFF0832CC8FB4A00BB69B2 /* Assets.xcassets in Resources */,
 				BEE70E492CEE1BAE000C4B71 /* result.json in Resources */,
 			);
@@ -450,7 +446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = sliceofdigital.FriendZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -489,7 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = sliceofdigital.FriendZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

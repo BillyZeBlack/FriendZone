@@ -321,7 +321,7 @@ struct IntroducingQuestionView: View {
             
             HStack(spacing: 12) {
                 Button(action: startPurchase) {
-                    Text(premiumManager.isPremiumActive ? "Déjà acheté" : "Acheter \(premiumManager.premiumDisplayPrice)")
+                    Text(premiumManager.isPremiumActive ? "Déjà acheté" : "Acheter : \(premiumManager.premiumDisplayPrice)")
                         .font(.headline)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
