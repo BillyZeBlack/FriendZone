@@ -114,8 +114,7 @@ struct CardView: View {
 			// Bannière conditionnelle (uniquement si pas premium)
 			if !contentVM.hasPremiumPack {
 				VStack {
-					// TODO: : A remplacer avec le bon ID de banniere : ca-app-pub-8777271534976494/7963981117
-					AdBannerView(adUnitID: "ca-app-pub-3940256099942544/2934735716")
+					AdBannerView(adUnitID: "ca-app-pub-8777271534976494/7963981117")
 						.frame(height: 50)
 				}
 				.padding(.horizontal)

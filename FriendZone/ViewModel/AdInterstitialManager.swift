@@ -15,7 +15,7 @@ final class AdInterstitialManager: NSObject, ObservableObject {
     @Published var lastError: String?
     
     private var currentAd: InterstitialAd?
-    private let adUnitID: String //ca-app-pub-8777271534976494~6779301073
+    private let adUnitID: String 
     
     var onAdDismissed: (() -> Void)?
     var onAdFailedToLoad: ((Error) -> Void)?

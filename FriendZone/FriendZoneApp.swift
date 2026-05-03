@@ -9,6 +9,7 @@ import SwiftUI
 import SwiftData
 import AppTrackingTransparency
 import AdSupport
+import GoogleMobileAds
 
 @main
 struct FriendZoneApp: App {
@@ -29,6 +30,8 @@ struct FriendZoneApp: App {
 			.environmentObject(premiumManager)
 			.environmentObject(contentVM)
 			.onAppear {
+				MobileAds.shared.start()
+
 				// Demander l'autorisation de suivi (ATT) après un court délai
 				DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
 					requestTrackingAuthorization()

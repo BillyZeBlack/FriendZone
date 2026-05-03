@@ -7,8 +7,7 @@
             <dict/>
         </array>
         <key>GADApplicationIdentifier</key>
-        <!-- AdMob app ID: ca-app-pub-8777271534976494~6779301073 -->
-        <string>ca-app-pub-8777271534976494~2772838960</string>
+         <string>ca-app-pub-8777271534976494~6779301073</string>
         <key>NSUserTrackingUsageDescription</key>
         <string>Cette information sera utilisée pour vous proposer des publicités plus pertinentes.</string>
         <key>SKAdNetworkItems</key>

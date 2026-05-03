@@ -71,7 +71,7 @@ struct ResultView: View {
             Group {
                 if !contentVM.hasPremiumPack {
                     AdInterstitialView(
-                        adUnitID: "ca-app-pub-3940256099942544/4411468910", // ID de test
+                        adUnitID: "ca-app-pub-8777271534976494/2917966088",
                         showAd: $showInterstitialAd,
                         onAdDismissed: {
                             // La pub est fermée, revenir automatiquement en arrière
