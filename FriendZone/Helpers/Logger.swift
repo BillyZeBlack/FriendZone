@@ -21,10 +21,6 @@ class AppLogger {
         let fileName = (file as NSString).lastPathComponent
         let logMessage = "\(timestamp) [\(fileName):\(line) \(function)]: \(message)\n"
         
-        #if DEBUG
-        print(logMessage)
-        #endif
-        
         // Écrire dans le fichier (sur device réel)
         if let data = logMessage.data(using: .utf8) {
             if FileManager.default.fileExists(atPath: logFileURL.path) {

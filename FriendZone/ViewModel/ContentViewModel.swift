@@ -14,7 +14,6 @@ class ContentViewModel: ObservableObject {
     init() {
         // Charger depuis la même clé que PremiumManager
         hasPremiumPack = UserDefaults.standard.bool(forKey: "isPremiumPurchased")
-        print("📱 ContentViewModel: Premium pack status = \(hasPremiumPack)")
         
         // Écouter les changements de PremiumManager
         NotificationCenter.default.addObserver(
@@ -34,7 +33,6 @@ class ContentViewModel: ObservableObject {
            let isPremiumActive = userInfo["isPremiumActive"] as? Bool {
             DispatchQueue.main.async {
                 self.hasPremiumPack = isPremiumActive
-                print("🔄 ContentViewModel updated: \(isPremiumActive)")
             }
         }
     }

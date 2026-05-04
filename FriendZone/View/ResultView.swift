@@ -42,9 +42,7 @@ struct ResultView: View {
             }
         }
         .onAppear{
-            print("ResultView onAppear - Score: \(resultLoader.score), Zone: \(resultLoader.zoneScore)")
             getCommentResult(ageRange: formData.ageRange)
-            print("Comment: \(comment)")
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
@@ -75,7 +73,6 @@ struct ResultView: View {
                         showAd: $showInterstitialAd,
                         onAdDismissed: {
                             // La pub est fermée, revenir automatiquement en arrière
-                            print("✅ Publicité interstitielle fermée - Retour vers le questionnaire")
                             dismiss()
                         }
                     )

@@ -30,8 +30,7 @@ struct AdInterstitialView: UIViewControllerRepresentable {
     private func presentInterstitial(from controller: UIViewController, coordinator: Coordinator) {
         let request = Request()
         InterstitialAd.load(with: adUnitID, request: request) { ad, error in
-            if let error = error {
-                print("❌ Erreur chargement interstitielle: \(error.localizedDescription)")
+            if error != nil {
                 // En cas d'erreur, appeler directement le callback pour continuer
                 DispatchQueue.main.async {
                     self.onAdDismissed?()
@@ -67,14 +66,12 @@ struct AdInterstitialView: UIViewControllerRepresentable {
         
         // Called when the ad dismissed full screen content.
         func adDidDismissFullScreenContent(_ ad: FullScreenPresentingAd) {
-            print("✅ Interstitielle fermée")
             onAdDismissed?()
             currentAd = nil
         }
         
         // Called when the ad failed to present full screen content.
         func ad(_ ad: FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
-            print("❌ Erreur présentation interstitielle: \(error.localizedDescription)")
             currentAd = nil
         }
     }

@@ -33,7 +33,6 @@ class ResultLoader: ObservableObject {
 				results = response.results
 				
 			} catch {
-				print("Erreur de décodage JSON / result : \(error)")
 			}
 		}
 	}

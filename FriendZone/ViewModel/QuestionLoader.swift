@@ -32,7 +32,6 @@ class QuestionLoader: ObservableObject {
 			questions = questionsList.questions
 		}
 		catch {
-			print("❌ Erreur lors du chargement du fichier JSON : \(error)")
 		}
 	}
 	

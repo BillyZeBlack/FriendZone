@@ -17,7 +17,6 @@ final class PremiumManager: ObservableObject {
     @Published var isPremiumActive: Bool = false {
         didSet {
             UserDefaults.standard.set(isPremiumActive, forKey: "isPremiumPurchased")
-            print("✅ Premium status changed: \(isPremiumActive)")
 
             NotificationCenter.default.post(
                 name: .premiumStatusChanged,
@@ -44,8 +43,6 @@ final class PremiumManager: ObservableObject {
             await refreshPremiumStatus()
             await loadProducts()
         }
-
-        print("🚀 StoreKit 2 purchases enabled")
     }
 
     deinit {
@@ -66,18 +63,13 @@ final class PremiumManager: ObservableObject {
 //            if let product = premiumProduct {
 //                clearError()
 //                purchaseStatusMessage = "Offre disponible"
-//                print("✅ Produit chargé : \(product.displayName) - \(product.displayPrice)")
-//                print("   Description : \(product.description)")
-//                print("   ID : \(product.id)")
 //            } else {
 //                errorMessage = "Aucun produit disponible pour le moment."
-//                print("⚠️ Aucun produit disponible")
 //            }
 //        } catch {
 //            isLoading = false
 //            products = []
 //            errorMessage = "Impossible de charger l’offre : \(error.localizedDescription)"
-//            print("❌ Erreur StoreKit : \(error.localizedDescription)")
 //        }
 //    }
     
@@ -86,36 +78,22 @@ final class PremiumManager: ObservableObject {
         errorMessage = nil
         purchaseStatusMessage = nil
 
-        print("🟡 Bundle réel :", Bundle.main.bundleIdentifier ?? "nil")
-        print("🟡 Produit demandé :", premiumProductID)
-
         do {
             let fetchedProducts = try await Product.products(for: [premiumProductID])
-
-            print("🟢 Nombre produits reçus :", fetchedProducts.count)
-            print("🟢 IDs reçus :", fetchedProducts.map { $0.id })
 
             products = fetchedProducts.sorted { $0.id < $1.id }
             isLoading = false
 
-            if let product = fetchedProducts.first {
+            if fetchedProducts.first != nil {
                 clearError()
                 purchaseStatusMessage = "Offre disponible"
-
-                print("✅ Produit chargé depuis StoreKit")
-                print("   ID :", product.id)
-                print("   Nom :", product.displayName)
-                print("   Prix :", product.displayPrice)
-                print("   Description :", product.description)
             } else {
                 errorMessage = "Aucun produit disponible pour le moment."
-                print("⚠️ StoreKit a retourné 0 produit")
             }
         } catch {
             isLoading = false
             products = []
             errorMessage = "Impossible de charger l’offre : \(error.localizedDescription)"
-            print("❌ Erreur StoreKit :", error.localizedDescription)
         }
     }
 
@@ -134,13 +112,11 @@ final class PremiumManager: ObservableObject {
     private func purchase(product optionalProduct: Product?) async {
         guard let product = optionalProduct else {
             errorMessage = "Produit non disponible. Veuillez réessayer."
-            print("❌ Produit non disponible pour l'achat")
             return
         }
 
         guard product.id == premiumProductID else {
             errorMessage = "Produit non reconnu."
-            print("❌ Produit non reconnu : \(product.id)")
             return
         }
 
@@ -158,23 +134,19 @@ final class PremiumManager: ObservableObject {
             case .userCancelled:
                 isLoading = false
                 purchaseStatusMessage = "Achat annulé."
-                print("❌ Achat annulé par l'utilisateur")
             case .pending:
                 isLoading = false
                 errorMessage = "Achat en attente d'approbation parentale."
                 purchaseStatusMessage = nil
-                print("⏳ Achat différé - en attente d'approbation")
             @unknown default:
                 isLoading = false
                 errorMessage = "État d'achat inconnu."
                 purchaseStatusMessage = nil
-                print("❓ État d'achat inconnu")
             }
         } catch {
             isLoading = false
             errorMessage = "Échec de l'achat : \(error.localizedDescription)"
             purchaseStatusMessage = nil
-            print("❌ Échec de l'achat : \(error.localizedDescription)")
         }
     }
 
@@ -183,7 +155,6 @@ final class PremiumManager: ObservableObject {
             isLoading = true
             errorMessage = nil
             purchaseStatusMessage = "Restauration en cours..."
-            print("🔄 Début de la restauration des achats...")
 
             do {
                 try await AppStore.sync()
@@ -193,17 +164,14 @@ final class PremiumManager: ObservableObject {
                 if isPremiumActive {
                     purchaseStatusMessage = "Achat restauré avec succès."
                     clearError()
-                    print("✅ Achat restauré avec succès !")
                 } else {
                     purchaseStatusMessage = nil
                     errorMessage = "Aucun achat précédent trouvé à restaurer."
-                    print("⚠️ Aucun achat à restaurer")
                 }
             } catch {
                 isLoading = false
                 purchaseStatusMessage = nil
                 errorMessage = "Échec de la restauration : \(error.localizedDescription)"
-                print("❌ Échec de la restauration : \(error.localizedDescription)")
             }
         }
     }
@@ -231,7 +199,6 @@ final class PremiumManager: ObservableObject {
                     let transaction = try await self.checkVerified(update)
                     await self.complete(transaction: transaction, statusMessage: "Pack Premium activé.")
                 } catch {
-                    print("❌ Transaction non vérifiée : \(error.localizedDescription)")
                 }
             }
         }
@@ -273,7 +240,6 @@ final class PremiumManager: ObservableObject {
         clearError()
         purchaseStatusMessage = statusMessage
         await transaction.finish()
-        print("✅ Transaction finalisée : \(transaction.productID)")
     }
 
     private func clearError() {

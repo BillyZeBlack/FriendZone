@@ -16,7 +16,6 @@ struct ContentView: View {
     @EnvironmentObject var premiumManager: PremiumManager
     
     @State var interstitial: InterstitialAd?
-	//var questions : [Question] = []
 	
 	@State var i = 0
 	@State private var progress = 1.0
@@ -85,6 +84,13 @@ struct ContentView: View {
 							.multilineTextAlignment(.leading)
 							.lineSpacing(4)
 							.frame(maxWidth: .infinity, alignment: .leading)
+                        
+                        if(true == questionLoader.questionsSelected[i].isPremium) {
+                            Spacer()
+                            Image(systemName: "crown.fill")
+                                .font(.headline)
+                                .foregroundColor(.yellow)
+                        }
 					}
 					.padding(20)
 					.background(
